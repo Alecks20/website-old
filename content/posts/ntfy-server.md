@@ -43,7 +43,13 @@ Then save that file with nothing in it
 
 ### Container Creation
 
-To begin, run the command below which will
+Install Docker for your distribution
+```
+sudo apt install docker.io # (Ubuntu/Debian)
+sudo dnf install docker # (Fedora/Red Hat)
+```
+
+Then run the command below which will
 - Create a container for ntfy (named ntfy)
 - Run it in the background (-d)
 - Start at boot unless it was stopped (--restart=unless-stopped)
