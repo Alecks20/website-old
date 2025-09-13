@@ -4,7 +4,7 @@ title = "Setting up and securing a personal NTFY server"
 date = "2025-09-06"
 description = ""
 tags = [
-    "servers","self-hosting","security","ntfy"
+    "servers","self-hosting","security","ntfy","Docker"
 ]
 +++
 

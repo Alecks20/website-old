@@ -15,20 +15,19 @@
     <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Affordable container hosting for Hobbyists &amp; Students</title>
-      <link>http://localhost:1313/posts/container-hosting-project/</link>
+      <title>Setting up and securing a personal NTFY server</title>
+      <link>http://localhost:1313/posts/backup-system/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/container-hosting-project/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve always wished there was a service with super low spec plans for dirt-cheap prices that could reliably host my tiny projects or web applications, that can also scale up if you need more power.&lt;/p&gt;
-&lt;p&gt;So why not try and build one myself, with a huge Dedicated Server and some smart overallocation I could easy host dozens of containers and provide them for cheap, most services in the managed hosting scene target large enterprise customers but I want to make something thats genuinely great for students and hobbyists, something I would actually use myself and fills the gap in the market.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/backup-system/</guid>
+      <description></description>
     </item>
     <item>
-      <title>Setting up and securing a personal NTFY Server</title>
+      <title>Setting up and securing a personal NTFY server</title>
       <link>http://localhost:1313/posts/ntfy-server/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ntfy-server/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;[!NOTE]&lt;/p&gt;&lt;/blockquote&gt;</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ntfy.sh&#34;&gt;Ntfy&lt;/a&gt; is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.&lt;/p&gt;
+&lt;p&gt;Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on &lt;a href=&#34;http://localhost:1313/posts/securing-server/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The state of my Homelab in 2025</title>
