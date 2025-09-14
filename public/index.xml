@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Alecks</title>
-    <link>https://alecks.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Alecks</description>
-    <generator>Hugo</generator>
+    <image>
+      <title>Alecks</title>
+      <url>http://localhost:1313/images/papermod-cover.png</url>
+      <link>http://localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
-<<<<<<< HEAD
     <copyright>Alecks 2025</copyright>
     <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-=======
-    <copyright>© Alecks 2025</copyright>
-    <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://alecks.dev/index.xml" rel="self" type="application/rss+xml" />
->>>>>>> f658e4ed602657b9f9934488e3926205e5bff456
     <item>
       <title>Finally setting up onsite and offsite backups with PBS</title>
       <link>http://localhost:1313/posts/backup-system/</link>
@@ -28,94 +27,180 @@
     </item>
     <item>
       <title>Setting up and securing a personal NTFY server</title>
-      <link>https://alecks.dev/posts/ntfy-server/</link>
+      <link>http://localhost:1313/posts/ntfy-server/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/posts/ntfy-server/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://ntfy.sh&#34;&gt;Ntfy&lt;/a&gt; is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.&lt;/p&gt;&#xA;&lt;p&gt;Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on &lt;a href=&#34;https://alecks.dev/posts/securing-server/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/ntfy-server/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ntfy.sh&#34;&gt;Ntfy&lt;/a&gt; is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.&lt;/p&gt;
+&lt;p&gt;Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on &lt;a href=&#34;http://localhost:1313/posts/securing-server/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The state of my Homelab in 2025</title>
-      <link>https://alecks.dev/posts/homelab-2025/</link>
+      <link>http://localhost:1313/posts/homelab-2025/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/posts/homelab-2025/</guid>
-      <description>&lt;p&gt;Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and VMs for friends or people in my local community.&lt;/p&gt;&#xA;&lt;p&gt;The original goal of this setup was to build a service that lets me cancel all of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/homelab-2025/</guid>
+      <description>&lt;p&gt;Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and VMs for friends or people in my local community.&lt;/p&gt;
+&lt;p&gt;The original goal of this setup was to build a service that lets me cancel all of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I host Linux VMs for people in my Homelab</title>
-      <link>https://alecks.dev/posts/vps-service/</link>
+      <link>http://localhost:1313/posts/vps-service/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/posts/vps-service/</guid>
-      <description>&lt;p&gt;A lot of my Homelab typically sits idle, wasting power. So I had the idea of letting other people run their own linux virtual machines on it, kinda like how gcp offers &amp;ldquo;spot&amp;rdquo; vms for much cheaper as it uses excess compute capacity.&lt;/p&gt;&#xA;&lt;p&gt;Obviously I can&amp;rsquo;t provide this as a paid service since that comes with a lot of liability and legal documents to protect yourself, so I just offer it as a free service for friends.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/vps-service/</guid>
+      <description>&lt;p&gt;A lot of my Homelab typically sits idle, wasting power. So I had the idea of letting other people run their own linux virtual machines on it, kinda like how gcp offers &amp;ldquo;spot&amp;rdquo; vms for much cheaper as it uses excess compute capacity.&lt;/p&gt;
+&lt;p&gt;Obviously I can&amp;rsquo;t provide this as a paid service since that comes with a lot of liability and legal documents to protect yourself, so I just offer it as a free service for friends.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exposing self-hosted applications without a Public IP address</title>
-      <link>https://alecks.dev/posts/exposing-services/</link>
+      <link>http://localhost:1313/posts/exposing-services/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/posts/exposing-services/</guid>
-      <description>&lt;p&gt;In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don&amp;rsquo;t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.&lt;/p&gt;&#xA;&lt;p&gt;So here are a few &lt;strong&gt;free and paid&lt;/strong&gt; solutions for exposing both web applications and game servers to the internet without port forwarding.&lt;/p&gt;&#xA;&lt;h2 id=&#34;cloudflare-tunnels&#34;&gt;&lt;a href=&#34;https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/&#34;&gt;Cloudflare Tunnels&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;p&gt;This is a completely free service which supports exposing only web applications to the internet using an application (cloudflared) running on your server which tunnels traffic out and exposes it via the Cloudflare Network&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/exposing-services/</guid>
+      <description>&lt;p&gt;In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don&amp;rsquo;t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.&lt;/p&gt;
+&lt;p&gt;So here are a few &lt;strong&gt;free and paid&lt;/strong&gt; solutions for exposing both web applications and game servers to the internet without port forwarding.&lt;/p&gt;
+&lt;h2 id=&#34;cloudflare-tunnels&#34;&gt;&lt;a href=&#34;https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/&#34;&gt;Cloudflare Tunnels&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is a completely free service which supports exposing only web applications to the internet using an application (cloudflared) running on your server which tunnels traffic out and exposes it via the Cloudflare Network&lt;/p&gt;</description>
     </item>
     <item>
       <title>The perfect home servers - Mini PCs</title>
-      <link>https://alecks.dev/posts/mini-pcs/</link>
+      <link>http://localhost:1313/posts/mini-pcs/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/posts/mini-pcs/</guid>
-      <description>&lt;p&gt;Recently I picked up a $100 Lenovo ThinkCentre M710Q off ebay with an i5 7400T, 8GB of ram and a 256GB NVMe SSD to add to my Proxmox cluster.&lt;/p&gt;&#xA;&lt;h3 id=&#34;the-good--bad&#34;&gt;The good &amp;amp; Bad&lt;/h3&gt;&#xA;&lt;p&gt;Mini PCs are built to be small, quiet and power efficient, perfect for a home server. They&amp;rsquo;re also tiny, hence the name meaning they can live pretty much anywhere.&lt;/p&gt;&#xA;&lt;p&gt;However, their form factor makes them hard to upgrade for future expandability and hard to add redundant storage to.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/mini-pcs/</guid>
+      <description>&lt;p&gt;Recently I picked up a $100 Lenovo ThinkCentre M710Q off ebay with an i5 7400T, 8GB of ram and a 256GB NVMe SSD to add to my Proxmox cluster.&lt;/p&gt;
+&lt;h3 id=&#34;the-good--bad&#34;&gt;The good &amp;amp; Bad&lt;/h3&gt;
+&lt;p&gt;Mini PCs are built to be small, quiet and power efficient, perfect for a home server. They&amp;rsquo;re also tiny, hence the name meaning they can live pretty much anywhere.&lt;/p&gt;
+&lt;p&gt;However, their form factor makes them hard to upgrade for future expandability and hard to add redundant storage to.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Securing ssh on your Linux Server</title>
-      <link>https://alecks.dev/posts/securing-server/</link>
+      <link>http://localhost:1313/posts/securing-server/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/posts/securing-server/</guid>
-      <description>&lt;p&gt;This post is made for debian based linux distros.&lt;/p&gt;&#xA;&lt;h3 id=&#34;dont-expose-ssh-use-a-vpn&#34;&gt;Don&amp;rsquo;t expose ssh, use a VPN&lt;/h3&gt;&#xA;&lt;p&gt;This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a free VPN service like Tailscale or self-hosted Wireguard.&lt;/p&gt;&#xA;&lt;h3 id=&#34;non-root-account-for-logins--disable-root-login&#34;&gt;Non-root account for logins / Disable root login&lt;/h3&gt;&#xA;&lt;p&gt;Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/securing-server/</guid>
+      <description>&lt;p&gt;This post is made for debian based linux distros.&lt;/p&gt;
+&lt;h3 id=&#34;dont-expose-ssh-use-a-vpn&#34;&gt;Don&amp;rsquo;t expose ssh, use a VPN&lt;/h3&gt;
+&lt;p&gt;This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a free VPN service like Tailscale or self-hosted Wireguard.&lt;/p&gt;
+&lt;h3 id=&#34;non-root-account-for-logins--disable-root-login&#34;&gt;Non-root account for logins / Disable root login&lt;/h3&gt;
+&lt;p&gt;Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://alecks.dev/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a teenager living in Australia from a small town in New Zealand who happens to be a self-taught developer highly skilled in various tech fields - &lt;a href=&#34;https://alecks.dev/skills/&#34;&gt;my skills&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This website is my own little corner of the internet to showcase my practical experience and serve as a time capsule for writings, it also helps solidify learnings as explaining things to other people is one of the best ways to remember things.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Archive</title>
-      <link>https://alecks.dev/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/archives/</guid>
-      <description>archives</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a teenager living in Australia from a small town in New Zealand who happens to be a self-taught developer highly skilled in various tech fields - &lt;a href=&#34;http://localhost:1313/skills/&#34;&gt;my skills&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This website is my own little corner of the internet to showcase my practical experience and serve as a time capsule for writings, it also helps solidify learnings as explaining things to other people is one of the best ways to remember things.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Favourites</title>
-      <link>https://alecks.dev/favourites/</link>
+      <link>http://localhost:1313/favourites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/favourites/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;Small Web Communities - &lt;a href=&#34;https://32bit.cafe&#34;&gt;32bit.cafe&lt;/a&gt; - &lt;a href=&#34;https://cyberia.club&#34;&gt;Cyberia&lt;/a&gt; - &lt;a href=&#34;https://bearblog.dev&#34;&gt;Bearblog&lt;/a&gt; - &lt;a href=&#34;https://status.cafe&#34;&gt;status.cafe&lt;/a&gt; - &lt;a href=&#34;https://tildeverse.org&#34;&gt;Tildeverse&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;VPS Providers - &lt;a href=&#34;https://binarylane.com.au&#34;&gt;BinaryLane&lt;/a&gt;  - &lt;a href=&#34;https://capsul.org&#34;&gt;Capsul&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;YouTubers (For Learning IT) - &lt;a href=&#34;https://www.youtube.com/@NetworkChuck&#34;&gt;Network Chuck&lt;/a&gt; - &lt;a href=&#34;https://www.youtube.com/@PowerCertAnimatedVideos&#34;&gt;Powercert&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Animes - &lt;a href=&#34;https://en.wikipedia.org/wiki/Serial_Experiments_Lain&#34;&gt;Serial Experiments Lain&lt;/a&gt; - &lt;a href=&#34;https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners&#34;&gt;CP: Edgerunners&lt;/a&gt; - &lt;a href=&#34;https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion&#34;&gt;Evangelion&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Games - &lt;a href=&#34;#ZgotmplZ&#34;&gt;Watch Dogs&lt;/a&gt; - &lt;a href=&#34;https://minecraft.net&#34;&gt;Minecraft&lt;/a&gt; - &lt;a href=&#34;https://www.counter-strike.net/cs2&#34;&gt;CS2&lt;/a&gt; - &lt;a href=&#34;https://store.steampowered.com/app/1966720/Lethal_Company/&#34;&gt;Lethal Company&lt;/a&gt; - &lt;a href=&#34;https://store.steampowered.com/app/1144200/Ready_or_Not/&#34;&gt;Ready or not&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;YouTubers (Entertainment) - &lt;a href=&#34;https://www.youtube.com/@jvscholz/&#34;&gt;jvscholz&lt;/a&gt; - &lt;a href=&#34;https://www.youtube.com/@BrandonFM/&#34;&gt;Brandon FM&lt;/a&gt; - &lt;a href=&#34;https://www.youtube.com/@fern-tv&#34;&gt;Fern&lt;/a&gt; - &lt;a href=&#34;https://www.youtube.com/@iambysurf&#34;&gt;bySurf&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/favourites/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Small Web Communities - &lt;a href=&#34;https://32bit.cafe&#34;&gt;32bit.cafe&lt;/a&gt; - &lt;a href=&#34;https://cyberia.club&#34;&gt;Cyberia&lt;/a&gt; - &lt;a href=&#34;https://bearblog.dev&#34;&gt;Bearblog&lt;/a&gt; - &lt;a href=&#34;https://status.cafe&#34;&gt;status.cafe&lt;/a&gt; - &lt;a href=&#34;https://tildeverse.org&#34;&gt;Tildeverse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;VPS Providers - &lt;a href=&#34;https://binarylane.com.au&#34;&gt;BinaryLane&lt;/a&gt;  - &lt;a href=&#34;https://capsul.org&#34;&gt;Capsul&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;YouTubers (For Learning IT) - &lt;a href=&#34;https://www.youtube.com/@NetworkChuck&#34;&gt;Network Chuck&lt;/a&gt; - &lt;a href=&#34;https://www.youtube.com/@PowerCertAnimatedVideos&#34;&gt;Powercert&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Animes - &lt;a href=&#34;https://en.wikipedia.org/wiki/Serial_Experiments_Lain&#34;&gt;Serial Experiments Lain&lt;/a&gt; - &lt;a href=&#34;https://en.wikipedia.org/wiki/Cyberpunk:_Edgerunners&#34;&gt;CP: Edgerunners&lt;/a&gt; - &lt;a href=&#34;https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion&#34;&gt;Evangelion&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Games - &lt;a href=&#34;#ZgotmplZ&#34;&gt;Watch Dogs&lt;/a&gt; - &lt;a href=&#34;https://minecraft.net&#34;&gt;Minecraft&lt;/a&gt; - &lt;a href=&#34;https://www.counter-strike.net/cs2&#34;&gt;CS2&lt;/a&gt; - &lt;a href=&#34;https://store.steampowered.com/app/1966720/Lethal_Company/&#34;&gt;Lethal Company&lt;/a&gt; - &lt;a href=&#34;https://store.steampowered.com/app/1144200/Ready_or_Not/&#34;&gt;Ready or not&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;YouTubers (Entertainment) - &lt;a href=&#34;https://www.youtube.com/@jvscholz/&#34;&gt;jvscholz&lt;/a&gt; - &lt;a href=&#34;https://www.youtube.com/@BrandonFM/&#34;&gt;Brandon FM&lt;/a&gt; - &lt;a href=&#34;https://www.youtube.com/@fern-tv&#34;&gt;Fern&lt;/a&gt; - &lt;a href=&#34;https://www.youtube.com/@iambysurf&#34;&gt;bySurf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Homelab Setup</title>
-      <link>https://alecks.dev/homelab/</link>
+      <link>http://localhost:1313/homelab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/homelab/</guid>
-      <description>&lt;p&gt;This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. Physical nodes run Proxmox VE (Clustered).&lt;/p&gt;&#xA;&lt;h3 id=&#34;compute-nodes&#34;&gt;Compute Nodes&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Name&lt;/th&gt;&#xA;          &lt;th&gt;CPU&lt;/th&gt;&#xA;          &lt;th&gt;RAM&lt;/th&gt;&#xA;          &lt;th&gt;Storage&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Lightsail&lt;/td&gt;&#xA;          &lt;td&gt;Ryzen 5 5500&lt;/td&gt;&#xA;          &lt;td&gt;32GB DDR4&lt;/td&gt;&#xA;          &lt;td&gt;1TB SSD&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Railway&lt;/td&gt;&#xA;          &lt;td&gt;Intel i5-7400T&lt;/td&gt;&#xA;          &lt;td&gt;8GB DDR4&lt;/td&gt;&#xA;          &lt;td&gt;256GB SSD&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;backups--monitoring&#34;&gt;Backups &amp;amp; Monitoring&lt;/h3&gt;&#xA;&lt;p&gt;Daily backups of vm disks is sent to backblaze b2 - hetrixtools monitors server resources and uptime - ntfy notifies me of incidents with mobile push notifications.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/homelab/</guid>
+      <description>&lt;p&gt;This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. Physical nodes run Proxmox VE (Clustered).&lt;/p&gt;
+&lt;h3 id=&#34;compute-nodes&#34;&gt;Compute Nodes&lt;/h3&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;CPU&lt;/th&gt;
+          &lt;th&gt;RAM&lt;/th&gt;
+          &lt;th&gt;Storage&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Lightsail&lt;/td&gt;
+          &lt;td&gt;Ryzen 5 5500&lt;/td&gt;
+          &lt;td&gt;32GB DDR4&lt;/td&gt;
+          &lt;td&gt;1TB SSD&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Railway&lt;/td&gt;
+          &lt;td&gt;Intel i5-7400T&lt;/td&gt;
+          &lt;td&gt;8GB DDR4&lt;/td&gt;
+          &lt;td&gt;256GB SSD&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;backups--monitoring&#34;&gt;Backups &amp;amp; Monitoring&lt;/h3&gt;
+&lt;p&gt;Daily backups of vm disks is sent to backblaze b2 - hetrixtools monitors server resources and uptime - ntfy notifies me of incidents with mobile push notifications.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Gear</title>
-      <link>https://alecks.dev/gear/</link>
+      <link>http://localhost:1313/gear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/gear/</guid>
-      <description>&lt;h2 id=&#34;computers&#34;&gt;Computers&lt;/h2&gt;&#xA;&lt;h3 id=&#34;laptops-plans---buying-november-2025-aka-black-friday&#34;&gt;Laptops (Plans - buying november 2025 aka black friday)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Laptop 1: ThinkPad off eBay - for tinkering and experimenting with different Linux setups, distros and more technical stuff.&lt;/li&gt;&#xA;&lt;li&gt;Laptop 2: Macbook Air M4 (16GB RAM, 512GB SSD) - stable everyday machine for development on the go, web browsing and entertainment.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;main-pc-built-by-me&#34;&gt;Main PC (Built by me)&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;CPU: Ryzen 5 5500&lt;/li&gt;&#xA;&lt;li&gt;Memory: 32GB DDR4&lt;/li&gt;&#xA;&lt;li&gt;GPU: RX 7800 XT&lt;/li&gt;&#xA;&lt;li&gt;Storage: 2TB NVMe + 1TB NVMe + 256GB SATA&lt;/li&gt;&#xA;&lt;li&gt;OS: Windows 11 &amp;amp; Fedora 42 KDE (Dual Boot)&lt;/li&gt;&#xA;&lt;li&gt;Uses: Development, virtualization, tinkering/experiments, web browsing and entertainment.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;homelab&#34;&gt;&lt;a href=&#34;https://alecks.dev/homelab/&#34;&gt;Homelab&lt;/a&gt;&lt;/h2&gt;</description>
+      <guid>http://localhost:1313/gear/</guid>
+      <description>&lt;h2 id=&#34;computers&#34;&gt;Computers&lt;/h2&gt;
+&lt;h3 id=&#34;laptops-plans---buying-november-2025-aka-black-friday&#34;&gt;Laptops (Plans - buying november 2025 aka black friday)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Laptop 1: ThinkPad off eBay - for tinkering and experimenting with different Linux setups, distros and more technical stuff.&lt;/li&gt;
+&lt;li&gt;Laptop 2: Macbook Air M4 (16GB RAM, 512GB SSD) - stable everyday machine for development on the go, web browsing and entertainment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;main-pc-built-by-me&#34;&gt;Main PC (Built by me)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU: Ryzen 5 5500&lt;/li&gt;
+&lt;li&gt;Memory: 32GB DDR4&lt;/li&gt;
+&lt;li&gt;GPU: RX 7800 XT&lt;/li&gt;
+&lt;li&gt;Storage: 2TB NVMe + 1TB NVMe + 256GB SATA&lt;/li&gt;
+&lt;li&gt;OS: Windows 11 &amp;amp; Fedora 42 KDE (Dual Boot)&lt;/li&gt;
+&lt;li&gt;Uses: Development, virtualization, tinkering/experiments, web browsing and entertainment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;homelab&#34;&gt;&lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;Homelab&lt;/a&gt;&lt;/h2&gt;</description>
     </item>
     <item>
       <title>My Skills</title>
-      <link>https://alecks.dev/skills/</link>
+      <link>http://localhost:1313/skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/skills/</guid>
-      <description>&lt;p&gt;From my tinkering and natural curiosity, I became familiar with basic IT concepts in networking, Linux and infrastructure at the age of 11.&lt;/p&gt;&#xA;&lt;p&gt;Over the years I&amp;rsquo;ve delved deeper into this rabbit hole setting up a homelab and learning to administer servers in production environments, where my skills, knowledge and practical experience has grown exponentially.&lt;/p&gt;&#xA;&lt;h2 id=&#34;general-knowledge&#34;&gt;General Knowledge&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Built and configured custom pcs (Desktops &amp;amp; Servers)&lt;/li&gt;&#xA;&lt;li&gt;Replaced specific parts in pcs (Graphics Cards, NVMe SSDs, Hard drives, SATA SSDs and Power Supplys)&lt;/li&gt;&#xA;&lt;li&gt;Familiar with setting up Windows 10 &amp;amp; 11 and other operating systems such as Linux on various hardware&lt;/li&gt;&#xA;&lt;li&gt;Comfortable configuring BIOS/UEFI settings, installing and updating drivers, updating firmware and optimizing firmware for stability and performance&lt;/li&gt;&#xA;&lt;li&gt;Experienced with Proxmox VE (Type 1) and Virtualbox (Type 2) virtualization&lt;/li&gt;&#xA;&lt;li&gt;Troubleshooted dozens of issues with desktop machines and servers (Windows &amp;amp; Linux)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;networking&#34;&gt;Networking&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designing, configuring and troubleshooting my home network (Subnetting, Router configuration, Static IPs, Port forwarding and Wireless APs/Wi-Fi)&lt;/li&gt;&#xA;&lt;li&gt;Knowledge of IP Addresses (Public &amp;amp; Private), NAT, Ports, DNS, Routers/Modems, Firewalls, TCP/UDP, Subnets and SSL Certificates&lt;/li&gt;&#xA;&lt;li&gt;Setup VPNs for secure remote access (Tailscale, Self-hosted Wireguard)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;systems--infrastructure&#34;&gt;Systems &amp;amp; Infrastructure&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Operated and secured dozens of servers (Bare Metal, VMs and VPSes) running various linux distros (Ubuntu LTS, Debian, Fedora Server, CoreOS)&lt;/li&gt;&#xA;&lt;li&gt;Proficient in the Linux command line and filesystem navigation&lt;/li&gt;&#xA;&lt;li&gt;Familiar with various package managers (apt, dnf)&lt;/li&gt;&#xA;&lt;li&gt;Familiar with industry standard security practices (SSH Keys, Fail2Ban, No root login, Firewalls)&lt;/li&gt;&#xA;&lt;li&gt;Docker Container deployment and management on Windows and Multiple linux distros (Ubuntu, Debian, Fedora)&lt;/li&gt;&#xA;&lt;li&gt;Maintained lots of vps servers on various cloud platforms (DigitalOcean, Linode, AWS Lightsail, GCP &amp;amp; BinaryLane)&lt;/li&gt;&#xA;&lt;li&gt;Reverse proxy setup &amp;amp; configuration (Nginx, Caddy)&lt;/li&gt;&#xA;&lt;li&gt;Basic knowledge and ability to setup and use S3/Object Storage buckets with experience on various providers (Self-Hosted Minio, DigitalOcean Spaces, OVH Object Storage, Cloudflare R2, Backblaze B2, Linode Object Storage)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;web--cloud-development&#34;&gt;Web &amp;amp; Cloud Development&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Knowledge of how to use Git, GitHub and other providers including self-hosted Gitea, GitLab and Forgejo&lt;/li&gt;&#xA;&lt;li&gt;Website deployment using Cloudflare/GitHub pages (Static sites) and Docker Containers (Flask, FastAPI, Express.js)&lt;/li&gt;&#xA;&lt;li&gt;Domain/DNS management (Cloudflare, Namecheap &amp;amp; cPanel)&lt;/li&gt;&#xA;&lt;li&gt;Setting up and configuring Wordpress sites on shared hosting (cPanel) and Self-hosted/VPS (Docker &amp;amp; Caddy/Nginx)&lt;/li&gt;&#xA;&lt;li&gt;Intermediate skills with Python, HTML &amp;amp; CSS (Flask &amp;amp; FastAPI sites, Discord Bots, Miscellaneous Scripts and Static Websites)&lt;/li&gt;&#xA;&lt;li&gt;Built projects with Python (Flask/FastAPI apps, Discord bots, automation scripts) and web technologies (HTML, CSS)&lt;/li&gt;&#xA;&lt;li&gt;Experience operating MariaDB and MongoDB servers for self-hosted services &amp;amp; small projects (Primarily in Docker)&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Search</title>
-      <link>https://alecks.dev/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://alecks.dev/search/</guid>
-      <description></description>
+      <guid>http://localhost:1313/skills/</guid>
+      <description>&lt;p&gt;From my tinkering and natural curiosity, I became familiar with basic IT concepts in networking, Linux and infrastructure at the age of 11.&lt;/p&gt;
+&lt;p&gt;Over the years I&amp;rsquo;ve delved deeper into this rabbit hole setting up a homelab and learning to administer servers in production environments, where my skills, knowledge and practical experience has grown exponentially.&lt;/p&gt;
+&lt;h2 id=&#34;general-knowledge&#34;&gt;General Knowledge&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Built and configured custom pcs (Desktops &amp;amp; Servers)&lt;/li&gt;
+&lt;li&gt;Replaced specific parts in pcs (Graphics Cards, NVMe SSDs, Hard drives, SATA SSDs and Power Supplys)&lt;/li&gt;
+&lt;li&gt;Familiar with setting up Windows 10 &amp;amp; 11 and other operating systems such as Linux on various hardware&lt;/li&gt;
+&lt;li&gt;Comfortable configuring BIOS/UEFI settings, installing and updating drivers, updating firmware and optimizing firmware for stability and performance&lt;/li&gt;
+&lt;li&gt;Experienced with Proxmox VE (Type 1) and Virtualbox (Type 2) virtualization&lt;/li&gt;
+&lt;li&gt;Troubleshooted dozens of issues with desktop machines and servers (Windows &amp;amp; Linux)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;networking&#34;&gt;Networking&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing, configuring and troubleshooting my home network (Subnetting, Router configuration, Static IPs, Port forwarding and Wireless APs/Wi-Fi)&lt;/li&gt;
+&lt;li&gt;Knowledge of IP Addresses (Public &amp;amp; Private), NAT, Ports, DNS, Routers/Modems, Firewalls, TCP/UDP, Subnets and SSL Certificates&lt;/li&gt;
+&lt;li&gt;Setup VPNs for secure remote access (Tailscale, Self-hosted Wireguard)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;systems--infrastructure&#34;&gt;Systems &amp;amp; Infrastructure&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Operated and secured dozens of servers (Bare Metal, VMs and VPSes) running various linux distros (Ubuntu LTS, Debian, Fedora Server, CoreOS)&lt;/li&gt;
+&lt;li&gt;Proficient in the Linux command line and filesystem navigation&lt;/li&gt;
+&lt;li&gt;Familiar with various package managers (apt, dnf)&lt;/li&gt;
+&lt;li&gt;Familiar with industry standard security practices (SSH Keys, Fail2Ban, No root login, Firewalls)&lt;/li&gt;
+&lt;li&gt;Docker Container deployment and management on Windows and Multiple linux distros (Ubuntu, Debian, Fedora)&lt;/li&gt;
+&lt;li&gt;Maintained lots of vps servers on various cloud platforms (DigitalOcean, Linode, AWS Lightsail, GCP &amp;amp; BinaryLane)&lt;/li&gt;
+&lt;li&gt;Reverse proxy setup &amp;amp; configuration (Nginx, Caddy)&lt;/li&gt;
+&lt;li&gt;Basic knowledge and ability to setup and use S3/Object Storage buckets with experience on various providers (Self-Hosted Minio, DigitalOcean Spaces, OVH Object Storage, Cloudflare R2, Backblaze B2, Linode Object Storage)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;web--cloud-development&#34;&gt;Web &amp;amp; Cloud Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Knowledge of how to use Git, GitHub and other providers including self-hosted Gitea, GitLab and Forgejo&lt;/li&gt;
+&lt;li&gt;Website deployment using Cloudflare/GitHub pages (Static sites) and Docker Containers (Flask, FastAPI, Express.js)&lt;/li&gt;
+&lt;li&gt;Domain/DNS management (Cloudflare, Namecheap &amp;amp; cPanel)&lt;/li&gt;
+&lt;li&gt;Setting up and configuring Wordpress sites on shared hosting (cPanel) and Self-hosted/VPS (Docker &amp;amp; Caddy/Nginx)&lt;/li&gt;
+&lt;li&gt;Intermediate skills with Python, HTML &amp;amp; CSS (Flask &amp;amp; FastAPI sites, Discord Bots, Miscellaneous Scripts and Static Websites)&lt;/li&gt;
+&lt;li&gt;Built projects with Python (Flask/FastAPI apps, Discord bots, automation scripts) and web technologies (HTML, CSS)&lt;/li&gt;
+&lt;li&gt;Experience operating MariaDB and MongoDB servers for self-hosted services &amp;amp; small projects (Primarily in Docker)&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
