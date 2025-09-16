@@ -45,7 +45,7 @@ For some more critical or vulnerable services like Apache Guacamole & PhpMyAdmin
 ### [Kasm Workspaces](https://kasmweb.com)
 This is a software that lets you run desktops or browsers in containers on your server and stream them in browser to your local machine over local network or the internet. I use it for running Kali Linux labs for penetration testing and spinning up a browser when DNS changes are taking a while to update on my machine.
 
-It may also get a lot more use during my Tafe courses (If I get in), since I'll be taking an M4 Macbook Air I won't be able to run x86 Linux VMs but this service will let me do that.
+It may also get a lot more use during my Tafe courses (If I get in), since I'll be taking an M4 Macbook Pro I won't be able to run x86 Linux VMs but this service will let me do that.
 
 ![](/images/kali_linux.webp)
 <sup>A Kali Linux container running on my Kasm VM.</sup>

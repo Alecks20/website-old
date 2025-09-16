@@ -3,6 +3,8 @@ title: "Homelab Setup"
 author: "Alecks"
 ---
 
+> I recently wrote a post going in depth about my current homelab setup [here](/posts/homelab-2025).
+
 This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. Physical nodes run Proxmox VE (Clustered).
 ### Compute Nodes
 

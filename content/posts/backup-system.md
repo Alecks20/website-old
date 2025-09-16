@@ -13,8 +13,6 @@ I've been meaning to setup backups for a very very long time, so I figured it wa
 ## Hardware Changes
 I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.
 
-
-
 ## Software Configuration
 For its intuitive interface, incremental backup system and tight integration with Proxmox VE, I chose to install Proxmox Backup Server (PBS)
 
