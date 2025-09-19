@@ -125,14 +125,14 @@
           &lt;td&gt;Lightsail&lt;/td&gt;
           &lt;td&gt;Ryzen 5 5500&lt;/td&gt;
           &lt;td&gt;32GB DDR4&lt;/td&gt;
-          &lt;td&gt;1TB SSD&lt;/td&gt;
+          &lt;td&gt;1TB NVMe&lt;/td&gt;
           &lt;td&gt;VMs, LXC&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;Railway&lt;/td&gt;
           &lt;td&gt;Intel i5-7400T&lt;/td&gt;
           &lt;td&gt;8GB DDR4&lt;/td&gt;
-          &lt;td&gt;256GB SSD&lt;/td&gt;
+          &lt;td&gt;1TB NVMe&lt;/td&gt;
           &lt;td&gt;Onsite Backups&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;

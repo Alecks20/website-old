@@ -10,8 +10,8 @@ This setup hosts all of my core infrastructure which consists of several Linux V
 
 | Name | CPU | RAM | Storage | Uses|
 | -------- | ------- | ------- | ------ | ----- |
-| Lightsail | Ryzen 5 5500 | 32GB DDR4 | 1TB SSD | VMs, LXC |
-| Railway | Intel i5-7400T | 8GB DDR4  | 256GB SSD  | Onsite Backups |  
+| Lightsail | Ryzen 5 5500 | 32GB DDR4 | 1TB NVMe | VMs, LXC |
+| Railway | Intel i5-7400T | 8GB DDR4  |  1TB NVMe | Onsite Backups |  
 ### Backups & Monitoring
 Daily backups of vm disks are sent to my local PBS server, then mirrored onto Backblaze B2 - [HetrixTools](https://hetrixtools.com) monitors server resources and uptime - [ntfy](https://ntfy.sh) notifies me of incidents with mobile push notifications.
 
