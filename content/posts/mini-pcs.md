@@ -1,6 +1,6 @@
 +++
 author = "Alecks"
-title = "The perfect home servers - Mini PCs"
+title = "Mini PCs are perfect Home Servers"
 date = "2025-08-30"
 description = ""
 tags = [

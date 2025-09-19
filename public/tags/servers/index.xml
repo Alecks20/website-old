@@ -12,15 +12,8 @@
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
-    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/servers/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Securing ssh on your Linux Server</title>
-      <link>http://localhost:1313/posts/setting-up-pterodactyl/</link>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/setting-up-pterodactyl/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Finally setting up onsite and offsite backups with PBS</title>
       <link>http://localhost:1313/posts/backup-system/</link>
@@ -65,7 +58,7 @@
 &lt;p&gt;This is a completely free service which supports exposing only web applications to the internet using an application (cloudflared) running on your server which tunnels traffic out and exposes it via the Cloudflare Network&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The perfect home servers - Mini PCs</title>
+      <title>Mini PCs are perfect Home Servers</title>
       <link>http://localhost:1313/posts/mini-pcs/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/mini-pcs/</guid>
