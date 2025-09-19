@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
-    <lastBuildDate>Sat, 13 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab Plan for 2026</title>
+      <link>http://localhost:1313/posts/homelab-plans-2026/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/homelab-plans-2026/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Finally setting up onsite and offsite backups with PBS</title>
       <link>http://localhost:1313/posts/backup-system/</link>
@@ -77,6 +84,17 @@
 &lt;p&gt;This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a free VPN service like Tailscale or self-hosted Wireguard.&lt;/p&gt;
 &lt;h3 id=&#34;non-root-account-for-logins--disable-root-login&#34;&gt;Non-root account for logins / Disable root login&lt;/h3&gt;
 &lt;p&gt;Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Starting my Homelab</title>
+      <link>http://localhost:1313/posts/starting-homelab/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/starting-homelab/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is a very old post, I now have a fully functional homelab &lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;here&lt;/a&gt; - and a full walkthrough of everything on it &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Im planning to start a homelab this year so I can get real hands on experience with server hardware and software, and also own my information and data instead of having to trust hosting companies with it&lt;/p&gt;
+&lt;h2 id=&#34;upsides-to-running-one&#34;&gt;Upsides to running one&lt;/h2&gt;
+&lt;p&gt;Most programmers and developers have a homelab for a few reasons&lt;/p&gt;</description>
     </item>
     <item>
       <title>Common Misconceptions about IP Addresses</title>

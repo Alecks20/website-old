@@ -12,8 +12,15 @@
     <generator>Hugo -- 0.149.0</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
-    <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab Plan for 2026</title>
+      <link>http://localhost:1313/posts/homelab-plans-2026/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/homelab-plans-2026/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Setting up and securing a personal NTFY server</title>
       <link>http://localhost:1313/posts/ntfy-server/</link>

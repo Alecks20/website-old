@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
+    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/homelab/</loc>
+    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/homelab-plans-2026/</loc>
+    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/self-hosting/</loc>
+    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/servers/</loc>
+    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/backups/</loc>
     <lastmod>2025-09-13T00:00:00+00:00</lastmod>
@@ -11,19 +29,7 @@
     <loc>http://localhost:1313/posts/backup-system/</loc>
     <lastmod>2025-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/homelab/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/proxmox/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/servers/</loc>
-    <lastmod>2025-09-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-09-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/docker/</loc>
@@ -33,9 +39,6 @@
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/security/</loc>
-    <lastmod>2025-09-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/self-hosting/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ntfy-server/</loc>
@@ -64,6 +67,18 @@
   </url><url>
     <loc>http://localhost:1313/tags/ssh/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ddos/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/networking/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/starting-homelab/</loc>
+    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/ip-address-misconceptions/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>

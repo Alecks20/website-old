@@ -8,6 +8,7 @@ tags = [
 ]
 +++
 
+
 Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and VMs for friends or people in my local community.
 
 The original goal of this setup was to build a service that lets me cancel all of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.
