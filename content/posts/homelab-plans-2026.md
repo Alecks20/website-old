@@ -54,10 +54,8 @@ Not only am I gonna be moving to a UDM Pro with Unifi APs, since the NBN just re
 
 ## Power Backups
 Recently my power has been pretty unstable and a UPS has seemed more and more critical for smooth operations, with the migration to a server rack I will be installing a dual UPS system, heres a basic rundown
-### UPS 1
-Critical devices including the UDM Pro (Core Router), NBN Box (Modem) and Switch
-### UPS 2
-Compute nodes - VPS Host, Primary Machine & Storage Server
+- UPS 1: Critical devices including the UDM Pro, NBN Box and Switch
+- UPS 2: Compute nodes - VPS Host, Primary Machine & Storage Server
 
 -- --
 Seperating networking infrastructure from compute nodes means that nothing gets overloaded and is overall just good practice.
