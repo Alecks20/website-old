@@ -83,8 +83,9 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a teenager living in Australia from a small town in New Zealand who happens to be a self-taught developer highly skilled in various tech fields - &lt;a href=&#34;http://localhost:1313/skills/&#34;&gt;my skills&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This website is my own little corner of the internet to showcase my practical experience and serve as a time capsule for writings, it also helps solidify learnings as explaining things to other people is one of the best ways to remember things.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m a passionate developer living in Australia from a small town in New Zealand highly skilled in various tech fields - &lt;a href=&#34;http://localhost:1313/skills/&#34;&gt;my skills&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This website is my own little corner of the internet to showcase my practical experience and serve as a time capsule for writings, it also helps solidify learnings as explaining things to other people is one of the best ways to remember things.&lt;/p&gt;
+&lt;p&gt;Outside of IT I love documentaries (tech, hacking, politics, economics and true crime), anime, fixing up/reviving old thinkpads or devices and designing things.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Favourites</title>
@@ -141,13 +142,7 @@
       <link>http://localhost:1313/gear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/gear/</guid>
-      <description>&lt;h2 id=&#34;computers&#34;&gt;Computers&lt;/h2&gt;
-&lt;h3 id=&#34;laptops-plans---buying-november-2025-aka-black-friday&#34;&gt;Laptops (Plans - buying november 2025 aka black friday)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Laptop 1: ThinkPad off eBay - for tinkering and experimenting with different Linux setups, distros and more technical stuff.&lt;/li&gt;
-&lt;li&gt;Laptop 2: Macbook Air M4 (16GB RAM, 512GB SSD) - stable everyday machine for development on the go, web browsing and entertainment.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;main-pc-built-by-me&#34;&gt;Main PC (Built by me)&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;main-pc-built-by-me&#34;&gt;Main PC (Built by me)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;CPU: Ryzen 5 5500&lt;/li&gt;
 &lt;li&gt;Memory: 32GB DDR4&lt;/li&gt;

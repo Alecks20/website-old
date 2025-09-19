@@ -37,7 +37,7 @@ auth-default-access: "deny-all" # Block access to channels by default unless log
 You have to manually create a user.db file in /var/lib/ntfy/user.db otherwise this won't work
 ```
 sudo mkdir /var/lib/ntfy/
-sudo nano /var/lib/ntfy/user.db
+sudo touch /var/lib/ntfy/user.db
 ```
 Then save that file with nothing in it
 
@@ -60,6 +60,7 @@ sudo docker run \
 -d \
 -v /var/cache/ntfy:/var/cache/ntfy \
 -v /etc/ntfy:/etc/ntfy \
+-v /var/lib/ntfy:/var/lib/ntfy \
 -p 127.0.0.1:8080:80 \
 --name=ntfy \
 --restart=unless-stopped \
