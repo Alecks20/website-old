@@ -9,7 +9,7 @@ Over the years I've delved deeper into this rabbit hole setting up a homelab and
 ## Real world Experience
 - Designed, deployed and maintained both a game server hosting platform (Using Pterodactyl Panel & Wings) and [VPS hosting service](/posts/vps-service/) for friends and local community, recieved tons of positive feedback about performance and reliability and gained tons of experience with "production" environments and handling users on my services.
 - Actively operating and maintaining a personal Homelab to host personal services, experiment with technologies and run services for friends, family and local community (Proxmox virtual environment and backup server, enterprise-grade router, monitoring and alerting systems with proper disaster recovery following the 3-2-1 backup strategy).
-- Built a Discord Bot used by 40+ servers and hosted it on a DigitalOcean vps deployed via Docker made in Python with a MongoDB database for storing data - [Source Code](https://github.com/alecks20/Cloudy).
+- Built a Discord Bot used by 40+ servers and hosted it on a DigitalOcean vps deployed via Docker made in Python with a MongoDB database for storing data - [Source](https://github.com/alecks20/Cloudy).
 ## General Knowledge
 - Built and configured custom pcs (Desktops & Servers)
 - Replaced specific parts in pcs (Graphics Cards, NVMe SSDs, Hard drives, SATA SSDs and Power Supplys)

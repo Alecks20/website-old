@@ -168,7 +168,12 @@
       <guid>http://localhost:1313/skills/</guid>
       <description>&lt;p&gt;From my tinkering and natural curiosity, I became familiar with basic IT concepts in networking, Linux and infrastructure at the age of 11.&lt;/p&gt;
 &lt;p&gt;Over the years I&amp;rsquo;ve delved deeper into this rabbit hole setting up a homelab and learning to administer servers in production environments, where my skills, knowledge and practical experience has grown exponentially.&lt;/p&gt;
-&lt;h2 id=&#34;real-world-experience&#34;&gt;Real-world experience&lt;/h2&gt;
+&lt;h2 id=&#34;real-world-experience&#34;&gt;Real world Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed, deployed and maintained both a game server hosting platform (Using Pterodactyl Panel &amp;amp; Wings) and &lt;a href=&#34;http://localhost:1313/posts/vps-service/&#34;&gt;VPS hosting service&lt;/a&gt; for friends and local community, recieved tons of positive feedback about performance and reliability and gained tons of experience with &amp;ldquo;production&amp;rdquo; environments and handling users on my services.&lt;/li&gt;
+&lt;li&gt;Actively operating and maintaining a personal Homelab to host personal services, experiment with technologies and run services for friends, family and local community (Proxmox virtual environment and backup server, enterprise-grade router, monitoring and alerting systems with proper disaster recovery following the 3-2-1 backup strategy).&lt;/li&gt;
+&lt;li&gt;Built a Discord Bot used by 40+ servers and hosted it on a DigitalOcean vps deployed via Docker made in Python with a MongoDB database for storing data - &lt;a href=&#34;https://github.com/alecks20/Cloudy&#34;&gt;Source&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h2 id=&#34;general-knowledge&#34;&gt;General Knowledge&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Built and configured custom pcs (Desktops &amp;amp; Servers)&lt;/li&gt;
