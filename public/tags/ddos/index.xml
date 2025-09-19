@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Networking on Alecks</title>
-    <link>http://localhost:1313/tags/networking/</link>
-    <description>Recent content in Networking on Alecks</description>
+    <title>Ddos on Alecks</title>
+    <link>http://localhost:1313/tags/ddos/</link>
+    <description>Recent content in Ddos on Alecks</description>
     <image>
       <title>Alecks</title>
       <url>http://localhost:1313/images/papermod-cover.png</url>
@@ -13,7 +13,7 @@
     <language>en</language>
     <copyright>Alecks 2025</copyright>
     <lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ddos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The state of my Homelab in 2025</title>
       <link>http://localhost:1313/posts/ip-address-misconceptions/</link>
