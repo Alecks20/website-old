@@ -108,7 +108,7 @@
       <guid>http://localhost:1313/homelab/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;I recently wrote a post going in depth about my current homelab setup &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
-&lt;p&gt;This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. Physical nodes run Proxmox VE (Clustered).&lt;/p&gt;
+&lt;p&gt;This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).&lt;/p&gt;
 &lt;h3 id=&#34;compute-nodes&#34;&gt;Compute Nodes&lt;/h3&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -117,6 +117,7 @@
           &lt;th&gt;CPU&lt;/th&gt;
           &lt;th&gt;RAM&lt;/th&gt;
           &lt;th&gt;Storage&lt;/th&gt;
+          &lt;th&gt;Uses&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
@@ -125,17 +126,19 @@
           &lt;td&gt;Ryzen 5 5500&lt;/td&gt;
           &lt;td&gt;32GB DDR4&lt;/td&gt;
           &lt;td&gt;1TB SSD&lt;/td&gt;
+          &lt;td&gt;VMs, LXC&lt;/td&gt;
       &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td&gt;Railway&lt;/td&gt;
           &lt;td&gt;Intel i5-7400T&lt;/td&gt;
           &lt;td&gt;8GB DDR4&lt;/td&gt;
           &lt;td&gt;256GB SSD&lt;/td&gt;
+          &lt;td&gt;Onsite Backups&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id=&#34;backups--monitoring&#34;&gt;Backups &amp;amp; Monitoring&lt;/h3&gt;
-&lt;p&gt;Daily backups of vm disks is sent to backblaze b2 - hetrixtools monitors server resources and uptime - ntfy notifies me of incidents with mobile push notifications.&lt;/p&gt;</description>
+&lt;p&gt;Daily backups of vm disks are sent to my local PBS server, then mirrored onto Backblaze B2 - &lt;a href=&#34;https://hetrixtools.com&#34;&gt;HetrixTools&lt;/a&gt; monitors server resources and uptime - &lt;a href=&#34;https://ntfy.sh&#34;&gt;ntfy&lt;/a&gt; notifies me of incidents with mobile push notifications.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My Gear</title>
