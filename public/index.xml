@@ -175,10 +175,9 @@
       <link>http://localhost:1313/gear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/gear/</guid>
-      <description>&lt;h3 id=&#34;laptops-plans-for-tafeuniversity&#34;&gt;Laptops (Plans for Tafe/University)&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;laptops&#34;&gt;Laptops&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Laptop 1: M4 Macbook Pro (24GB RAM, 512GB SSD) - Primary day to day machine for learning, work, development on the go (Coding, Managing Servers), Video Editing (Premiere), Blender and light gaming (Minecraft, Stardew, Terraria).&lt;/li&gt;
-&lt;li&gt;Laptop 2: Second-hand ThinkPad - Secondary machine for experimentation with Linux and an ultra-focus machine for writing notes/studying without any distractions.&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Framework Laptop 13 (Ryzen AI 5 340, 32GB DDR5, 1TB NVMe) - Primary day to day machine for programming, administering servers, running linux labs (local and in my homelab) and light video editing, blender/rendering or gaming.&lt;/del&gt; Coming in 1 month.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;main-pc-built-by-me&#34;&gt;Main PC (Built by me)&lt;/h3&gt;
 &lt;ul&gt;

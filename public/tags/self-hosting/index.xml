@@ -19,7 +19,10 @@
       <link>http://localhost:1313/posts/homelab-plans-2026/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/homelab-plans-2026/</guid>
-      <description></description>
+      <description>&lt;p&gt;As great as my homelab is, there&amp;rsquo;s still a ton of improvements I wanna make it to it for reliability, scalability and to learn new technologies, so lets go through them.&lt;/p&gt;
+&lt;p&gt;2026 is gonna be the year of upgrades, as I&amp;rsquo;ll be employed making probably around 2k per month depending on how many hours I work.&lt;/p&gt;
+&lt;h2 id=&#34;moving-to-rackmount-hardware&#34;&gt;Moving to Rackmount Hardware&lt;/h2&gt;
+&lt;p&gt;Not only would moving to a proper server rack (most likely &lt;a href=&#34;https://www.amazon.com.au/VEVOR-Adjustable-Standing-Networking-Equipment/dp/B0C64YY7G7&#34;&gt;this one&lt;/a&gt;) make it easier to add new compute nodes compared to the shelf all my hardware is currently on, it also looks way cooler.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up and securing a personal NTFY server</title>
