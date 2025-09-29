@@ -57,7 +57,6 @@ Recently my power has been pretty unstable and a UPS has seemed more and more cr
 - UPS 1: Critical devices including the UDM Pro, NBN Box and Switch
 - UPS 2: Compute nodes - VPS Host, Primary Machine & Storage Server
 
--- --
 Seperating networking infrastructure from compute nodes means that nothing gets overloaded and is overall just good practice.
 
 Both will be a Cyberpower rackmount UPS (Not sure exactly which model yet)

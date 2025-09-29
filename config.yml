@@ -49,7 +49,7 @@ languages:
           weight: 6
         - name: About
           url: about/
-          weight: 11
+          weight: 12
 
 outputs:
   home:
@@ -96,7 +96,12 @@ params:
     Title: "Hello Internet,"
     Content: >
       - I’m a self-taught developer from Australia with a passion for computers and tech. I design, architect, configure, monitor and secure sophisticated digital infrastructure on-premises and in the cloud, while maintaining practical experience across the full software stack.
+          
+
   socialIcons:
+    - name: Bluesky
+      title: Shoot me a DM on Bluesky
+      url: "https://bsky.app/profile/alecks20.bsky.social"
     - name: github
       title: See my projects
       url: "https://github.com/alecks20"
