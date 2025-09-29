@@ -101,7 +101,7 @@ params:
   socialIcons:
     - name: Bluesky
       title: Shoot me a DM on Bluesky
-      url: "https://bsky.app/profile/alecks20.bsky.social"
+      url: "https://bsky.app/profile/alecks.dev"
     - name: github
       title: See my projects
       url: "https://github.com/alecks20"
