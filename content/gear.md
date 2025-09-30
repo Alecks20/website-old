@@ -9,15 +9,18 @@ author: "Alecks"
 - Storage: 2TB NVMe (Windows 11) + 256GB NVMe (Omarchy)
 - Uses: Development, virtualization, tinkering/experiments, web browsing and entertainment.
 
+![](/images/pc_desktop.webp)
+<sup>My super clean desktop, wallpaper is from [wallhaven.cc](https://wallhaven.cc/w/odeglp). I use an edited version which you can find [here](/images/wallpaper.png).</sup>
+
+![](/images/pc_fastfetch.webp)
+<sup>Fastfetch and some other diagnostics on my machine.</sup>
+
 ### Laptop #1
-- Model: ThinkPad T440 ($150 AUD on eBay)
+- Model: ThinkPad T440 ($150 AUD off eBay)
 - CPU: i5-4300U, 
 - Memory: 8GB DDR3
 - Storage: 128GB SSD (Omarchy)
-- Uses: Thin client, portable development machine, low power linux box for experimenting.
-
-### Laptop #2 
-~~Framework Laptop 13 (Ryzen AI 5 340, 32GB DDR5, 1TB NVMe) - Primary day to day machine for programming, administering servers, running linux labs (local and in my homelab) and light video editing, blender/rendering or gaming.~~ Coming Soon.
+- Uses: Thin client, portable development machine, low power linux box for experimenting and working on the go.
 
 
 ## [Homelab](/homelab)
