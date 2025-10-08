@@ -9,4 +9,6 @@ This website is my own little corner of the internet to showcase my practical ex
 
 Outside of IT I love documentaries (tech, hacking, politics, economics and true crime), anime, fixing up/reviving old thinkpads or devices and designing things.
 
+I'm willing to join dev teams that take advantage of or could use my skills, get in touch by shooting me a dm on [bsky](https://bsky.app/profile/alecks.dev) (preferred) or send an [email](mailto:me@alecks.dev).
+
 [Gear/Tech](/gear) - [Favourites](/favourites)
