@@ -102,9 +102,6 @@ params:
     - name: github
       title: See my projects
       url: "https://github.com/alecks20"
-    - name: bluesky
-      title: Send me an email
-      url: "https://bsky.app/profile/alecks.dev"
     - name: email
       title: Send me an email
       url: "mailto:me@alecks.dev"

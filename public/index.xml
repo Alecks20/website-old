@@ -183,19 +183,15 @@
 &lt;li&gt;Storage: 2TB NVMe (Windows 11) + 256GB NVMe (Omarchy)&lt;/li&gt;
 &lt;li&gt;Uses: Development, virtualization, tinkering/experiments, web browsing and entertainment.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/pc_desktop.webp&#34;&gt;
-&lt;sup&gt;My super clean desktop, wallpaper is from &lt;a href=&#34;https://wallhaven.cc/w/odeglp&#34;&gt;wallhaven.cc&lt;/a&gt;. I use an edited version which you can find &lt;a href=&#34;http://localhost:1313/images/wallpaper.png&#34;&gt;here&lt;/a&gt;.&lt;/sup&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/pc_fastfetch.webp&#34;&gt;
-&lt;sup&gt;Fastfetch and some other diagnostics on my machine.&lt;/sup&gt;&lt;/p&gt;
 &lt;h3 id=&#34;laptop-1&#34;&gt;Laptop #1&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Model: ThinkPad T440 ($150 AUD off eBay)&lt;/li&gt;
-&lt;li&gt;CPU: i5-4300U,&lt;/li&gt;
+&lt;li&gt;CPU: i5-4300U&lt;/li&gt;
 &lt;li&gt;Memory: 8GB DDR3&lt;/li&gt;
-&lt;li&gt;Storage: 128GB SSD (Omarchy)&lt;/li&gt;
+&lt;li&gt;Storage: 128GB SSD (Linux Mint)&lt;/li&gt;
 &lt;li&gt;Uses: Thin client, portable development machine, low power linux box for experimenting and working on the go.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;homelab&#34;&gt;&lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;Homelab&lt;/a&gt;&lt;/h2&gt;</description>
+&lt;h3 id=&#34;homelab&#34;&gt;&lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;Homelab&lt;/a&gt;&lt;/h3&gt;</description>
     </item>
     <item>
       <title>My Skills</title>
@@ -206,45 +202,46 @@
 &lt;p&gt;Over the years I&amp;rsquo;ve delved deeper into this rabbit hole setting up a homelab and learning to administer servers in production environments, where my skills, knowledge and practical experience has grown exponentially.&lt;/p&gt;
 &lt;h2 id=&#34;real-world-experience&#34;&gt;Real world Experience&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Designed, deployed and maintained both a game server hosting platform (Using Pterodactyl Panel &amp;amp; Wings) and &lt;a href=&#34;http://localhost:1313/posts/vps-service/&#34;&gt;VPS hosting service&lt;/a&gt; for friends and local community, recieved tons of positive feedback about performance and reliability and gained tons of experience with &amp;ldquo;production&amp;rdquo; environments and handling users on my services.&lt;/li&gt;
-&lt;li&gt;Actively operating and maintaining a personal Homelab to host personal services, experiment with technologies and run services for friends, family and local community (Proxmox virtual environment and backup server, enterprise-grade router, monitoring and alerting systems with proper disaster recovery following the 3-2-1 backup strategy).&lt;/li&gt;
-&lt;li&gt;Built a Discord Bot used by 40+ servers and hosted it on a DigitalOcean vps deployed via Docker made in Python with a MongoDB database for storing data - &lt;a href=&#34;https://github.com/alecks20/Cloudy&#34;&gt;Source&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Designed, deployed and still actively maintaining a free game server hosting platform (Using Pterodactyl Panel &amp;amp; Wings) for various communities peaking at 50+ members, recieved tons of positive feedback about performance and reliability especially when using my &lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;homelab&lt;/a&gt;, also operated additional regions on rented ryzen boxes.&lt;/li&gt;
+&lt;li&gt;Actively operating and maintaining a prosumer level homelab to experiment with technologies and run services for personal use, small communities or friends (Proxmox VE &amp;amp; backup server with sophisticated monitoring, mobile notification alerts and proper disaster recovery following the 3-2-1 backup strategy).&lt;/li&gt;
+&lt;li&gt;Built a Discord Bot used by 40+ servers and hosted it on a DigitalOcean vps deployed via Docker made in Python with MongoDB - &lt;a href=&#34;https://github.com/alecks20/Cloudy&#34;&gt;Source Code&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;general-knowledge&#34;&gt;General Knowledge&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Built and configured custom pcs (Desktops &amp;amp; Servers)&lt;/li&gt;
-&lt;li&gt;Replaced specific parts in pcs (Graphics Cards, NVMe SSDs, Hard drives, SATA SSDs and Power Supplys)&lt;/li&gt;
-&lt;li&gt;Familiar with setting up Windows 10 &amp;amp; 11 and other operating systems such as Linux on various hardware&lt;/li&gt;
-&lt;li&gt;Comfortable configuring BIOS/UEFI settings, installing and updating drivers, updating firmware and optimizing firmware for stability and performance&lt;/li&gt;
-&lt;li&gt;Experienced with Proxmox VE (Type 1) and Virtualbox (Type 2) virtualization&lt;/li&gt;
-&lt;li&gt;Troubleshooted dozens of issues with desktop machines and servers (Windows &amp;amp; Linux)&lt;/li&gt;
+&lt;li&gt;Built and configured multiple custom pcs (Towers, Custom Rackmount Servers).&lt;/li&gt;
+&lt;li&gt;Replaced specific parts in pcs (Graphics Cards, NVMe SSDs, Hard drives, SATA SSDs and Power Supplys).&lt;/li&gt;
+&lt;li&gt;Familiar with setting up Windows 10, 11 and other operating systems such as Linux on various sets of hardware.&lt;/li&gt;
+&lt;li&gt;Comfortable configuring BIOS/UEFI settings, installing and updating drivers.&lt;/li&gt;
+&lt;li&gt;Experienced with Proxmox VE (Type 1) and Virtualbox (Type 2) virtualization.&lt;/li&gt;
+&lt;li&gt;Troubleshooted dozens of issues with desktop machines and servers (Windows &amp;amp; Linux).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;networking&#34;&gt;Networking&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Designing, configuring and troubleshooting my home network (Subnetting, Router configuration, Static IPs, Port forwarding and Wireless APs/Wi-Fi)&lt;/li&gt;
-&lt;li&gt;Knowledge of IP Addresses (Public &amp;amp; Private), NAT, Ports, DNS, Routers/Modems, Firewalls, TCP/UDP, Subnets and SSL Certificates&lt;/li&gt;
-&lt;li&gt;Setup VPNs for secure remote access (Tailscale, Self-hosted Wireguard)&lt;/li&gt;
+&lt;li&gt;Designing, configuring and troubleshooting my home network (Subnetting, Router configuration, Static IPs, Port forwarding and Wireless APs/Wi-Fi).&lt;/li&gt;
+&lt;li&gt;Knowledge of IP Addresses (Public &amp;amp; Private), NAT, Ports, DNS, Routers/Modems, Firewalls, TCP/UDP, Subnets and SSL Certificates.&lt;/li&gt;
+&lt;li&gt;Setup VPNs to securely access internal homelab resources like SSH and Admin Dashboards (Tailscale, Self-hosted Wireguard, Cloudflare Tunnels/Access).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;systems--infrastructure&#34;&gt;Systems &amp;amp; Infrastructure&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Operated and secured dozens of servers (Bare Metal, VMs and VPSes) running various linux distros (Ubuntu LTS, Debian, Fedora Server, CoreOS)&lt;/li&gt;
-&lt;li&gt;Proficient in the Linux command line and filesystem navigation&lt;/li&gt;
-&lt;li&gt;Familiar with various package managers (apt, dnf)&lt;/li&gt;
-&lt;li&gt;Familiar with industry standard security practices (SSH Keys, Fail2Ban, No root login, Firewalls)&lt;/li&gt;
-&lt;li&gt;Docker Container deployment and management on Windows and Multiple linux distros (Ubuntu, Debian, Fedora)&lt;/li&gt;
-&lt;li&gt;Maintained lots of vps servers on various cloud platforms (DigitalOcean, Linode, AWS Lightsail, GCP &amp;amp; BinaryLane)&lt;/li&gt;
-&lt;li&gt;Reverse proxy setup &amp;amp; configuration (Nginx, Caddy)&lt;/li&gt;
-&lt;li&gt;Basic knowledge and ability to setup and use S3/Object Storage buckets with experience on various providers (Self-Hosted Minio, DigitalOcean Spaces, OVH Object Storage, Cloudflare R2, Backblaze B2, Linode Object Storage)&lt;/li&gt;
+&lt;li&gt;Implemented sophisticated monitoring and alerting systems with &lt;a href=&#34;https://hetrixtools.com&#34;&gt;hetrixtools&lt;/a&gt; (previously using uptime kuma, but lacks heartbeat monitoring or resource monitor) to monitor uptime, resource usage and self-hosted &lt;a href=&#34;https://ntfy.sh&#34;&gt;ntfy&lt;/a&gt; to get mobile notifications.&lt;/li&gt;
+&lt;li&gt;Operated and secured dozens of servers (Bare Metal, VMs and VPSes) running various linux distros (Ubuntu LTS, Debian, Fedora Server, CoreOS).&lt;/li&gt;
+&lt;li&gt;Proficient in the Linux command line and filesystem navigation.&lt;/li&gt;
+&lt;li&gt;Familiar with various package managers (apt, dnf).&lt;/li&gt;
+&lt;li&gt;Familiar with industry standard security practices on production machines (SSH Keys, Fail2Ban, No root login, Firewalls).&lt;/li&gt;
+&lt;li&gt;Docker Container deployment, management and building on Windows (Docker Desktop) and Multiple linux distros (Ubuntu, Debian, Fedora).&lt;/li&gt;
+&lt;li&gt;Maintained tons of vps servers on various cloud platforms (DigitalOcean, Linode, AWS Lightsail, GCP &amp;amp; BinaryLane).&lt;/li&gt;
+&lt;li&gt;Reverse proxy setup &amp;amp; configuration (Nginx, Caddy).&lt;/li&gt;
+&lt;li&gt;Ability to setup and use S3/Object Storage buckets with experience on various providers (Self-Hosted Minio, DigitalOcean Spaces, OVH Object Storage, Cloudflare R2, Backblaze B2, Linode Object Storage).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;web--cloud-development&#34;&gt;Web &amp;amp; Cloud Development&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Knowledge of how to use Git, GitHub and other providers including self-hosted Gitea, GitLab and Forgejo&lt;/li&gt;
-&lt;li&gt;Website deployment using Cloudflare/GitHub pages (Static sites) and Docker Containers (Flask, FastAPI, Express.js)&lt;/li&gt;
-&lt;li&gt;Domain/DNS management (Cloudflare, Namecheap &amp;amp; cPanel)&lt;/li&gt;
-&lt;li&gt;Setting up and configuring Wordpress sites on shared hosting (cPanel) and Self-hosted/VPS (Docker &amp;amp; Caddy/Nginx)&lt;/li&gt;
-&lt;li&gt;Intermediate skills with Python, HTML &amp;amp; CSS (Flask &amp;amp; FastAPI sites, Discord Bots, Miscellaneous Scripts and Static Websites)&lt;/li&gt;
-&lt;li&gt;Built projects with Python (Flask/FastAPI apps, Discord bots, automation scripts) and web technologies (HTML, CSS)&lt;/li&gt;
-&lt;li&gt;Experience operating MariaDB and MongoDB servers for self-hosted services &amp;amp; small projects (Primarily in Docker)&lt;/li&gt;
+&lt;li&gt;Used Git, GitHub and other providers including self-hosted Gitea, GitLab and Forgejo.&lt;/li&gt;
+&lt;li&gt;Website deployment using Cloudflare/GitHub pages (Static sites) and Docker Containers (Flask, FastAPI, Express.js).&lt;/li&gt;
+&lt;li&gt;Domain/DNS management (Cloudflare, Namecheap &amp;amp; cPanel).&lt;/li&gt;
+&lt;li&gt;Setting up and configuring Wordpress sites on shared hosting (cPanel) and Self-hosted/VPS (Docker &amp;amp; Caddy/Nginx).&lt;/li&gt;
+&lt;li&gt;Python, HTML &amp;amp; CSS (Flask &amp;amp; FastAPI sites, Discord Bots, Miscellaneous Scripts and Static Websites).&lt;/li&gt;
+&lt;li&gt;Built projects with Python (Flask/FastAPI apps, Discord bots, automation scripts) and web technologies (HTML, CSS).&lt;/li&gt;
+&lt;li&gt;Experience operating MariaDB and MongoDB servers for self-hosted services &amp;amp; small projects (Primarily in Docker).&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>

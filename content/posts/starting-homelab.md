@@ -4,7 +4,7 @@ title = "Starting my Homelab"
 date = "2024-03-29"
 description = ""
 tags = [
-    "networking","ddos"
+    "homelab","servers","self-hosting"
 ]
 +++
 > This is a very old post, I now have a fully functional homelab [here](/homelab) - and a full walkthrough of everything on it [here](/posts/homelab-2025).

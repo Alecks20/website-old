@@ -68,16 +68,16 @@
     <loc>http://localhost:1313/tags/ssh/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ddos/</loc>
-    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/networking/</loc>
-    <lastmod>2024-03-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/posts/starting-homelab/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/ip-address-misconceptions/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ddos/</loc>
+    <lastmod>2024-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>

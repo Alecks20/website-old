@@ -69,5 +69,16 @@
 &lt;p&gt;Mini PCs are built to be small, quiet and power efficient, perfect for a home server. They&amp;rsquo;re also tiny, hence the name meaning they can live pretty much anywhere.&lt;/p&gt;
 &lt;p&gt;However, their form factor makes them hard to upgrade for future expandability and hard to add redundant storage to.&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Starting my Homelab</title>
+      <link>http://localhost:1313/posts/starting-homelab/</link>
+      <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/starting-homelab/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This is a very old post, I now have a fully functional homelab &lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;here&lt;/a&gt; - and a full walkthrough of everything on it &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;Im planning to start a homelab this year so I can get real hands on experience with server hardware and software, and also own my information and data instead of having to trust hosting companies with it&lt;/p&gt;
+&lt;h2 id=&#34;upsides-to-running-one&#34;&gt;Upsides to running one&lt;/h2&gt;
+&lt;p&gt;Most programmers and developers have a homelab for a few reasons&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
