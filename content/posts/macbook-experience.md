@@ -18,9 +18,9 @@ These are my thoughts after 2 days of using this laptop for media consumption, l
 ## Setup and Unboxing
 The unboxing experience was the usual apple experience, except for it arriving dead but it's not that big of a deal. With the charger plugged in and after booting it up which took 10 seconds I begin the setup process.
 
-I immediately noticed how amazing the keyboard and trackpad on this thing are, in fact, I'm using it to write the post your reading. Haptic touch trackpads are something I've always heard to be incredible which I always thought was an overexaggeration but they really do feel like night and day compared to other laptops.
+I immediately noticed how amazing the keyboard and trackpad on this thing are, in fact, I'm using it to write the post you're reading. Haptic touch trackpads are something I've always heard to be incredible which I always thought was an overexaggeration but they really do feel like night and day compared to other laptops.
 
-The keyboard obviously isn't as good as my keychron k8 pro or a proper mechanical keyboard but for a laptop keyboard its pretty solid.
+The keyboard obviously isn't as good as my keychron k8 pro or a proper mechanical keyboard but for a laptop keyboard it's pretty solid.
 
 ## Software Experience
 I've been using Windows for 5 years now and tried various Linux distros but never used any full time (exlcuding servers) and I'm pretty comfortable with tinkering, changing settings and adapting to new ways to do things so MacOS was a fairly smooth transition.
