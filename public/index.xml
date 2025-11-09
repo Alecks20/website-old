@@ -15,13 +15,22 @@
     <lastBuildDate>Sun, 09 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The MacBook Experience (Initial Impressions)</title>
+      <title>The MacBook Experience: Initial Impressions</title>
       <link>http://localhost:1313/posts/macbook-experience/</link>
       <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/macbook-experience/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve been looking closely at the laptop market for a while now, and I haven&amp;rsquo;t been able to find anything thats a better all-rounder than the Macbook lineup. They offer amazing battery life, hardware and performance on battery for fairly competitive prices.&lt;/p&gt;
 &lt;p&gt;I ended up going with the M3 Macbook Air with 24GB ram and 512GB storage. The ram upgrade was primarily because I planned to do development with Docker which is very memory hungry, and I felt that 512gb storage would give me the best longevity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I pay for Obsidian Sync</title>
+      <link>http://localhost:1313/posts/paying-for-obsidian/</link>
+      <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/paying-for-obsidian/</guid>
+      <description>&lt;p&gt;With the addition of a new laptop which I use for development work and various other things like schoolwork or journaling, I needed an easy way to sync my Obsidian vault between devices.&lt;/p&gt;
+&lt;p&gt;I use Obsidian to store my school notes and saved configs or commands for my homelab and other linux stuff which includes credentials so whatever service I use needs to be end-to-end encrypted (e2ee).&lt;/p&gt;
+&lt;p&gt;While I tried free solutions like Obsidian Git, it doesn&amp;rsquo;t include native e2e encryption and isn&amp;rsquo;t as seemless as the built in Sync solution requiring me to commit and sync changes everytime which could cause conflicts if I have changes to commit on both my PC and Laptop.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Homelab Plan for 2026</title>
@@ -193,15 +202,22 @@
 &lt;li&gt;Memory: 32GB DDR4&lt;/li&gt;
 &lt;li&gt;GPU: AMD RX 7800 XT&lt;/li&gt;
 &lt;li&gt;Storage: 2TB NVMe (Windows 11) + 256GB NVMe (Omarchy)&lt;/li&gt;
-&lt;li&gt;Uses: Development, virtualization, tinkering/experiments, web browsing and entertainment.&lt;/li&gt;
+&lt;li&gt;Uses: Development, virtualization, tinkering/experiments, gaming, web browsing and entertainment&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;laptop-1&#34;&gt;Laptop #1&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Model: M3 MacBook Air&lt;/li&gt;
+&lt;li&gt;Memory: 24GB Unified&lt;/li&gt;
+&lt;li&gt;Storage: 512GB SSD&lt;/li&gt;
+&lt;li&gt;Size: 13 Inch (Midnight Colour)&lt;/li&gt;
+&lt;li&gt;Uses: Portable dev machine, media consumption, web browsing and schoolwork&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;laptop-2-not-in-use&#34;&gt;Laptop #2 (Not in use)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Model: ThinkPad T440 ($150 AUD off eBay)&lt;/li&gt;
 &lt;li&gt;CPU: i5-4300U&lt;/li&gt;
 &lt;li&gt;Memory: 8GB DDR3&lt;/li&gt;
 &lt;li&gt;Storage: 128GB SSD (Linux Mint)&lt;/li&gt;
-&lt;li&gt;Uses: Thin client, portable development machine, low power linux box for experimenting and working on the go.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;homelab&#34;&gt;&lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;Homelab&lt;/a&gt;&lt;/h3&gt;</description>
     </item>

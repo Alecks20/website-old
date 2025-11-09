@@ -1,6 +1,6 @@
 +++
 author = "Alecks"
-title = "The MacBook Experience (Initial Impressions)"
+title = "The MacBook Experience: Initial Impressions"
 date = "2025-11-09"
 description = ""
 tags = [
@@ -40,4 +40,4 @@ I haven't been able to properly measure the battery because I haven't had it for
 ## Concluding Thoughts
 So far I'm pretty happy with this laptop, It's what I'm gonna be using for the next few years at school and tafe where its silent operations, great performance and battery life will really get put to the test.
 
-See you next year.
+See you in a few months.
