@@ -2,7 +2,7 @@
 <html lang="en" dir="auto">
 
 <head>
-	<meta name="generator" content="Hugo 0.149.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+	<meta name="generator" content="Hugo 0.152.2"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -11,7 +11,7 @@
 <meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
 <meta name="author" content="Theme PaperMod">
 <link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -162,6 +162,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Setting up and securing a personal NTFY server
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ntfy is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.
+Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on here.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-06 00:00:00 +0000 UTC'>September 6, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Alecks</footer>
+  <a class="entry-link" aria-label="post link to Setting up and securing a personal NTFY server" href="http://localhost:1313/posts/ntfy-server/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">The state of my Homelab in 2025
     </h2>
   </header>
@@ -216,21 +230,6 @@ However, their form factor makes them hard to upgrade for future expandability a
   </div>
   <footer class="entry-footer"><span title='2025-08-30 00:00:00 +0000 UTC'>August 30, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Alecks</footer>
   <a class="entry-link" aria-label="post link to Mini PCs are perfect Home Servers" href="http://localhost:1313/posts/mini-pcs/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Securing ssh on your Linux Server
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>This post is made for debian based linux distros.
-Don’t expose ssh, use a VPN This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a free VPN service like Tailscale or self-hosted Wireguard.
-Non-root account for logins / Disable root login Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-04-25 00:00:00 +0000 UTC'>April 25, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Alecks</footer>
-  <a class="entry-link" aria-label="post link to Securing ssh on your Linux Server" href="http://localhost:1313/posts/securing-server/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

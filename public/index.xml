@@ -9,11 +9,20 @@
       <url>http://localhost:1313/images/papermod-cover.png</url>
       <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.149.0</generator>
+    <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
-    <lastBuildDate>Mon, 10 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why VPNs are useless for most people</title>
+      <link>http://localhost:1313/posts/vpns/</link>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/vpns/</guid>
+      <description>&lt;p&gt;VPN companies like to make it seem like their product will solve all of your privacy and security issues but most of the claims they make are just flat-out lies, over-exaggerated or only true in specific scenarios.&lt;/p&gt;
+&lt;h3 id=&#34;what-can-your-isp-see-about-your-internet-traffic&#34;&gt;What can your ISP see about your internet traffic&lt;/h3&gt;
+&lt;p&gt;All modern apps and websites nowadays use HTTPS, which is enabled if you have a green padlock in your browser, the content of your traffic like the specific page you&amp;rsquo;re on, message content if you&amp;rsquo;re sending a dm on discord or snapchat and more is hidden from them encrypted between your device and that website. Your ISP can only see the domain of the site you&amp;rsquo;re connecting to (e.g google.com, discord.com).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Why I pay for Obsidian Sync</title>
       <link>http://localhost:1313/posts/paying-for-obsidian/</link>
@@ -112,7 +121,8 @@
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/starting-homelab/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;This is a very old post, I now have a fully functional homelab &lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;here&lt;/a&gt; - and a full walkthrough of everything on it &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This is a very old post, I now have a fully functional homelab &lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;here&lt;/a&gt; - and a full walkthrough of everything on it &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;Im planning to start a homelab this year so I can get real hands on experience with server hardware and software, and also own my information and data instead of having to trust hosting companies with it&lt;/p&gt;
 &lt;h2 id=&#34;upsides-to-running-one&#34;&gt;Upsides to running one&lt;/h2&gt;
 &lt;p&gt;Most programmers and developers have a homelab for a few reasons&lt;/p&gt;</description>
@@ -123,7 +133,8 @@
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ip-address-misconceptions/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;This is a blog post from one of my original websites that I recently ported onto here (19th September 2025) - hopefully someone gets some value out of it.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;This is a blog post from one of my original websites that I recently ported onto here (19th September 2025) - hopefully someone gets some value out of it.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;It&amp;rsquo;s a common misconception that if someone gets your IP address they can find your real home address, get your exact location, hack all your passwords, etc. None of this is true and the only real threat is something like a DDoS attack (Not the same as being doxxed). They can usually also see your general location like City or Neighborhood depending on where you are, you can see what your IP says about you on a site like &lt;a href=&#34;https://whatismyipaddress.com&#34;&gt;this&lt;/a&gt; if you&amp;rsquo;re worried about it.&lt;/p&gt;</description>
     </item>
     <item>
@@ -155,7 +166,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/homelab/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;I recently wrote a post going in depth about my current homelab setup &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;I recently wrote a post going in depth about my current homelab setup &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).&lt;/p&gt;
 &lt;h3 id=&#34;compute-nodes&#34;&gt;Compute Nodes&lt;/h3&gt;
 &lt;table&gt;
