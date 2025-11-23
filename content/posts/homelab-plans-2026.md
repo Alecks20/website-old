@@ -16,16 +16,16 @@ As great as my homelab is, there's still a ton of improvements I wanna make it t
 ## Moving to Rackmount Hardware
 Not only would moving to a proper server rack (most likely [this one](https://www.amazon.com.au/VEVOR-Adjustable-Standing-Networking-Equipment/dp/B0C64YY7G7)) make it easier to add new compute nodes compared to the shelf all my hardware is currently on, it also looks way cooler.
 
-To achieve this I'm gonna be moving from my amazing Ubiuqiti Edgerouter 4 to a Ubiquiti Dream Machine Pro, which will also have better integration with the Unifi APs I'm moving to. As for compute nodes, I need to move Lightsail into a rackmount case and since Railway is a Mini PC I can't really do anything with that other than put it on a shelf.
+To achieve this I'm gonna be moving from my Edgerouter 4 to a custom rackmount [opnsense](https://opnsense.org) router. As for compute nodes, I'll be moving Navi into a rackmount case.
 
-I'll also install a patch panel so everything is nice and cable managed, with proper labeling to save future me a few all nighters.
+I'll also be installing a patch panel so everything is nice and cable managed, with proper labeling to save future me a few all nighters.
 
 ## New Machines
 Not only am I gonna be moving my existing node (Lightsail) into a [Silverstone RM23-502 Mini 2U](https://www.scorptec.com.au/product/cases/server-&-rackmount/97350-sst-rm23-502-mini) rackmount case to add to the rack and turning it into a VPS host node, I'm also gonna be adding a few new nodes to the cluster.
 ### VPS Host Node
 As you probably read above, I'm gonna turn Lightsail into a dedicated node for hosting VPS servers for relability purposes (If I do any hardware changes on my personal machines other peoples stuff isn't affected) and to give my stuff more resources.
 ### New Primary Machine
-My current primary node (Lightsail) has served me well but I need an upgrade for better performance and reliability (Such as implementing Raid 1, old motherboard only has 1 NVMe slot)
+My current primary node (Navi) has served me well but I need an upgrade for better performance and reliability (Such as implementing Raid 1, old motherboard only has 1 NVMe slot)
 
 The hardware config is gonna look something like this
 - CPU: Ryzen 7 7700
@@ -34,10 +34,10 @@ The hardware config is gonna look something like this
 - Case: [Silverstone RM23-502 Mini 2U](https://www.scorptec.com.au/product/cases/server-&-rackmount/97350-sst-rm23-502-mini)
 - Power Supply: Corsair RM850x
 
-This machine is gonna be used to my future "cloud" labs (Kasm Workspaces, Linux VMs) when I do proper IT schooling (Tafe, Uni), running more or larger game servers, hosting/mirroring my GitHub repos and packages, running my personal website and various other personal services.
+This machine is gonna be used to host linux labs, remote workspaces, game servers, hosting/mirroring my GitHub repos and packages, running my personal website and various other personal services.
 
 ### Storage Server 
-My current onsite backup server (read more about that [here]()) is great but I want something with way more than 1TB of storage and some proper redundancy. It'll run a PBS VM (Backups) and Minio VM (Object Storage for Pterodactyl backups & Revolt uploads)
+My current onsite backup server (read more about that [here]()) is great but I want something with way more than 1TB of storage and some proper redundancy. It'll run a PBS VM (VM Backups) and Minio VM.
 
 I'm not entirely sure what kind of hardware to get yet, but probably something not too powerful built for a good balance of efficiency and cost effectiveness
 - CPU: Ryzen 5 7600
@@ -50,11 +50,11 @@ I'm not entirely sure what kind of hardware to get yet, but probably something n
 Those are all the machines I have planned for right now, I've had ideas for a 3 node ceph cluster instead of the single storage server but It'll be way overkill for my needs and also a dedicated game server machine but that'll only be needed if my other services need more resources, which with the new primary compute node (an absolute beast) is highly unlikely.
 
 ## Network Upgrades
-Not only am I gonna be moving to a UDM Pro with Unifi APs, since the NBN just released new 2 Gigabit plans the older maxxed out 1 Gigabit high upload plans (1000/400) just dropped in price by like $33 per month (On Launtel), currently my Internet is 1000/50 which means that backups take *weeks* to upload, upgrading to 1000/400 would be a humungous noticeable improvement.
+Since the NBN just released new 2 Gigabit plans the older maxxed out 1 Gigabit high upload plans (1000/400) just dropped in price by like $33 per month (On my ISP), currently my Internet is 1000/100 which means that big backups take *weeks* to upload, upgrading to 1000/400 would be a humungous noticeable improvement.
 
 ## Power Backups
 Recently my power has been pretty unstable and a UPS has seemed more and more critical for smooth operations, with the migration to a server rack I will be installing a dual UPS system, heres a basic rundown
-- UPS 1: Critical devices including the UDM Pro, NBN Box and Switch
+- UPS 1: Critical devices including the Router, NBN Box and Switch
 - UPS 2: Compute nodes - VPS Host, Primary Machine & Storage Server
 
 Seperating networking infrastructure from compute nodes means that nothing gets overloaded and is overall just good practice.

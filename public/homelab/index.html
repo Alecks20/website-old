@@ -11,36 +11,8 @@
 I recently wrote a post going in depth about my current homelab setup here.
 
 This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
-Compute Nodes
-
-  
-      
-          Name
-          CPU
-          RAM
-          Storage
-          Uses
-      
-  
-  
-      
-          Lightsail
-          Ryzen 5 5500
-          32GB DDR4
-          1TB NVMe
-          VMs, LXC
-      
-      
-          Railway
-          Intel i5-7400T
-          8GB DDR4
-          1TB NVMe
-          Onsite Backups
-      
-  
-
-Backups &amp; Monitoring
-Daily backups of vm disks are sent to my local PBS server, then mirrored onto Backblaze B2 - HetrixTools monitors server resources and uptime - ntfy notifies me of incidents with mobile push notifications.">
+The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.
+A few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.">
 <meta name="author" content="Alecks">
 <link rel="canonical" href="http://localhost:1313/homelab/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
@@ -93,7 +65,8 @@ Daily backups of vm disks are sent to my local PBS server, then mirrored onto Ba
   <meta property="og:title" content="Homelab Setup">
   <meta property="og:description" content=" I recently wrote a post going in depth about my current homelab setup here.
 This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
-Compute Nodes Name CPU RAM Storage Uses Lightsail Ryzen 5 5500 32GB DDR4 1TB NVMe VMs, LXC Railway Intel i5-7400T 8GB DDR4 1TB NVMe Onsite Backups Backups &amp; Monitoring Daily backups of vm disks are sent to my local PBS server, then mirrored onto Backblaze B2 - HetrixTools monitors server resources and uptime - ntfy notifies me of incidents with mobile push notifications.">
+The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.
+A few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
       <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
@@ -104,36 +77,8 @@ Compute Nodes Name CPU RAM Storage Uses Lightsail Ryzen 5 5500 32GB DDR4 1TB NVM
 I recently wrote a post going in depth about my current homelab setup here.
 
 This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
-Compute Nodes
-
-  
-      
-          Name
-          CPU
-          RAM
-          Storage
-          Uses
-      
-  
-  
-      
-          Lightsail
-          Ryzen 5 5500
-          32GB DDR4
-          1TB NVMe
-          VMs, LXC
-      
-      
-          Railway
-          Intel i5-7400T
-          8GB DDR4
-          1TB NVMe
-          Onsite Backups
-      
-  
-
-Backups &amp; Monitoring
-Daily backups of vm disks are sent to my local PBS server, then mirrored onto Backblaze B2 - HetrixTools monitors server resources and uptime - ntfy notifies me of incidents with mobile push notifications.">
+The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.
+A few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.">
 
 
 <script type="application/ld+json">
@@ -156,12 +101,12 @@ Daily backups of vm disks are sent to my local PBS server, then mirrored onto Ba
   "@type": "BlogPosting",
   "headline": "Homelab Setup",
   "name": "Homelab Setup",
-  "description": " I recently wrote a post going in depth about my current homelab setup here.\nThis setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).\nCompute Nodes Name CPU RAM Storage Uses Lightsail Ryzen 5 5500 32GB DDR4 1TB NVMe VMs, LXC Railway Intel i5-7400T 8GB DDR4 1TB NVMe Onsite Backups Backups \u0026amp; Monitoring Daily backups of vm disks are sent to my local PBS server, then mirrored onto Backblaze B2 - HetrixTools monitors server resources and uptime - ntfy notifies me of incidents with mobile push notifications.\n",
+  "description": " I recently wrote a post going in depth about my current homelab setup here.\nThis setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).\nThe VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.\nA few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.\n",
   "keywords": [
     
   ],
-  "articleBody": " I recently wrote a post going in depth about my current homelab setup here.\nThis setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).\nCompute Nodes Name CPU RAM Storage Uses Lightsail Ryzen 5 5500 32GB DDR4 1TB NVMe VMs, LXC Railway Intel i5-7400T 8GB DDR4 1TB NVMe Onsite Backups Backups \u0026 Monitoring Daily backups of vm disks are sent to my local PBS server, then mirrored onto Backblaze B2 - HetrixTools monitors server resources and uptime - ntfy notifies me of incidents with mobile push notifications.\nReliability Power outages happen at max a couple times a year (UPS backup will be installed soon to mitigate that) - Internet line has never gone down before - I use a Ubiquiti Edgerouter 4, an enterprise grade router built for 24/7 operation.\n",
-  "wordCount" : "145",
+  "articleBody": " I recently wrote a post going in depth about my current homelab setup here.\nThis setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).\nThe VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.\nA few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.\nCompute Nodes Name CPU RAM Storage Uses Navi Ryzen 5 5500 32GB DDR4 1TB NVMe Virtual Machines, Containers Backups \u0026 Monitoring Daily backups of vm disks are sent to my local PBS server (incremental), then mirrored onto Backblaze B2 and stored for 7 days. HetrixTools monitors server resources, uptime and detects outages. ntfy notifies me of incidents picked up my hetrix with mobile push notifications. Reliability Power outages happen at max a couple times a year and everything is designed to automatically recover when systems come back online (UPS backup will be installed soon to mitigate that) Internet has never gone down before and I use an enterprise grade router built for 24/7 operation. ",
+  "wordCount" : "198",
   "inLanguage": "en",
   "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
@@ -292,6 +237,8 @@ Daily backups of vm disks are sent to my local PBS server, then mirrored onto Ba
 <p>I recently wrote a post going in depth about my current homelab setup <a href="/posts/homelab-2025/">here</a>.</p>
 </blockquote>
 <p>This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).</p>
+<p>The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.</p>
+<p>A few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.</p>
 <h3 id="compute-nodes">Compute Nodes<a hidden class="anchor" aria-hidden="true" href="#compute-nodes">#</a></h3>
 <table>
   <thead>
@@ -305,25 +252,25 @@ Daily backups of vm disks are sent to my local PBS server, then mirrored onto Ba
   </thead>
   <tbody>
       <tr>
-          <td>Lightsail</td>
+          <td>Navi</td>
           <td>Ryzen 5 5500</td>
           <td>32GB DDR4</td>
           <td>1TB NVMe</td>
-          <td>VMs, LXC</td>
-      </tr>
-      <tr>
-          <td>Railway</td>
-          <td>Intel i5-7400T</td>
-          <td>8GB DDR4</td>
-          <td>1TB NVMe</td>
-          <td>Onsite Backups</td>
+          <td>Virtual Machines, Containers</td>
       </tr>
   </tbody>
 </table>
 <h3 id="backups--monitoring">Backups &amp; Monitoring<a hidden class="anchor" aria-hidden="true" href="#backups--monitoring">#</a></h3>
-<p>Daily backups of vm disks are sent to my local PBS server, then mirrored onto Backblaze B2 - <a href="https://hetrixtools.com">HetrixTools</a> monitors server resources and uptime - <a href="https://ntfy.sh">ntfy</a> notifies me of incidents with mobile push notifications.</p>
+<ul>
+<li>Daily backups of vm disks are sent to my local PBS server (incremental), then mirrored onto Backblaze B2 and stored for 7 days.</li>
+<li><a href="https://hetrixtools.com">HetrixTools</a> monitors server resources, uptime and detects outages.</li>
+<li><a href="https://ntfy.sh">ntfy</a> notifies me of incidents picked up my hetrix with mobile push notifications.</li>
+</ul>
 <h3 id="reliability">Reliability<a hidden class="anchor" aria-hidden="true" href="#reliability">#</a></h3>
-<p>Power outages happen at max a couple times a year (UPS backup will be installed soon to mitigate that) - Internet line has never gone down before - I use a Ubiquiti Edgerouter 4, an enterprise grade router built for 24/7 operation.</p>
+<ul>
+<li>Power outages happen at max a couple times a year and everything is designed to automatically recover when systems come back online (UPS backup will be installed soon to mitigate that)</li>
+<li>Internet has never gone down before and I use an enterprise grade router built for 24/7 operation.</li>
+</ul>
 
 
   </div>

@@ -38,8 +38,8 @@
       <link>http://localhost:1313/posts/homelab-2025/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/homelab-2025/</guid>
-      <description>&lt;p&gt;Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and VMs for friends or people in my local community.&lt;/p&gt;
-&lt;p&gt;The original goal of this setup was to build a service that lets me cancel all of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and services for friends or people in my local community.&lt;/p&gt;
+&lt;p&gt;The original goal of this setup was to build a service that lets me cancel most of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I host Linux VMs for people in my Homelab</title>
