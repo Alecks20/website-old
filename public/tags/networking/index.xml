@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Networking on Alecks</title>
-    <link>http://localhost:1313/tags/networking/</link>
+    <link>https://alecks.dev/tags/networking/</link>
     <description>Recent content in Networking on Alecks</description>
     <image>
       <title>Alecks</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://alecks.dev/images/papermod-cover.png</url>
+      <link>https://alecks.dev/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
     <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alecks.dev/tags/networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Common Misconceptions about IP Addresses</title>
-      <link>http://localhost:1313/posts/ip-address-misconceptions/</link>
+      <link>https://alecks.dev/posts/ip-address-misconceptions/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ip-address-misconceptions/</guid>
+      <guid>https://alecks.dev/posts/ip-address-misconceptions/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;This is a blog post from one of my original websites that I recently ported onto here (19th September 2025) - hopefully someone gets some value out of it.&lt;/p&gt;
 &lt;/blockquote&gt;

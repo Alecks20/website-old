@@ -13,14 +13,15 @@ author: "Alecks"
 - Model: M3 MacBook Air
 - Memory: 24GB Unified
 - Storage: 512GB SSD
-- Size: 13 Inch (Midnight Colour)
+- Size: 13 inch
 - Uses: Portable dev machine, media consumption, web browsing and schoolwork
 
-### Laptop #2 (Not in use)
-- Model: ThinkPad T440 ($150 AUD off eBay)
-- CPU: i5-4300U
-- Memory: 8GB DDR3
-- Storage: 128GB SSD (Linux Mint)
+### Laptop #2 
+- Model: ThinkPad x201 (in x200 body)
+- CPU: i5-520M
+- Memory: 4GB DDR3
+- Storage: 128GB SSD (Arch + i3wm)
+- Uses: programming/coding, writing, journaling
 
 
 ### [Homelab](/homelab)

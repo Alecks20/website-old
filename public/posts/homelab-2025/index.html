@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -10,16 +10,16 @@
 <meta name="description" content="Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and services for friends or people in my local community.
 The original goal of this setup was to build a service that lets me cancel most of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.">
 <meta name="author" content="Alecks">
-<link rel="canonical" href="http://localhost:1313/posts/homelab-2025/">
+<link rel="canonical" href="https://alecks.dev/posts/homelab-2025/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="icon" href="https://alecks.dev/favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://alecks.dev/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://alecks.dev/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://alecks.dev/apple-touch-icon.png">
+<link rel="mask-icon" href="https://alecks.dev/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/homelab-2025/">
+<link rel="alternate" hreflang="en" href="https://alecks.dev/posts/homelab-2025/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,7 +56,7 @@ The original goal of this setup was to build a service that lets me cancel most 
         }
 
     </style>
-</noscript><meta property="og:url" content="http://localhost:1313/posts/homelab-2025/">
+</noscript><meta property="og:url" content="https://alecks.dev/posts/homelab-2025/">
   <meta property="og:site_name" content="Alecks">
   <meta property="og:title" content="The state of my Homelab in 2025">
   <meta property="og:description" content="Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and services for friends or people in my local community.
@@ -69,9 +69,9 @@ The original goal of this setup was to build a service that lets me cancel most 
     <meta property="article:tag" content="Servers">
     <meta property="article:tag" content="Homelab">
     <meta property="article:tag" content="Self-Hosting">
-      <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
+      <meta property="og:image" content="https://alecks.dev/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
+<meta name="twitter:image" content="https://alecks.dev/images/papermod-cover.png">
 <meta name="twitter:title" content="The state of my Homelab in 2025">
 <meta name="twitter:description" content="Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and services for friends or people in my local community.
 The original goal of this setup was to build a service that lets me cancel most of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.">
@@ -86,13 +86,13 @@ The original goal of this setup was to build a service that lets me cancel most 
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "http://localhost:1313/posts/"
+      "item": "https://alecks.dev/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "The state of my Homelab in 2025",
-      "item": "http://localhost:1313/posts/homelab-2025/"
+      "item": "https://alecks.dev/posts/homelab-2025/"
     }
   ]
 }
@@ -110,7 +110,7 @@ The original goal of this setup was to build a service that lets me cancel most 
   "articleBody": "Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and services for friends or people in my local community.\nThe original goal of this setup was to build a service that lets me cancel most of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.\nCompute Nodes Navi is my main machine running pretty much everything, it currently sits on a shelf but I plan to build a server rack and add some more machines later on.\nIt runs Proxmox VE and hosts various virtual machines and lxc containers.\nName CPU RAM Storage Navi Ryzen 5 5500 32GB DDR4 1TB SSD Networking Internet Line Being in Australia on the NBN, I have an FTTP (Fibre to the Premises) connection, essentially a full fibre line which is perfect for reliability and performance.\nMy ISP is small and reasonably priced, they’ve never had an outage on my line and I consistently get full speeds with zero congestion. They even provide built-in inline DDoS Protection with GSL for no extra cost. On top of that, their support actually knows what they’re talking about while taking less than a day to respond over email, probably one of the best setups you could possibly have for Homelabbing.\nLocal Network As my main router I use an enterprise-grade business router built for performance, reliability and high uptime.\nMy network is segmented into 2 vLANs: one for my home network and another for my Homelab, this ensures that any breaches in my infrastructure don’t spread to vulnerable IoT devices or other home devices.\nOn top of that other peoples VMs are segmented and blocked from accessing anything except my router with Proxmox’s firewall.\nExposing Services For web based services I use cloudflare tunnels in additional to tailscale and a vps for non web based services (e.g game servers).\nWhat I’m running on it Linux Labs Using excess capacity I build small linux labs for penetration testing running Kali linux in addition to a vulnerable machine.\nPterodactyl Panel \u0026 Wings This allows me to create and manage all of my game servers with a clean web interface and central place to manage accounts and servers across multiple nodes.\nGitea A self-hosted GitHub/GitLab alternative, I trust GitHub more with durability so I mainly use my Gitea server for mirrors incase something happens to GitHub or my account on it.\nVPS Servers I operate a small service for friends or people in my local community offering small linux VMs hosted in my homelab for free - find more about how that works here.\nReliability My goal of building my own hosting platform more reliable than a proper hosting provider is pretty much impossible without being in a datacenter, as homes typically don’t have multiple internet lines or onsite diesel generators. However, I’m in the position where I can achieve good enough uptime for non commercial services.\nPower: Extremely reliable, I live in a fairly new area with pretty solid power infrastructure. My next upgrade will definitely be adding a UPS. Internet: I haven’t had a single outage on my Internet line, speeds are always consistent with no congestion. Services Interfering: All services run in their own VMs with strict resource allocations. If one service crashes or maxxes out resources, nothing else is affected. Backups I follow the industry-standard 3-2-1 rule where you have a copy on production, an onsite backup and an offsite backup. I run a Proxmox Backup Server onsite which is then sent up to Backblaze B2.\nMonitoring Even though I do want to setup a proper onsite monitoring system with Prometheus \u0026 Grafana as a future project, HetrixTools is super easy to setup and does everything I need it to do - monitor uptime, system resources, network usage and active processes of each Node \u0026 VM so I’m using that in the meantime.\nConclusion Even though my Homelab is in a great state for my needs, it can always improve, a few things I still want to do with it include:\nSetup an onsite monitoring system with Prometheus \u0026 Grafana Add a UPS to protect data integrity and keep systems up during short power outages Build a proper server rack and add more compute nodes (Including a proper storage server with multiple TBs of storage) And more stuff will definitely come up throughout the years.\nThanks for reading.\n",
   "wordCount" : "748",
   "inLanguage": "en",
-  "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "2025-09-03T00:00:00Z",
+  "image": "https://alecks.dev/images/papermod-cover.png","datePublished": "2025-09-03T00:00:00Z",
   "dateModified": "2025-09-03T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -118,14 +118,14 @@ The original goal of this setup was to build a service that lets me cancel most 
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/posts/homelab-2025/"
+    "@id": "https://alecks.dev/posts/homelab-2025/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Alecks",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicons/favicon.ico"
+      "url": "https://alecks.dev/favicons/favicon.ico"
     }
   }
 }
@@ -147,7 +147,7 @@ The original goal of this setup was to build a service that lets me cancel most 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
+            <a href="https://alecks.dev/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -173,32 +173,32 @@ The original goal of this setup was to build a service that lets me cancel most 
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/archives" title="Archive">
+                <a href="https://alecks.dev/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/skills/" title="Skills">
+                <a href="https://alecks.dev/skills/" title="Skills">
                     <span>Skills</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/homelab/" title="Homelab">
+                <a href="https://alecks.dev/homelab/" title="Homelab">
                     <span>Homelab</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://alecks.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
+                <a href="https://alecks.dev/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="About">
+                <a href="https://alecks.dev/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -209,7 +209,7 @@ The original goal of this setup was to build a service that lets me cancel most 
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://alecks.dev/">Home</a>&nbsp;»&nbsp;<a href="https://alecks.dev/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       The state of my Homelab in 2025
     </h1>
@@ -332,9 +332,9 @@ The original goal of this setup was to build a service that lets me cancel most 
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/servers/">Servers</a></li>
-      <li><a href="http://localhost:1313/tags/homelab/">Homelab</a></li>
-      <li><a href="http://localhost:1313/tags/self-hosting/">Self-Hosting</a></li>
+      <li><a href="https://alecks.dev/tags/servers/">Servers</a></li>
+      <li><a href="https://alecks.dev/tags/homelab/">Homelab</a></li>
+      <li><a href="https://alecks.dev/tags/self-hosting/">Self-Hosting</a></li>
     </ul>
   </footer>
 </article>

@@ -2,133 +2,133 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://alecks.dev/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://alecks.dev/posts/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
+    <loc>https://alecks.dev/tags/privacy/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/reviews/</loc>
+    <loc>https://alecks.dev/tags/reviews/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://alecks.dev/tags/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vpns/</loc>
+    <loc>https://alecks.dev/tags/vpns/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vpns/</loc>
+    <loc>https://alecks.dev/posts/vpns/</loc>
     <lastmod>2025-11-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/computers/</loc>
+    <loc>https://alecks.dev/tags/computers/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/obsidian/</loc>
+    <loc>https://alecks.dev/tags/obsidian/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/software/</loc>
+    <loc>https://alecks.dev/tags/software/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/paying-for-obsidian/</loc>
+    <loc>https://alecks.dev/posts/paying-for-obsidian/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gear/</loc>
+    <loc>https://alecks.dev/tags/gear/</loc>
     <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/laptops/</loc>
+    <loc>https://alecks.dev/tags/laptops/</loc>
     <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/macbook-experience/</loc>
+    <loc>https://alecks.dev/posts/macbook-experience/</loc>
     <lastmod>2025-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/homelab/</loc>
+    <loc>https://alecks.dev/tags/homelab/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/homelab-plans-2026/</loc>
+    <loc>https://alecks.dev/posts/homelab-plans-2026/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/self-hosting/</loc>
+    <loc>https://alecks.dev/tags/self-hosting/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/servers/</loc>
+    <loc>https://alecks.dev/tags/servers/</loc>
     <lastmod>2025-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/backups/</loc>
+    <loc>https://alecks.dev/tags/backups/</loc>
     <lastmod>2025-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/backup-system/</loc>
+    <loc>https://alecks.dev/posts/backup-system/</loc>
     <lastmod>2025-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/proxmox/</loc>
+    <loc>https://alecks.dev/tags/proxmox/</loc>
     <lastmod>2025-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://alecks.dev/tags/docker/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ntfy/</loc>
+    <loc>https://alecks.dev/tags/ntfy/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/security/</loc>
+    <loc>https://alecks.dev/tags/security/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ntfy-server/</loc>
+    <loc>https://alecks.dev/posts/ntfy-server/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/homelab-2025/</loc>
+    <loc>https://alecks.dev/posts/homelab-2025/</loc>
     <lastmod>2025-09-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/vps-service/</loc>
+    <loc>https://alecks.dev/posts/vps-service/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://alecks.dev/tags/linux/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vms/</loc>
+    <loc>https://alecks.dev/tags/vms/</loc>
     <lastmod>2025-08-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/exposing-services/</loc>
+    <loc>https://alecks.dev/posts/exposing-services/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/mini-pcs/</loc>
+    <loc>https://alecks.dev/posts/mini-pcs/</loc>
     <lastmod>2025-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/securing-server/</loc>
+    <loc>https://alecks.dev/posts/securing-server/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ssh/</loc>
+    <loc>https://alecks.dev/tags/ssh/</loc>
     <lastmod>2024-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/starting-homelab/</loc>
+    <loc>https://alecks.dev/posts/starting-homelab/</loc>
     <lastmod>2024-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ip-address-misconceptions/</loc>
+    <loc>https://alecks.dev/posts/ip-address-misconceptions/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ddos/</loc>
+    <loc>https://alecks.dev/tags/ddos/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/networking/</loc>
+    <loc>https://alecks.dev/tags/networking/</loc>
     <lastmod>2024-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://alecks.dev/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://alecks.dev/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://alecks.dev/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/favourites/</loc>
+    <loc>https://alecks.dev/favourites/</loc>
   </url><url>
-    <loc>http://localhost:1313/homelab/</loc>
+    <loc>https://alecks.dev/homelab/</loc>
   </url><url>
-    <loc>http://localhost:1313/gear/</loc>
+    <loc>https://alecks.dev/gear/</loc>
   </url><url>
-    <loc>http://localhost:1313/skills/</loc>
+    <loc>https://alecks.dev/skills/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://alecks.dev/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://alecks.dev/series/</loc>
   </url>
 </urlset>

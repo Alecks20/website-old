@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Homelab on Alecks</title>
-    <link>http://localhost:1313/tags/homelab/</link>
+    <link>https://alecks.dev/tags/homelab/</link>
     <description>Recent content in Homelab on Alecks</description>
     <image>
       <title>Alecks</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://alecks.dev/images/papermod-cover.png</url>
+      <link>https://alecks.dev/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
     <lastBuildDate>Fri, 19 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alecks.dev/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Homelab Plan for 2026</title>
-      <link>http://localhost:1313/posts/homelab-plans-2026/</link>
+      <link>https://alecks.dev/posts/homelab-plans-2026/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/homelab-plans-2026/</guid>
+      <guid>https://alecks.dev/posts/homelab-plans-2026/</guid>
       <description>&lt;p&gt;As great as my homelab is, there&amp;rsquo;s still a ton of improvements I wanna make it to it for reliability, scalability and to learn new technologies, so lets go through them.&lt;/p&gt;
 &lt;p&gt;2026 is gonna be the year of upgrades, as I&amp;rsquo;ll be employed making probably around 2k per month depending on how many hours I work.&lt;/p&gt;
 &lt;h2 id=&#34;moving-to-rackmount-hardware&#34;&gt;Moving to Rackmount Hardware&lt;/h2&gt;
@@ -26,34 +26,34 @@
     </item>
     <item>
       <title>Finally setting up onsite and offsite backups with PBS</title>
-      <link>http://localhost:1313/posts/backup-system/</link>
+      <link>https://alecks.dev/posts/backup-system/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/backup-system/</guid>
+      <guid>https://alecks.dev/posts/backup-system/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.&lt;/p&gt;
 &lt;h2 id=&#34;hardware-changes&#34;&gt;Hardware Changes&lt;/h2&gt;
 &lt;p&gt;I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The state of my Homelab in 2025</title>
-      <link>http://localhost:1313/posts/homelab-2025/</link>
+      <link>https://alecks.dev/posts/homelab-2025/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/homelab-2025/</guid>
+      <guid>https://alecks.dev/posts/homelab-2025/</guid>
       <description>&lt;p&gt;Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and services for friends or people in my local community.&lt;/p&gt;
 &lt;p&gt;The original goal of this setup was to build a service that lets me cancel most of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I host Linux VMs for people in my Homelab</title>
-      <link>http://localhost:1313/posts/vps-service/</link>
+      <link>https://alecks.dev/posts/vps-service/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vps-service/</guid>
+      <guid>https://alecks.dev/posts/vps-service/</guid>
       <description>&lt;p&gt;A lot of my Homelab typically sits idle, wasting power. So I had the idea of letting other people run their own linux virtual machines on it, kinda like how gcp offers &amp;ldquo;spot&amp;rdquo; vms for much cheaper as it uses excess compute capacity.&lt;/p&gt;
 &lt;p&gt;Obviously I can&amp;rsquo;t provide this as a paid service since that comes with a lot of liability and legal documents to protect yourself, so I just offer it as a free service for friends.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exposing self-hosted applications without a Public IP address</title>
-      <link>http://localhost:1313/posts/exposing-services/</link>
+      <link>https://alecks.dev/posts/exposing-services/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/exposing-services/</guid>
+      <guid>https://alecks.dev/posts/exposing-services/</guid>
       <description>&lt;p&gt;In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don&amp;rsquo;t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.&lt;/p&gt;
 &lt;p&gt;So here are a few &lt;strong&gt;free and paid&lt;/strong&gt; solutions for exposing both web applications and game servers to the internet without port forwarding.&lt;/p&gt;
 &lt;h2 id=&#34;cloudflare-tunnels&#34;&gt;&lt;a href=&#34;https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/&#34;&gt;Cloudflare Tunnels&lt;/a&gt;&lt;/h2&gt;
@@ -61,9 +61,9 @@
     </item>
     <item>
       <title>Mini PCs are perfect Home Servers</title>
-      <link>http://localhost:1313/posts/mini-pcs/</link>
+      <link>https://alecks.dev/posts/mini-pcs/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mini-pcs/</guid>
+      <guid>https://alecks.dev/posts/mini-pcs/</guid>
       <description>&lt;p&gt;Recently I picked up a $100 Lenovo ThinkCentre M710Q off ebay with an i5 7400T, 8GB of ram and a 256GB NVMe SSD to add to my Proxmox cluster.&lt;/p&gt;
 &lt;h3 id=&#34;the-good--bad&#34;&gt;The good &amp;amp; Bad&lt;/h3&gt;
 &lt;p&gt;Mini PCs are built to be small, quiet and power efficient, perfect for a home server. They&amp;rsquo;re also tiny, hence the name meaning they can live pretty much anywhere.&lt;/p&gt;
@@ -71,11 +71,11 @@
     </item>
     <item>
       <title>Starting my Homelab</title>
-      <link>http://localhost:1313/posts/starting-homelab/</link>
+      <link>https://alecks.dev/posts/starting-homelab/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/starting-homelab/</guid>
+      <guid>https://alecks.dev/posts/starting-homelab/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;This is a very old post, I now have a fully functional homelab &lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;here&lt;/a&gt; - and a full walkthrough of everything on it &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a very old post, I now have a fully functional homelab &lt;a href=&#34;https://alecks.dev/homelab/&#34;&gt;here&lt;/a&gt; - and a full walkthrough of everything on it &lt;a href=&#34;https://alecks.dev/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Im planning to start a homelab this year so I can get real hands on experience with server hardware and software, and also own my information and data instead of having to trust hosting companies with it&lt;/p&gt;
 &lt;h2 id=&#34;upsides-to-running-one&#34;&gt;Upsides to running one&lt;/h2&gt;

@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Alecks</title>
-    <link>http://localhost:1313/</link>
+    <link>https://alecks.dev/</link>
     <description>Recent content on Alecks</description>
     <image>
       <title>Alecks</title>
-      <url>http://localhost:1313/images/papermod-cover.png</url>
-      <link>http://localhost:1313/images/papermod-cover.png</link>
+      <url>https://alecks.dev/images/papermod-cover.png</url>
+      <link>https://alecks.dev/images/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
     <lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alecks.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why VPNs are useless for most people</title>
-      <link>http://localhost:1313/posts/vpns/</link>
+      <link>https://alecks.dev/posts/vpns/</link>
       <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vpns/</guid>
+      <guid>https://alecks.dev/posts/vpns/</guid>
       <description>&lt;p&gt;VPN companies like to make it seem like their product will solve all of your privacy and security issues but most of the claims they make are just flat-out lies, over-exaggerated or only true in specific scenarios.&lt;/p&gt;
 &lt;h3 id=&#34;what-can-your-isp-see-about-your-internet-traffic&#34;&gt;What can your ISP see about your internet traffic&lt;/h3&gt;
 &lt;p&gt;All modern apps and websites nowadays use HTTPS, which is enabled if you have a green padlock in your browser, the content of your traffic like the specific page you&amp;rsquo;re on, message content if you&amp;rsquo;re sending a dm on discord or snapchat and more is hidden from them encrypted between your device and that website. Your ISP can only see the domain of the site you&amp;rsquo;re connecting to (e.g google.com, discord.com).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I pay for Obsidian Sync</title>
-      <link>http://localhost:1313/posts/paying-for-obsidian/</link>
+      <link>https://alecks.dev/posts/paying-for-obsidian/</link>
       <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/paying-for-obsidian/</guid>
+      <guid>https://alecks.dev/posts/paying-for-obsidian/</guid>
       <description>&lt;p&gt;With the addition of a new laptop which I use for development work and various other things like schoolwork or journaling, I needed an easy way to sync my Obsidian vault between devices.&lt;/p&gt;
 &lt;p&gt;I use Obsidian to store my school notes and saved configs or commands for my homelab and other linux stuff which includes credentials so whatever service I use needs to be end-to-end encrypted (e2ee).&lt;/p&gt;
 &lt;p&gt;While I tried free solutions like Obsidian Git, it doesn&amp;rsquo;t include native e2e encryption and isn&amp;rsquo;t as seemless as the built in Sync solution requiring me to commit and sync changes everytime which could cause conflicts if I have changes to commit on both my PC and Laptop.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The MacBook Experience: Initial Impressions</title>
-      <link>http://localhost:1313/posts/macbook-experience/</link>
+      <link>https://alecks.dev/posts/macbook-experience/</link>
       <pubDate>Sun, 09 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/macbook-experience/</guid>
+      <guid>https://alecks.dev/posts/macbook-experience/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;I&amp;rsquo;ve been looking closely at the laptop market for a while now, and I haven&amp;rsquo;t been able to find anything thats a better all-rounder than the Macbook lineup. They offer amazing battery life, hardware and performance on battery for fairly competitive prices.&lt;/p&gt;
 &lt;p&gt;I ended up going with the M3 Macbook Air with 24GB ram and 512GB storage. The ram upgrade was primarily because I planned to do development with Docker which is very memory hungry, and I felt that 512gb storage would give me the best longevity.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Homelab Plan for 2026</title>
-      <link>http://localhost:1313/posts/homelab-plans-2026/</link>
+      <link>https://alecks.dev/posts/homelab-plans-2026/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/homelab-plans-2026/</guid>
+      <guid>https://alecks.dev/posts/homelab-plans-2026/</guid>
       <description>&lt;p&gt;As great as my homelab is, there&amp;rsquo;s still a ton of improvements I wanna make it to it for reliability, scalability and to learn new technologies, so lets go through them.&lt;/p&gt;
 &lt;p&gt;2026 is gonna be the year of upgrades, as I&amp;rsquo;ll be employed making probably around 2k per month depending on how many hours I work.&lt;/p&gt;
 &lt;h2 id=&#34;moving-to-rackmount-hardware&#34;&gt;Moving to Rackmount Hardware&lt;/h2&gt;
@@ -53,42 +53,42 @@
     </item>
     <item>
       <title>Finally setting up onsite and offsite backups with PBS</title>
-      <link>http://localhost:1313/posts/backup-system/</link>
+      <link>https://alecks.dev/posts/backup-system/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/backup-system/</guid>
+      <guid>https://alecks.dev/posts/backup-system/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.&lt;/p&gt;
 &lt;h2 id=&#34;hardware-changes&#34;&gt;Hardware Changes&lt;/h2&gt;
 &lt;p&gt;I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up and securing a personal NTFY server</title>
-      <link>http://localhost:1313/posts/ntfy-server/</link>
+      <link>https://alecks.dev/posts/ntfy-server/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ntfy-server/</guid>
+      <guid>https://alecks.dev/posts/ntfy-server/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://ntfy.sh&#34;&gt;Ntfy&lt;/a&gt; is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.&lt;/p&gt;
-&lt;p&gt;Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on &lt;a href=&#34;http://localhost:1313/posts/securing-server/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on &lt;a href=&#34;https://alecks.dev/posts/securing-server/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The state of my Homelab in 2025</title>
-      <link>http://localhost:1313/posts/homelab-2025/</link>
+      <link>https://alecks.dev/posts/homelab-2025/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/homelab-2025/</guid>
+      <guid>https://alecks.dev/posts/homelab-2025/</guid>
       <description>&lt;p&gt;Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and services for friends or people in my local community.&lt;/p&gt;
 &lt;p&gt;The original goal of this setup was to build a service that lets me cancel most of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.&lt;/p&gt;</description>
     </item>
     <item>
       <title>How I host Linux VMs for people in my Homelab</title>
-      <link>http://localhost:1313/posts/vps-service/</link>
+      <link>https://alecks.dev/posts/vps-service/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/vps-service/</guid>
+      <guid>https://alecks.dev/posts/vps-service/</guid>
       <description>&lt;p&gt;A lot of my Homelab typically sits idle, wasting power. So I had the idea of letting other people run their own linux virtual machines on it, kinda like how gcp offers &amp;ldquo;spot&amp;rdquo; vms for much cheaper as it uses excess compute capacity.&lt;/p&gt;
 &lt;p&gt;Obviously I can&amp;rsquo;t provide this as a paid service since that comes with a lot of liability and legal documents to protect yourself, so I just offer it as a free service for friends.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exposing self-hosted applications without a Public IP address</title>
-      <link>http://localhost:1313/posts/exposing-services/</link>
+      <link>https://alecks.dev/posts/exposing-services/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/exposing-services/</guid>
+      <guid>https://alecks.dev/posts/exposing-services/</guid>
       <description>&lt;p&gt;In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don&amp;rsquo;t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.&lt;/p&gt;
 &lt;p&gt;So here are a few &lt;strong&gt;free and paid&lt;/strong&gt; solutions for exposing both web applications and game servers to the internet without port forwarding.&lt;/p&gt;
 &lt;h2 id=&#34;cloudflare-tunnels&#34;&gt;&lt;a href=&#34;https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/&#34;&gt;Cloudflare Tunnels&lt;/a&gt;&lt;/h2&gt;
@@ -96,9 +96,9 @@
     </item>
     <item>
       <title>Mini PCs are perfect Home Servers</title>
-      <link>http://localhost:1313/posts/mini-pcs/</link>
+      <link>https://alecks.dev/posts/mini-pcs/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/mini-pcs/</guid>
+      <guid>https://alecks.dev/posts/mini-pcs/</guid>
       <description>&lt;p&gt;Recently I picked up a $100 Lenovo ThinkCentre M710Q off ebay with an i5 7400T, 8GB of ram and a 256GB NVMe SSD to add to my Proxmox cluster.&lt;/p&gt;
 &lt;h3 id=&#34;the-good--bad&#34;&gt;The good &amp;amp; Bad&lt;/h3&gt;
 &lt;p&gt;Mini PCs are built to be small, quiet and power efficient, perfect for a home server. They&amp;rsquo;re also tiny, hence the name meaning they can live pretty much anywhere.&lt;/p&gt;
@@ -106,9 +106,9 @@
     </item>
     <item>
       <title>Securing ssh on your Linux Server</title>
-      <link>http://localhost:1313/posts/securing-server/</link>
+      <link>https://alecks.dev/posts/securing-server/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/securing-server/</guid>
+      <guid>https://alecks.dev/posts/securing-server/</guid>
       <description>&lt;p&gt;This post is made for debian based linux distros.&lt;/p&gt;
 &lt;h3 id=&#34;dont-expose-ssh-use-a-vpn&#34;&gt;Don&amp;rsquo;t expose ssh, use a VPN&lt;/h3&gt;
 &lt;p&gt;This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a free VPN service like Tailscale or self-hosted Wireguard.&lt;/p&gt;
@@ -117,11 +117,11 @@
     </item>
     <item>
       <title>Starting my Homelab</title>
-      <link>http://localhost:1313/posts/starting-homelab/</link>
+      <link>https://alecks.dev/posts/starting-homelab/</link>
       <pubDate>Fri, 29 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/starting-homelab/</guid>
+      <guid>https://alecks.dev/posts/starting-homelab/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;This is a very old post, I now have a fully functional homelab &lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;here&lt;/a&gt; - and a full walkthrough of everything on it &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is a very old post, I now have a fully functional homelab &lt;a href=&#34;https://alecks.dev/homelab/&#34;&gt;here&lt;/a&gt; - and a full walkthrough of everything on it &lt;a href=&#34;https://alecks.dev/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Im planning to start a homelab this year so I can get real hands on experience with server hardware and software, and also own my information and data instead of having to trust hosting companies with it&lt;/p&gt;
 &lt;h2 id=&#34;upsides-to-running-one&#34;&gt;Upsides to running one&lt;/h2&gt;
@@ -129,9 +129,9 @@
     </item>
     <item>
       <title>Common Misconceptions about IP Addresses</title>
-      <link>http://localhost:1313/posts/ip-address-misconceptions/</link>
+      <link>https://alecks.dev/posts/ip-address-misconceptions/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/ip-address-misconceptions/</guid>
+      <guid>https://alecks.dev/posts/ip-address-misconceptions/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;This is a blog post from one of my original websites that I recently ported onto here (19th September 2025) - hopefully someone gets some value out of it.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -139,18 +139,18 @@
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://alecks.dev/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a passionate developer living in Australia from a small town in New Zealand highly skilled in various tech fields - &lt;a href=&#34;http://localhost:1313/skills/&#34;&gt;my skills&lt;/a&gt;.&lt;/p&gt;
+      <guid>https://alecks.dev/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a passionate developer living in Australia from a small town in New Zealand highly skilled in various tech fields - &lt;a href=&#34;https://alecks.dev/skills/&#34;&gt;my skills&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This website is my own little corner of the internet to showcase my practical experience and serve as a time capsule for writings, it also helps solidify learnings as explaining things to other people is one of the best ways to remember things.&lt;/p&gt;
 &lt;p&gt;Outside of IT I love documentaries (tech, hacking, politics, economics and true crime), anime, fixing up/reviving old thinkpads or devices and designing things.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Favourites</title>
-      <link>http://localhost:1313/favourites/</link>
+      <link>https://alecks.dev/favourites/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/favourites/</guid>
+      <guid>https://alecks.dev/favourites/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;Small Web Communities - &lt;a href=&#34;https://32bit.cafe&#34;&gt;32bit.cafe&lt;/a&gt; - &lt;a href=&#34;https://cyberia.club&#34;&gt;Cyberia&lt;/a&gt; - &lt;a href=&#34;https://bearblog.dev&#34;&gt;Bearblog&lt;/a&gt; - &lt;a href=&#34;https://status.cafe&#34;&gt;status.cafe&lt;/a&gt; - &lt;a href=&#34;https://tildeverse.org&#34;&gt;Tildeverse&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;VPS Providers - &lt;a href=&#34;https://binarylane.com.au&#34;&gt;BinaryLane&lt;/a&gt;  - &lt;a href=&#34;https://capsul.org&#34;&gt;Capsul&lt;/a&gt;&lt;/li&gt;
@@ -162,11 +162,11 @@
     </item>
     <item>
       <title>Homelab Setup</title>
-      <link>http://localhost:1313/homelab/</link>
+      <link>https://alecks.dev/homelab/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/homelab/</guid>
+      <guid>https://alecks.dev/homelab/</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;I recently wrote a post going in depth about my current homelab setup &lt;a href=&#34;http://localhost:1313/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I recently wrote a post going in depth about my current homelab setup &lt;a href=&#34;https://alecks.dev/posts/homelab-2025/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).&lt;/p&gt;
 &lt;p&gt;The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.&lt;/p&gt;
@@ -174,9 +174,9 @@
     </item>
     <item>
       <title>My Gear</title>
-      <link>http://localhost:1313/gear/</link>
+      <link>https://alecks.dev/gear/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gear/</guid>
+      <guid>https://alecks.dev/gear/</guid>
       <description>&lt;h3 id=&#34;main-pc-built-by-me&#34;&gt;Main PC (Built by me)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;CPU: AMD Ryzen 5 5500&lt;/li&gt;
@@ -200,18 +200,18 @@
 &lt;li&gt;Memory: 8GB DDR3&lt;/li&gt;
 &lt;li&gt;Storage: 128GB SSD (Linux Mint)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;homelab&#34;&gt;&lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;Homelab&lt;/a&gt;&lt;/h3&gt;</description>
+&lt;h3 id=&#34;homelab&#34;&gt;&lt;a href=&#34;https://alecks.dev/homelab/&#34;&gt;Homelab&lt;/a&gt;&lt;/h3&gt;</description>
     </item>
     <item>
       <title>My Skills</title>
-      <link>http://localhost:1313/skills/</link>
+      <link>https://alecks.dev/skills/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/skills/</guid>
+      <guid>https://alecks.dev/skills/</guid>
       <description>&lt;p&gt;From my tinkering and natural curiosity, I became familiar with basic IT concepts in networking, Linux and infrastructure at the age of 11.&lt;/p&gt;
 &lt;p&gt;Over the years I&amp;rsquo;ve delved deeper into this rabbit hole setting up a homelab and learning to administer servers in production environments, where my skills, knowledge and practical experience has grown exponentially.&lt;/p&gt;
 &lt;h2 id=&#34;real-world-experience&#34;&gt;Real world Experience&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Designed, deployed and still actively maintaining a free game server hosting platform (Using Pterodactyl Panel &amp;amp; Wings) for various communities peaking at 50+ members, recieved tons of positive feedback about performance and reliability especially when using my &lt;a href=&#34;http://localhost:1313/homelab/&#34;&gt;homelab&lt;/a&gt;, also operated additional regions on rented ryzen boxes.&lt;/li&gt;
+&lt;li&gt;Designed, deployed and still actively maintaining a free game server hosting platform (Using Pterodactyl Panel &amp;amp; Wings) for various communities peaking at 50+ members, recieved tons of positive feedback about performance and reliability especially when using my &lt;a href=&#34;https://alecks.dev/homelab/&#34;&gt;homelab&lt;/a&gt;, also operated additional regions on rented ryzen boxes.&lt;/li&gt;
 &lt;li&gt;Actively operating and maintaining a prosumer level homelab to experiment with technologies and run services for personal use, small communities or friends (Proxmox VE &amp;amp; backup server with sophisticated monitoring, mobile notification alerts and proper disaster recovery following the 3-2-1 backup strategy).&lt;/li&gt;
 &lt;li&gt;Built a Discord Bot used by 40+ servers and hosted it on a DigitalOcean vps deployed via Docker made in Python with MongoDB - &lt;a href=&#34;https://github.com/alecks20/Cloudy&#34;&gt;Source Code&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
