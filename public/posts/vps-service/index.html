@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -10,16 +10,16 @@
 <meta name="description" content="A lot of my Homelab typically sits idle, wasting power. So I had the idea of letting other people run their own linux virtual machines on it, kinda like how gcp offers &ldquo;spot&rdquo; vms for much cheaper as it uses excess compute capacity.
 Obviously I can&rsquo;t provide this as a paid service since that comes with a lot of liability and legal documents to protect yourself, so I just offer it as a free service for friends.">
 <meta name="author" content="Alecks">
-<link rel="canonical" href="https://alecks.dev/posts/vps-service/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://alecks.dev/favicons/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://alecks.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://alecks.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://alecks.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://alecks.dev/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/posts/vps-service/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://alecks.dev/posts/vps-service/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/vps-service/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,7 +56,7 @@ Obviously I can&rsquo;t provide this as a paid service since that comes with a l
         }
 
     </style>
-</noscript><meta property="og:url" content="https://alecks.dev/posts/vps-service/">
+</noscript><meta property="og:url" content="http://localhost:1313/posts/vps-service/">
   <meta property="og:site_name" content="Alecks">
   <meta property="og:title" content="How I host Linux VMs for people in my Homelab">
   <meta property="og:description" content="A lot of my Homelab typically sits idle, wasting power. So I had the idea of letting other people run their own linux virtual machines on it, kinda like how gcp offers “spot” vms for much cheaper as it uses excess compute capacity.
@@ -70,9 +70,9 @@ Obviously I can’t provide this as a paid service since that comes with a lot o
     <meta property="article:tag" content="Servers">
     <meta property="article:tag" content="Homelab">
     <meta property="article:tag" content="Vms">
-      <meta property="og:image" content="https://alecks.dev/images/papermod-cover.png">
+      <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://alecks.dev/images/papermod-cover.png">
+<meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:title" content="How I host Linux VMs for people in my Homelab">
 <meta name="twitter:description" content="A lot of my Homelab typically sits idle, wasting power. So I had the idea of letting other people run their own linux virtual machines on it, kinda like how gcp offers &ldquo;spot&rdquo; vms for much cheaper as it uses excess compute capacity.
 Obviously I can&rsquo;t provide this as a paid service since that comes with a lot of liability and legal documents to protect yourself, so I just offer it as a free service for friends.">
@@ -87,13 +87,13 @@ Obviously I can&rsquo;t provide this as a paid service since that comes with a l
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://alecks.dev/posts/"
+      "item": "http://localhost:1313/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "How I host Linux VMs for people in my Homelab",
-      "item": "https://alecks.dev/posts/vps-service/"
+      "item": "http://localhost:1313/posts/vps-service/"
     }
   ]
 }
@@ -111,7 +111,7 @@ Obviously I can&rsquo;t provide this as a paid service since that comes with a l
   "articleBody": "A lot of my Homelab typically sits idle, wasting power. So I had the idea of letting other people run their own linux virtual machines on it, kinda like how gcp offers “spot” vms for much cheaper as it uses excess compute capacity.\nObviously I can’t provide this as a paid service since that comes with a lot of liability and legal documents to protect yourself, so I just offer it as a free service for friends.\nVM Templates \u0026 Operating Systems I already use Proxmox VE for personal vms so I’m using my existing setup for this service.\nCurrently I have a vm template for Debian 13 “Trixie”, which lets me spin up new machines with unattended updates and the setup process already complete.\nNetworking \u0026 Public IPs I had to get a bit creative here as residential internet connections don’t let you have multiple public ip addresses on your connection.\nTo get around this I run a vps with multiple public ips which has a secure encrypted tunnel back into a tailscale gateway running inside my home network which exposes the vm subnets/network, this setup also means I don’t have to install tailscale on any vms.\nIf someone connected to [public_vps_ip]:22 it gets relayed to [private_vm_ip]:22 through the tunnel and it all happens seemlessly.\nThis all happens behind the scenes without any noticeable latency (1-2ms latency between vps and my network, tailscale gateway gets under 0.2ms to vms)\nInternal Network Security Obviously one of the main security risks with running a service like this in my Homelab isn’t really external attacks, its vms being breached and then attacking or breaking into stuff on my home network.\nTo mitigate this I have a security group on the Proxmox firewall with a list of rules denying access to anything on my local network except the router (for internet) and tailscale gateway (to expose services). Running it on the hypervisor level adds an extra layer of security because you’d need access to Proxmox which is also firewalled off.\nConclusion This setup is still in the early stages of development, I’ve been working on it for a couple days so I’ll improve over time as I make it more robust and reliable, one of my goals for later on is to add something like high availability or an automated system as most of it is manual right now.\n",
   "wordCount" : "396",
   "inLanguage": "en",
-  "image": "https://alecks.dev/images/papermod-cover.png","datePublished": "2025-08-31T00:00:00Z",
+  "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "2025-08-31T00:00:00Z",
   "dateModified": "2025-08-31T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -119,14 +119,14 @@ Obviously I can&rsquo;t provide this as a paid service since that comes with a l
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://alecks.dev/posts/vps-service/"
+    "@id": "http://localhost:1313/posts/vps-service/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Alecks",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://alecks.dev/favicons/favicon.ico"
+      "url": "http://localhost:1313/favicons/favicon.ico"
     }
   }
 }
@@ -148,7 +148,7 @@ Obviously I can&rsquo;t provide this as a paid service since that comes with a l
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://alecks.dev/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -174,32 +174,32 @@ Obviously I can&rsquo;t provide this as a paid service since that comes with a l
         </div>
         <ul id="menu">
             <li>
-                <a href="https://alecks.dev/archives" title="Archive">
+                <a href="http://localhost:1313/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/skills/" title="Skills">
+                <a href="http://localhost:1313/skills/" title="Skills">
                     <span>Skills</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/homelab/" title="Homelab">
+                <a href="http://localhost:1313/homelab/" title="Homelab">
                     <span>Homelab</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -210,7 +210,7 @@ Obviously I can&rsquo;t provide this as a paid service since that comes with a l
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://alecks.dev/">Home</a>&nbsp;»&nbsp;<a href="https://alecks.dev/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       How I host Linux VMs for people in my Homelab
     </h1>
@@ -260,10 +260,10 @@ Obviously I can&rsquo;t provide this as a paid service since that comes with a l
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://alecks.dev/tags/linux/">Linux</a></li>
-      <li><a href="https://alecks.dev/tags/servers/">Servers</a></li>
-      <li><a href="https://alecks.dev/tags/homelab/">Homelab</a></li>
-      <li><a href="https://alecks.dev/tags/vms/">Vms</a></li>
+      <li><a href="http://localhost:1313/tags/linux/">Linux</a></li>
+      <li><a href="http://localhost:1313/tags/servers/">Servers</a></li>
+      <li><a href="http://localhost:1313/tags/homelab/">Homelab</a></li>
+      <li><a href="http://localhost:1313/tags/vms/">Vms</a></li>
     </ul>
   </footer>
 </article>

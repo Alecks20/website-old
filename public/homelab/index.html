@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Homelab Setup | Alecks</title>
 <meta name="keywords" content="">
-<meta name="description" content="
-I recently wrote a post going in depth about my current homelab setup here.
+<meta name="description" content="This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
+The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website, some offsite services are utilized to expose everything to the internet.
+Compute Nodes - Live Status
 
-This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
-The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.
-A few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.">
+  
+      
+          Name
+          CPU
+          RAM
+          Storage
+      
+  
+  
+      
+          au-prox-01
+          Ryzen 5 5500
+          32GB DDR4
+          1TB NVMe
+      
+      
+          au-prox-02
+          Core i5-7400T
+          8GB DDR4
+          256GB NVMe
+      
+  
+
+Expansions are coming soon, currently working on a mini-rack project.">
 <meta name="author" content="Alecks">
-<link rel="canonical" href="https://alecks.dev/homelab/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://alecks.dev/favicons/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://alecks.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://alecks.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://alecks.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://alecks.dev/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/homelab/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://alecks.dev/homelab/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/homelab/">
 <noscript>
     <style>
         #theme-toggle,
@@ -60,25 +82,46 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
         }
 
     </style>
-</noscript><meta property="og:url" content="https://alecks.dev/homelab/">
+</noscript><meta property="og:url" content="http://localhost:1313/homelab/">
   <meta property="og:site_name" content="Alecks">
   <meta property="og:title" content="Homelab Setup">
-  <meta property="og:description" content=" I recently wrote a post going in depth about my current homelab setup here.
-This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
-The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.
-A few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.">
+  <meta property="og:description" content="This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
+The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website, some offsite services are utilized to expose everything to the internet.
+Compute Nodes - Live Status Name CPU RAM Storage au-prox-01 Ryzen 5 5500 32GB DDR4 1TB NVMe au-prox-02 Core i5-7400T 8GB DDR4 256GB NVMe Expansions are coming soon, currently working on a mini-rack project.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
-      <meta property="og:image" content="https://alecks.dev/images/papermod-cover.png">
+      <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://alecks.dev/images/papermod-cover.png">
+<meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:title" content="Homelab Setup">
-<meta name="twitter:description" content="
-I recently wrote a post going in depth about my current homelab setup here.
+<meta name="twitter:description" content="This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
+The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website, some offsite services are utilized to expose everything to the internet.
+Compute Nodes - Live Status
 
-This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).
-The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.
-A few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.">
+  
+      
+          Name
+          CPU
+          RAM
+          Storage
+      
+  
+  
+      
+          au-prox-01
+          Ryzen 5 5500
+          32GB DDR4
+          1TB NVMe
+      
+      
+          au-prox-02
+          Core i5-7400T
+          8GB DDR4
+          256GB NVMe
+      
+  
+
+Expansions are coming soon, currently working on a mini-rack project.">
 
 
 <script type="application/ld+json">
@@ -90,7 +133,7 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
       "@type": "ListItem",
       "position":  1 ,
       "name": "Homelab Setup",
-      "item": "https://alecks.dev/homelab/"
+      "item": "http://localhost:1313/homelab/"
     }
   ]
 }
@@ -101,14 +144,14 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
   "@type": "BlogPosting",
   "headline": "Homelab Setup",
   "name": "Homelab Setup",
-  "description": " I recently wrote a post going in depth about my current homelab setup here.\nThis setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).\nThe VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.\nA few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.\n",
+  "description": "This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).\nThe VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website, some offsite services are utilized to expose everything to the internet.\nCompute Nodes - Live Status Name CPU RAM Storage au-prox-01 Ryzen 5 5500 32GB DDR4 1TB NVMe au-prox-02 Core i5-7400T 8GB DDR4 256GB NVMe Expansions are coming soon, currently working on a mini-rack project.\n",
   "keywords": [
     
   ],
-  "articleBody": " I recently wrote a post going in depth about my current homelab setup here.\nThis setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).\nThe VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.\nA few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.\nCompute Nodes Name CPU RAM Storage Uses Navi Ryzen 5 5500 32GB DDR4 1TB NVMe Virtual Machines, Containers Backups \u0026 Monitoring Daily backups of vm disks are sent to my local PBS server (incremental), then mirrored onto Backblaze B2 and stored for 7 days. HetrixTools monitors server resources, uptime and detects outages. ntfy notifies me of incidents picked up my hetrix with mobile push notifications. Reliability Power outages happen at max a couple times a year and everything is designed to automatically recover when systems come back online (UPS backup will be installed soon to mitigate that) Internet has never gone down before and I use an enterprise grade router built for 24/7 operation. ",
-  "wordCount" : "198",
+  "articleBody": "This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).\nThe VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website, some offsite services are utilized to expose everything to the internet.\nCompute Nodes - Live Status Name CPU RAM Storage au-prox-01 Ryzen 5 5500 32GB DDR4 1TB NVMe au-prox-02 Core i5-7400T 8GB DDR4 256GB NVMe Expansions are coming soon, currently working on a mini-rack project.\nBackups \u0026 Monitoring Daily backups of vm disks are sent to my local PBS server (incremental), then mirrored onto Hetzner object storage and stored for 7 days. HetrixTools monitors server resources (cpu, ram, storage and bandwidth usage), uptime, drive health, detects outages and pushes alerts to my ntfy server. ntfy notifies me of incidents picked up my hetrix with mobile push notifications. Reliability Power outages happen at max a couple times a year and everything is designed to automatically recover when systems come back online (UPS backup will be installed soon to mitigate that). Internet has never gone down before, my router is reliable and semi-enterprise grade. ",
+  "wordCount" : "194",
   "inLanguage": "en",
-  "image": "https://alecks.dev/images/papermod-cover.png","datePublished": "0001-01-01T00:00:00Z",
+  "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "0001-01-01T00:00:00Z",
   "dateModified": "0001-01-01T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -116,14 +159,14 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://alecks.dev/homelab/"
+    "@id": "http://localhost:1313/homelab/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Alecks",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://alecks.dev/favicons/favicon.ico"
+      "url": "http://localhost:1313/favicons/favicon.ico"
     }
   }
 }
@@ -145,7 +188,7 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://alecks.dev/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -171,32 +214,32 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
         </div>
         <ul id="menu">
             <li>
-                <a href="https://alecks.dev/archives" title="Archive">
+                <a href="http://localhost:1313/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/skills/" title="Skills">
+                <a href="http://localhost:1313/skills/" title="Skills">
                     <span>Skills</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/homelab/" title="Homelab">
+                <a href="http://localhost:1313/homelab/" title="Homelab">
                     <span class="active">Homelab</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -207,7 +250,7 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://alecks.dev/">Home</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a></div>
     <h1 class="post-title entry-hint-parent">
       Homelab Setup
     </h1>
@@ -222,7 +265,7 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#compute-nodes" aria-label="Compute Nodes">Compute Nodes</a></li>
+                    <a href="#compute-nodes---live-status" aria-label="Compute Nodes - Live Status">Compute Nodes - Live Status</a></li>
                 <li>
                     <a href="#backups--monitoring" aria-label="Backups &amp; Monitoring">Backups &amp; Monitoring</a></li>
                 <li>
@@ -233,13 +276,9 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
     </details>
 </div>
 
-  <div class="post-content"><blockquote>
-<p>I recently wrote a post going in depth about my current homelab setup <a href="/posts/homelab-2025/">here</a>.</p>
-</blockquote>
-<p>This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).</p>
-<p>The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website.</p>
-<p>A few things are still hosted in the cloud like my tor relay (due to network limitations and isp rules) and game server nodes located in other regions.</p>
-<h3 id="compute-nodes">Compute Nodes<a hidden class="anchor" aria-hidden="true" href="#compute-nodes">#</a></h3>
+  <div class="post-content"><p>This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).</p>
+<p>The VMs themself run various different services including remote workspaces, self-hosted applications, game servers and this website, some offsite services are utilized to expose everything to the internet.</p>
+<h3 id="compute-nodes---live-status">Compute Nodes - <a href="https://status.alecks.cloud">Live Status</a><a hidden class="anchor" aria-hidden="true" href="#compute-nodes---live-status">#</a></h3>
 <table>
   <thead>
       <tr>
@@ -247,29 +286,34 @@ A few things are still hosted in the cloud like my tor relay (due to network lim
           <th>CPU</th>
           <th>RAM</th>
           <th>Storage</th>
-          <th>Uses</th>
       </tr>
   </thead>
   <tbody>
       <tr>
-          <td>Navi</td>
+          <td>au-prox-01</td>
           <td>Ryzen 5 5500</td>
           <td>32GB DDR4</td>
           <td>1TB NVMe</td>
-          <td>Virtual Machines, Containers</td>
+      </tr>
+      <tr>
+          <td>au-prox-02</td>
+          <td>Core i5-7400T</td>
+          <td>8GB DDR4</td>
+          <td>256GB NVMe</td>
       </tr>
   </tbody>
 </table>
+<p>Expansions are coming soon, currently working on a mini-rack project.</p>
 <h3 id="backups--monitoring">Backups &amp; Monitoring<a hidden class="anchor" aria-hidden="true" href="#backups--monitoring">#</a></h3>
 <ul>
-<li>Daily backups of vm disks are sent to my local PBS server (incremental), then mirrored onto Backblaze B2 and stored for 7 days.</li>
-<li><a href="https://hetrixtools.com">HetrixTools</a> monitors server resources, uptime and detects outages.</li>
+<li>Daily backups of vm disks are sent to my local PBS server (incremental), then mirrored onto Hetzner object storage and stored for 7 days.</li>
+<li><a href="https://hetrixtools.com">HetrixTools</a> monitors server resources (cpu, ram, storage and bandwidth usage), uptime, drive health, detects outages and pushes alerts to my ntfy server.</li>
 <li><a href="https://ntfy.sh">ntfy</a> notifies me of incidents picked up my hetrix with mobile push notifications.</li>
 </ul>
 <h3 id="reliability">Reliability<a hidden class="anchor" aria-hidden="true" href="#reliability">#</a></h3>
 <ul>
-<li>Power outages happen at max a couple times a year and everything is designed to automatically recover when systems come back online (UPS backup will be installed soon to mitigate that)</li>
-<li>Internet has never gone down before and I use an enterprise grade router built for 24/7 operation.</li>
+<li>Power outages happen at max a couple times a year and everything is designed to automatically recover when systems come back online (UPS backup will be installed soon to mitigate that).</li>
+<li>Internet has never gone down before, my router is reliable and semi-enterprise grade.</li>
 </ul>
 
 

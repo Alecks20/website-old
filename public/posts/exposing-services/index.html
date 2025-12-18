@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -12,16 +12,16 @@ So here are a few free and paid solutions for exposing both web applications and
 Cloudflare Tunnels
 This is a completely free service which supports exposing only web applications to the internet using an application (cloudflared) running on your server which tunnels traffic out and exposes it via the Cloudflare Network">
 <meta name="author" content="Alecks">
-<link rel="canonical" href="https://alecks.dev/posts/exposing-services/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://alecks.dev/favicons/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://alecks.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://alecks.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://alecks.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://alecks.dev/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/posts/exposing-services/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://alecks.dev/posts/exposing-services/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/exposing-services/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,7 +58,7 @@ This is a completely free service which supports exposing only web applications 
         }
 
     </style>
-</noscript><meta property="og:url" content="https://alecks.dev/posts/exposing-services/">
+</noscript><meta property="og:url" content="http://localhost:1313/posts/exposing-services/">
   <meta property="og:site_name" content="Alecks">
   <meta property="og:title" content="Exposing self-hosted applications without a Public IP address">
   <meta property="og:description" content="In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don’t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.
@@ -72,9 +72,9 @@ Cloudflare Tunnels This is a completely free service which supports exposing onl
     <meta property="article:tag" content="Servers">
     <meta property="article:tag" content="Homelab">
     <meta property="article:tag" content="Self-Hosting">
-      <meta property="og:image" content="https://alecks.dev/images/papermod-cover.png">
+      <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://alecks.dev/images/papermod-cover.png">
+<meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:title" content="Exposing self-hosted applications without a Public IP address">
 <meta name="twitter:description" content="In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don&rsquo;t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.
 So here are a few free and paid solutions for exposing both web applications and game servers to the internet without port forwarding.
@@ -91,13 +91,13 @@ This is a completely free service which supports exposing only web applications 
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://alecks.dev/posts/"
+      "item": "http://localhost:1313/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Exposing self-hosted applications without a Public IP address",
-      "item": "https://alecks.dev/posts/exposing-services/"
+      "item": "http://localhost:1313/posts/exposing-services/"
     }
   ]
 }
@@ -112,10 +112,10 @@ This is a completely free service which supports exposing only web applications 
   "keywords": [
     "servers", "homelab", "self-hosting"
   ],
-  "articleBody": "In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don’t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.\nSo here are a few free and paid solutions for exposing both web applications and game servers to the internet without port forwarding.\nCloudflare Tunnels This is a completely free service which supports exposing only web applications to the internet using an application (cloudflared) running on your server which tunnels traffic out and exposes it via the Cloudflare Network\nSome argue that it defeats the point of self-hosting since Cloudflare centralizes the web while the indie webs goal is the opposite, however its a great service for exposing applications for free if your fine with that tradeoff.\nTailscale (w/ an optional VPS) This solution can be either free or paid depending on if you want just yourself to be able to access your services or you want them to be exposed via a domain. You can setup Tailscale on both your devices and the server then securely connect to eachother without exposing anything publicly for completely free.\nIf you want a service to be publicly accessible via a domain, you’ll need a remote server with its own public ip address as Tailscale only lets you establish secure connections between devices, not expose things to the internet.\nYou’d install Tailscale on your home server and remote server, then on the remote server you install for example caddy and setup a reverse proxy to your home servers Tailscale address, an example config is shown below.\nexample.com { reverse_proxy http://100.85.48.32 } Additionally, you can use this to expose any tcp/udp service, including Game Servers, SSH, (S)FTP and much more which requires forwarding ports from a remote server to your home servers Tailscale address but I don’t feel confident explaining how to do that.\nPlayit.gg Arguably the best free service for exposing game servers without port forwarding. The setup includes installing a program which tunnels game server traffic to their global network of relay servers.\nIts super easy to setup, you can watch a video guide here.\nYou can also use it to expose any tcp port with a dedicated IPV4 but Tailscale w/ a VPS or CF Tunnels (for websites) is a better option since playit is primarily for game servers.\n",
+  "articleBody": "In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don’t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.\nSo here are a few free and paid solutions for exposing both web applications and game servers to the internet without port forwarding.\nCloudflare Tunnels This is a completely free service which supports exposing only web applications to the internet using an application (cloudflared) running on your server which tunnels traffic out and exposes it via the Cloudflare Network\nSome argue that it defeats the point of self-hosting since Cloudflare centralizes the web while the indie webs goal is the opposite, however its a great service for exposing applications for free if your fine with that tradeoff.\nTailscale (w/ an optional VPS) This solution can be either free or paid depending on if you want just yourself to be able to access your services or you want them to be exposed via a domain. You can setup Tailscale on both your devices and the server then securely connect to eachother without exposing anything publicly for completely free.\nIf you want a service to be publicly accessible via a domain, you’ll need a remote server with its own public ip address as Tailscale only lets you establish secure connections between devices, not expose things to the internet.\nYou’d install Tailscale on your home server and remote server, then on the remote server you install for example caddy and setup a reverse proxy to your home servers Tailscale address, an example config is shown below.\nexample.com {\rreverse_proxy http://100.85.48.32\r} Additionally, you can use this to expose any tcp/udp service, including Game Servers, SSH, (S)FTP and much more which requires forwarding ports from a remote server to your home servers Tailscale address but I don’t feel confident explaining how to do that.\nPlayit.gg Arguably the best free service for exposing game servers without port forwarding. The setup includes installing a program which tunnels game server traffic to their global network of relay servers.\nIts super easy to setup, you can watch a video guide here.\nYou can also use it to expose any tcp port with a dedicated IPV4 but Tailscale w/ a VPS or CF Tunnels (for websites) is a better option since playit is primarily for game servers.\n",
   "wordCount" : "399",
   "inLanguage": "en",
-  "image": "https://alecks.dev/images/papermod-cover.png","datePublished": "2025-08-30T00:00:00Z",
+  "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "2025-08-30T00:00:00Z",
   "dateModified": "2025-08-30T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -123,14 +123,14 @@ This is a completely free service which supports exposing only web applications 
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://alecks.dev/posts/exposing-services/"
+    "@id": "http://localhost:1313/posts/exposing-services/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Alecks",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://alecks.dev/favicons/favicon.ico"
+      "url": "http://localhost:1313/favicons/favicon.ico"
     }
   }
 }
@@ -152,7 +152,7 @@ This is a completely free service which supports exposing only web applications 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://alecks.dev/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -178,32 +178,32 @@ This is a completely free service which supports exposing only web applications 
         </div>
         <ul id="menu">
             <li>
-                <a href="https://alecks.dev/archives" title="Archive">
+                <a href="http://localhost:1313/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/skills/" title="Skills">
+                <a href="http://localhost:1313/skills/" title="Skills">
                     <span>Skills</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/homelab/" title="Homelab">
+                <a href="http://localhost:1313/homelab/" title="Homelab">
                     <span>Homelab</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -214,7 +214,7 @@ This is a completely free service which supports exposing only web applications 
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://alecks.dev/">Home</a>&nbsp;»&nbsp;<a href="https://alecks.dev/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Exposing self-hosted applications without a Public IP address
     </h1>
@@ -263,9 +263,9 @@ This is a completely free service which supports exposing only web applications 
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://alecks.dev/tags/servers/">Servers</a></li>
-      <li><a href="https://alecks.dev/tags/homelab/">Homelab</a></li>
-      <li><a href="https://alecks.dev/tags/self-hosting/">Self-Hosting</a></li>
+      <li><a href="http://localhost:1313/tags/servers/">Servers</a></li>
+      <li><a href="http://localhost:1313/tags/homelab/">Homelab</a></li>
+      <li><a href="http://localhost:1313/tags/self-hosting/">Self-Hosting</a></li>
     </ul>
   </footer>
 </article>

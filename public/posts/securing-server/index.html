@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
@@ -13,16 +13,16 @@ This is obviously not viable for stuff running in the cloud but for a homelab se
 Non-root account for logins / Disable root login
 Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want">
 <meta name="author" content="Alecks">
-<link rel="canonical" href="https://alecks.dev/posts/securing-server/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://alecks.dev/favicons/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://alecks.dev/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://alecks.dev/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://alecks.dev/apple-touch-icon.png">
-<link rel="mask-icon" href="https://alecks.dev/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/posts/securing-server/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://alecks.dev/posts/securing-server/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/securing-server/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +59,7 @@ Disabling the ability to login as root helps with many automated bots that brute
         }
 
     </style>
-</noscript><meta property="og:url" content="https://alecks.dev/posts/securing-server/">
+</noscript><meta property="og:url" content="http://localhost:1313/posts/securing-server/">
   <meta property="og:site_name" content="Alecks">
   <meta property="og:title" content="Securing ssh on your Linux Server">
   <meta property="og:description" content="This post is made for debian based linux distros.
@@ -74,9 +74,9 @@ Non-root account for logins / Disable root login Disabling the ability to login 
     <meta property="article:tag" content="Servers">
     <meta property="article:tag" content="Ssh">
     <meta property="article:tag" content="Security">
-      <meta property="og:image" content="https://alecks.dev/images/papermod-cover.png">
+      <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://alecks.dev/images/papermod-cover.png">
+<meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:title" content="Securing ssh on your Linux Server">
 <meta name="twitter:description" content="This post is made for debian based linux distros.
 Don&rsquo;t expose ssh, use a VPN
@@ -94,13 +94,13 @@ Disabling the ability to login as root helps with many automated bots that brute
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://alecks.dev/posts/"
+      "item": "http://localhost:1313/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Securing ssh on your Linux Server",
-      "item": "https://alecks.dev/posts/securing-server/"
+      "item": "http://localhost:1313/posts/securing-server/"
     }
   ]
 }
@@ -115,10 +115,10 @@ Disabling the ability to login as root helps with many automated bots that brute
   "keywords": [
     "linux", "servers", "ssh", "security"
   ],
-  "articleBody": "This post is made for debian based linux distros.\nDon’t expose ssh, use a VPN This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a free VPN service like Tailscale or self-hosted Wireguard.\nNon-root account for logins / Disable root login Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want\nadduser kuma Then add it to the list of sudoers\nusermod -aG sudo kuma Using SSH keys over plaintext passwords SSH Keys are both more convenient and more secure than a regular plaintext password, especially the default one set by your hosting provider.\nGenerate an ssh key using PuttyGen and paste it on a new line in /home//.ssh/authorized_keys.\nUpdating your SSH configuration This process can differ depending on your host, but for most servers the ssh config is located in /etc/ssh/sshd_config, in the file you want to change the following values.\nPasswordAuthentication no PubkeyAuthentication yes PermitRootLogin no Changing these config values will\nDisable password authentication Allow you to login using ssh keys (Which I showed how to setup above) Disable root login (Applying the steps from before) Run the command below to apply the motifications\nsudo systemctl restart ssh NTFY notifcations on ssh login You can learn how to setup a secure personal ntfy server here.\nAdding these lines to your /etc/profile file will send a request to your chosen ntfy server when any user logs in via ssh\nif [ -n \"$SSH_CLIENT\" ]; then NTFY=\"${USER}@$(hostname -f) from $(echo $SSH_CLIENT|awk '{print $1}')\" curl -u : -s -H \"Title: SSH Login\" -d \"$NTFY\" -L \"https://ntfy.exaple.com/ssh\" \u003e /dev/null fi Modify to add your own api key and change the url to your ntfy server\nYou can also find an example on the ntfy docs here (Didn’t work for me)\n",
+  "articleBody": "This post is made for debian based linux distros.\nDon’t expose ssh, use a VPN This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a free VPN service like Tailscale or self-hosted Wireguard.\nNon-root account for logins / Disable root login Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want\nadduser kuma Then add it to the list of sudoers\nusermod -aG sudo kuma Using SSH keys over plaintext passwords SSH Keys are both more convenient and more secure than a regular plaintext password, especially the default one set by your hosting provider.\nGenerate an ssh key using PuttyGen and paste it on a new line in /home//.ssh/authorized_keys.\nUpdating your SSH configuration This process can differ depending on your host, but for most servers the ssh config is located in /etc/ssh/sshd_config, in the file you want to change the following values.\nPasswordAuthentication no PubkeyAuthentication yes PermitRootLogin no Changing these config values will\nDisable password authentication Allow you to login using ssh keys (Which I showed how to setup above) Disable root login (Applying the steps from before) Run the command below to apply the motifications\nsudo systemctl restart ssh NTFY notifcations on ssh login You can learn how to setup a secure personal ntfy server here.\nAdding these lines to your /etc/profile file will send a request to your chosen ntfy server when any user logs in via ssh\nif [ -n \"$SSH_CLIENT\" ]; then\rNTFY=\"${USER}@$(hostname -f) from $(echo $SSH_CLIENT|awk '{print $1}')\"\rcurl -u : -s -H \"Title: SSH Login\" -d \"$NTFY\" -L \"https://ntfy.exaple.com/ssh\" \u003e /dev/null\rfi Modify to add your own api key and change the url to your ntfy server\nYou can also find an example on the ntfy docs here (Didn’t work for me)\n",
   "wordCount" : "329",
   "inLanguage": "en",
-  "image": "https://alecks.dev/images/papermod-cover.png","datePublished": "2024-04-25T00:00:00Z",
+  "image": "http://localhost:1313/images/papermod-cover.png","datePublished": "2024-04-25T00:00:00Z",
   "dateModified": "2024-04-25T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -126,14 +126,14 @@ Disabling the ability to login as root helps with many automated bots that brute
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://alecks.dev/posts/securing-server/"
+    "@id": "http://localhost:1313/posts/securing-server/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Alecks",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://alecks.dev/favicons/favicon.ico"
+      "url": "http://localhost:1313/favicons/favicon.ico"
     }
   }
 }
@@ -155,7 +155,7 @@ Disabling the ability to login as root helps with many automated bots that brute
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://alecks.dev/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Alecks (Alt + H)">Alecks</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -181,32 +181,32 @@ Disabling the ability to login as root helps with many automated bots that brute
         </div>
         <ul id="menu">
             <li>
-                <a href="https://alecks.dev/archives" title="Archive">
+                <a href="http://localhost:1313/archives" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/skills/" title="Skills">
+                <a href="http://localhost:1313/skills/" title="Skills">
                     <span>Skills</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/homelab/" title="Homelab">
+                <a href="http://localhost:1313/homelab/" title="Homelab">
                     <span>Homelab</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/tags/" title="Tags">
+                <a href="http://localhost:1313/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://alecks.dev/about/" title="About">
+                <a href="http://localhost:1313/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -217,7 +217,7 @@ Disabling the ability to login as root helps with many automated bots that brute
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://alecks.dev/">Home</a>&nbsp;»&nbsp;<a href="https://alecks.dev/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       Securing ssh on your Linux Server
     </h1>
@@ -289,10 +289,10 @@ fi
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://alecks.dev/tags/linux/">Linux</a></li>
-      <li><a href="https://alecks.dev/tags/servers/">Servers</a></li>
-      <li><a href="https://alecks.dev/tags/ssh/">Ssh</a></li>
-      <li><a href="https://alecks.dev/tags/security/">Security</a></li>
+      <li><a href="http://localhost:1313/tags/linux/">Linux</a></li>
+      <li><a href="http://localhost:1313/tags/servers/">Servers</a></li>
+      <li><a href="http://localhost:1313/tags/ssh/">Ssh</a></li>
+      <li><a href="http://localhost:1313/tags/security/">Security</a></li>
     </ul>
   </footer>
 </article>
