@@ -25,7 +25,7 @@ The keyboard obviously isn't as good as my keychron k8 pro or a proper mechanica
 ## Software Experience
 I've been using Windows for 5 years now and tried various Linux distros but never used any full time (exlcuding servers) and I'm pretty comfortable with tinkering, changing settings and adapting to new ways to do things so MacOS was a fairly smooth transition.
 
-It's definitely not perfect, I installed Rectangle for window snapping and [AltTab](https://github.com/lwouis/alt-tab-macos) to fix the built in alt+tab behaviour. Another gripe I have is how theres no clipboard history built in and finder not having an easy way to enter a file path.
+It's definitely not perfect, I installed Rectangle for window snapping and [AltTab](https://github.com/lwouis/alt-tab-macos) to fix the built in alt+tab behaviour. Another gripe I have is how there's no clipboard history built in and finder not having an easy way to enter a file path.
 
 While MacBooks definitely aren't gaming laptops and I didn't buy one for it, this thing runs Roblox smoothly and Minecraft at 70-80 fps (Sodium, 12 chunk render distance, fabric 1.21.5 on a vanilla server)
 
