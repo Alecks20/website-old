@@ -10,6 +10,8 @@ tags = [
 
 VPN companies like to make it seem like their product will solve all of your privacy and security issues but most of the claims they make are just flat-out lies, over-exaggerated or only true in specific scenarios.
 
+This is primarily about mainstream VPNs like NordVPN, ExpressVPN and others with huge advertising budgets so they make false or incomplete claims about their product.
+
 ### What can your ISP see about your internet traffic
 All modern apps and websites nowadays use HTTPS, which is enabled if you have a green padlock in your browser, the content of your traffic like the specific page you're on, message content if you're sending a dm on discord or snapchat and more is hidden from them encrypted between your device and that website. Your ISP can only see the domain of the site you're connecting to (e.g google.com, discord.com).
 
@@ -45,12 +47,14 @@ As most large websites and social medias use your IP address to figure out your 
 
 ### Which VPNs you should use
 
-- [Proton VPN](https://protonvpn.com)
-
-This is a no-brainer if you're already in their ecosystem with an unlimited plan, they have tons of locations great performance and apps on almost everything. They're also solid for privacy being headquartered in switzerland which has no obligation to log (according to a comment made by their reddit account [here](https://www.reddit.com/r/ProtonVPN/comments/1cn3niq/comment/l350kxc/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button))
-
-I personally use this vpn myself for accessing region blocked content on streaming services as I already use their ecosystem. If I wasn't in their ecosystem I'd be using the provider below.
 
 - [Mullvad VPN](https://mullvad.net)
 
 A privacy first provider that requires zero personal information and promotes paying with privacy respecting currencies like Crypto, even letting you mail cash to them and a no logs policy proven in court.
+
+
+- [Proton VPN](https://protonvpn.com)
+
+If you're already in their ecosystem with an unlimited plan this is a great choice, they have tons of locations great performance and apps on almost everything. They're also solid for privacy being headquartered in switzerland which has no obligation to log (according to a comment made by their reddit account [here](https://www.reddit.com/r/ProtonVPN/comments/1cn3niq/comment/l350kxc/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button))
+
+I personally use this vpn myself for accessing region blocked content on streaming services as I already use their ecosystem.
