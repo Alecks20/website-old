@@ -15,10 +15,12 @@ At the time each server would've cost around 2 and a half to 3 thousand aud, now
 
 ![](/images/ddr5_ram_prices.webp)
 
+I will still be getting the job I mentioned in the previous 2026 homelab plans post, but the big ambitious plans I had for a full server rack just seem overkill and I wanted it more so I could show it off rather than practical use, most upgrades mentioned in this post are just adding new stuff to my existing machines.
+
 ### Current state of my setup
 My original needs for a homelab are met, which was to cancel my vps and game server subscriptions, but now I need it to do a whole lot more. Replace my proton drive subscription (store backups of my computer files), host any future projects or apps I build, replace my icloud plus subscription (store photos using immich) and my crunchyroll subscription (maybe) with Jellyfin.
 
-It consists of a custom built ryzen desktop and mini pc I got off ebay, both great computers and very efficient but I need some more capacity and redundancy before I trust it with more important data.
+It consists of a custom built ryzen desktop and mini pc I got off ebay, both great computers and very efficient but I need more redundancy and better reliability before I trust it with more important data and critical services.
 
 ### Planned upgrades
 A lot of these are centred around getting rid of my subscriptions, for data sovereignty, cost saving and media preservation reasons.
@@ -26,7 +28,9 @@ A lot of these are centred around getting rid of my subscriptions, for data sove
 
 To accommodate for my growing storage needs, I plan to attach at least two likely 4tb hdds in raid 1 (mirrored) and some small ssds as boot drives with plans for a proper ssd cache later on to my current ryzen box.
 
-This will be used for services need tons of storage like my File Server (for backing up files on my computer), Immich or Jellyfin
+4tb seems like a safe future proof option for now that will fit my needs fine, I'm using raid 1 since its easy to setup but do want to experiment with something like zfs in the future.
+
+This will be used for services that need lots of storage like my File Server (for backing up files on my computer), Immich and Jellyfin
 
 - **Improved reliability and redundancy**
 
@@ -38,7 +42,9 @@ Hard drive redundancy with Raid or ZFS is definitely a high priority, right now 
 
 - **Local more in depth monitoring**
 
-The addition of a Raspberry Pi running Grafana and Prometheus will give me a much more in depth monitoring system thats fully under my control and power efficient.
+The addition of a Raspberry Pi running Grafana and Prometheus will give me a much more in depth monitoring system that's fully under my control and power efficient. 
+
+I plan to use this as its a cheap low power machine thats seperate from the compute nodes, meaning if they both die it won't take my monitoring system with it.
 
 ### Concluding Thoughts
 
@@ -47,5 +53,7 @@ To recap everything that will be added next year
 - A UPS to protect against power outages primarily caused by storms 
 - Redundant nvme storage on all machines
 - Raspberry Pi as a dedicated monitoring server
+
+Not entirely sure what I plan to do with networking right now, will discuss that later on in a future blog post, likely one dedicated to setting up my own custom opnsense router as that seems like a fun project I'll work on once these upgrades are finished.
 
 Thanks for reading :)
