@@ -1,0 +1,44 @@
+
++++
+author = "Alecks"
+title = "Revised Homelab plans for 2026"
+date = "2025-12-20"
+description = ""
+tags = [
+    "servers","homelab","self-hosting"
+]
++++
+
+Thanks to AI datacenters making the cost of RAM and Storage skyrocket, then making Micron one of the biggest manufactures leave the consumer market (moving to exclusively serving these datacenters), the huge server cluster plans I had for 2026 really just aren't viable anymore. 
+
+At the time each server would've cost around 2 and a half to 3 thousand dollars, now just 128GB of DDR5 RAM costs 3 thousand dollars so I'll primarily use second hand hardware like mini pcs and legacys AM4 machines.
+
+### Current state of my setup
+My original needs for a homelab are met, which was to cancel my vps and game server subscriptions, but now I need it to do a whole lot more. Replace my proton drive subscription (store backups of my computer files), host any future projects or apps I build, replace my icloud plus subscription (store photos using immich) and my crunchyroll subscription (maybe) with Jellyfin.
+
+It consists of a custom built ryzen desktop and mini pc I got off ebay, both great computers and very efficient but I need some more capacity and redundancy before I trust it with more important data.
+
+### Planned upgrades
+A lot of these are centred around getting rid of my subscriptions, for data sovereignty, cost saving and media preservation reasons.
+- **High-capacity storage**
+
+To accomodate for my growing storage needs, I plan to attach at least two likely 4tb hdds in raid 1 (mirrored) and some small ssds as boot drives with plans for a proper ssd cache later on to my current ryzen box.
+
+This will be used for services need tons of storage like my File Server (for backing up files on my computer), Immich or Jellyfin
+
+- **Improved reliability and redundancy**
+
+As I host *production* services such as live websites (like this one), game servers for communities and plan to use this setup for any future projects or apps I build everything will runs in vms so that can live migrate to other hosts if any machines need maintenance or cleaning (thanks to proxmox clustering).
+
+Something I haven't resolved yet is keeping things online during power outages, most of the time caused by storms, a ups is an important investment I'll be making next year.
+
+Hard drive redundancy with Raid or ZFS is definitely a high priority, right now theres offsite backups but if any drives fail onsite I'd need to buy a new drive and pull a backup from the cloud to get things back online, all nodes will be setup with dual nvme ssds setup in raid 1 (mirrored).
+
+### Concluding Thoughts
+
+To recap everything that will be added next year
+- 2x 4tb hdds in raid 1 that'll be attached to my ryzen box
+- A UPS to protect against power outages primarily caused by storms 
+- Redundant nvme storage on all machines
+
+Thanks for reading :)

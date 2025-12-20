@@ -53,6 +53,13 @@
 &lt;p&gt;Not only would moving to a proper server rack (most likely &lt;a href=&#34;https://www.amazon.com.au/VEVOR-Adjustable-Standing-Networking-Equipment/dp/B0C64YY7G7&#34;&gt;this one&lt;/a&gt;) make it easier to add new compute nodes compared to the shelf all my hardware is currently on, it also looks way cooler.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Revised Homelab Plans for 2026</title>
+      <link>http://localhost:1313/posts/revised-homelab-2026/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/revised-homelab-2026/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Finally setting up onsite and offsite backups with PBS</title>
       <link>http://localhost:1313/posts/backup-system/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
