@@ -11,9 +11,7 @@ tags = [
 
 Thanks to AI datacenters making the cost of RAM and Storage skyrocket, then making Micron one of the biggest manufacturers leave the consumer market (moving to exclusively serving these datacenters), the huge server cluster plans I had for 2026 really just aren't viable anymore. 
 
-At the time each server would've cost around 2 and a half to 3 thousand aud, now just 128GB of DDR5 RAM costs 3 thousand aud so I'll primarily use second hand hardware like mini pcs and legacy AM4 machines.
-
-![](/images/ddr5_ram_prices.webp)
+At the time each server would've cost around 2 and a half to 3 thousand aud, now just 128GB of DDR5 RAM [costs 3 thousand aud](/images/ddr5_ram_prices.webp) so I'll primarily use second hand hardware like mini pcs and legacy AM4 machines.
 
 I will still be getting the job I mentioned in the previous 2026 homelab plans post, but the big ambitious plans I had for a full server rack just seem overkill and I wanted it more so I could show it off rather than practical use, most upgrades mentioned in this post are just adding new stuff to my existing machines.
 
