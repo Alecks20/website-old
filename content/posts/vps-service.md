@@ -3,7 +3,7 @@
 author = "Alecks"
 title = 'How I host Linux VMs for people in my Homelab'
 date = "2025-08-31"
-description = ""
+description = "My network architecture for exposing linux vms running on my homelab to provide them as vps servers for friends and giving them their own public ip address."
 tags = [
     "linux","servers","homelab","vms"
 ]

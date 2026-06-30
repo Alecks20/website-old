@@ -2,7 +2,7 @@
 author = "Alecks"
 title = "Exposing self-hosted applications without a Public IP address"
 date = "2025-08-30"
-description = ""
+description = "Various methods for exposing self hosted applications to the internet securely when you have things like cgnat, your isp blocking ports or anything that prevents you from port forwarding."
 tags = [
     "servers","homelab","self-hosting"
 ]

@@ -2,9 +2,9 @@
 author = "Alecks"
 title = "Why VPNs are useless for most people"
 date = "2025-11-12"
-description = ""
+description = "Going over the marketing lies of big vpn companies, why they're not as useful as they're hyped up to be and how they take advantage of less technical people."
 tags = [
-    "vpns","privacy","reviews"
+    "vpns","privacy"
 ]
 +++
 

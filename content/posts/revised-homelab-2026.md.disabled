@@ -3,7 +3,7 @@
 author = "Alecks"
 title = "Revised Homelab plans for 2026"
 date = "2025-12-20"
-description = ""
+description = "Changes I'll be making to my 2026 upgrade plan due to the surge in ram prices and various other computer parts like sourcing primarily second hand and just upgrading my existing hardware over building new machines."
 tags = [
     "servers","homelab","self-hosting"
 ]

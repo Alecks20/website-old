@@ -7,12 +7,10 @@
 <meta name="robots" content="index, follow">
 <title>Finally setting up onsite and offsite backups with PBS | Alecks</title>
 <meta name="keywords" content="proxmox, homelab, backups, servers">
-<meta name="description" content="I&rsquo;ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.
-Hardware Changes
-I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.">
+<meta name="description" content="My setup for data protection in my homelab, to protect from fires, misconfigurations, accidental deletions and hardware failure using an onsite backup server synced with cloud storage.">
 <meta name="author" content="Alecks">
 <link rel="canonical" href="http://localhost:1313/posts/backup-system/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -60,8 +58,7 @@ I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD
 </noscript><meta property="og:url" content="http://localhost:1313/posts/backup-system/">
   <meta property="og:site_name" content="Alecks">
   <meta property="og:title" content="Finally setting up onsite and offsite backups with PBS">
-  <meta property="og:description" content="I’ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.
-Hardware Changes I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.">
+  <meta property="og:description" content="My setup for data protection in my homelab, to protect from fires, misconfigurations, accidental deletions and hardware failure using an onsite backup server synced with cloud storage.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -75,9 +72,7 @@ Hardware Changes I removed the bottom cover of my Mini PC then swapped out the o
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:title" content="Finally setting up onsite and offsite backups with PBS">
-<meta name="twitter:description" content="I&rsquo;ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.
-Hardware Changes
-I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.">
+<meta name="twitter:description" content="My setup for data protection in my homelab, to protect from fires, misconfigurations, accidental deletions and hardware failure using an onsite backup server synced with cloud storage.">
 
 
 <script type="application/ld+json">
@@ -106,7 +101,7 @@ I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD
   "@type": "BlogPosting",
   "headline": "Finally setting up onsite and offsite backups with PBS",
   "name": "Finally setting up onsite and offsite backups with PBS",
-  "description": "I\u0026rsquo;ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.\nHardware Changes I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.\n",
+  "description": "My setup for data protection in my homelab, to protect from fires, misconfigurations, accidental deletions and hardware failure using an onsite backup server synced with cloud storage.",
   "keywords": [
     "proxmox", "homelab", "backups", "servers"
   ],
@@ -216,6 +211,9 @@ I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD
     <h1 class="post-title entry-hint-parent">
       Finally setting up onsite and offsite backups with PBS
     </h1>
+    <div class="post-description">
+      My setup for data protection in my homelab, to protect from fires, misconfigurations, accidental deletions and hardware failure using an onsite backup server synced with cloud storage.
+    </div>
     <div class="post-meta"><span title='2025-09-13 00:00:00 +0000 UTC'>September 13, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Alecks
 
 </div>

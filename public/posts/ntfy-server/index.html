@@ -6,12 +6,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>Setting up and securing a personal NTFY server | Alecks</title>
-<meta name="keywords" content="servers, self-hosting, security, ntfy, Docker">
-<meta name="description" content="Ntfy is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.
-Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on here.">
+<meta name="keywords" content="servers, self-hosting, ntfy, docker">
+<meta name="description" content="Guide on how to self host your own ntfy instance using docker and caddy reverse proxy, which can be used for instant mobile push notifications for stauts alerts, ssh logins, bash scripts and much more.">
 <meta name="author" content="Alecks">
 <link rel="canonical" href="http://localhost:1313/posts/ntfy-server/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -59,8 +58,7 @@ Heres how to set it up with docker and proper authentication for personal use - 
 </noscript><meta property="og:url" content="http://localhost:1313/posts/ntfy-server/">
   <meta property="og:site_name" content="Alecks">
   <meta property="og:title" content="Setting up and securing a personal NTFY server">
-  <meta property="og:description" content="Ntfy is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.
-Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on here.">
+  <meta property="og:description" content="Guide on how to self host your own ntfy instance using docker and caddy reverse proxy, which can be used for instant mobile push notifications for stauts alerts, ssh logins, bash scripts and much more.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -68,15 +66,13 @@ Heres how to set it up with docker and proper authentication for personal use - 
     <meta property="article:modified_time" content="2025-09-06T00:00:00+00:00">
     <meta property="article:tag" content="Servers">
     <meta property="article:tag" content="Self-Hosting">
-    <meta property="article:tag" content="Security">
     <meta property="article:tag" content="Ntfy">
     <meta property="article:tag" content="Docker">
       <meta property="og:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:title" content="Setting up and securing a personal NTFY server">
-<meta name="twitter:description" content="Ntfy is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.
-Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on here.">
+<meta name="twitter:description" content="Guide on how to self host your own ntfy instance using docker and caddy reverse proxy, which can be used for instant mobile push notifications for stauts alerts, ssh logins, bash scripts and much more.">
 
 
 <script type="application/ld+json">
@@ -105,9 +101,9 @@ Heres how to set it up with docker and proper authentication for personal use - 
   "@type": "BlogPosting",
   "headline": "Setting up and securing a personal NTFY server",
   "name": "Setting up and securing a personal NTFY server",
-  "description": "Ntfy is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.\nHeres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on here.\n",
+  "description": "Guide on how to self host your own ntfy instance using docker and caddy reverse proxy, which can be used for instant mobile push notifications for stauts alerts, ssh logins, bash scripts and much more.",
   "keywords": [
-    "servers", "self-hosting", "security", "ntfy", "Docker"
+    "servers", "self-hosting", "ntfy", "docker"
   ],
   "articleBody": "Ntfy is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.\nHeres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on here.\nInitial Setup Config File Make a directory at /etc/ntfy then setup a config file\nsudo mkdir /etc/ntfy sudo nano /etc/ntfy/server.yml Copy paste the text below into server.yml with the required changes\n# General Config base-url: \"https://ntfy.example.com\" # Change this to your URL upstream-base-url: \"https://ntfy.sh\" # Required for notifications to work on iPhone # Authentication auth-file: \"/var/lib/ntfy/user.db\" auth-default-access: \"deny-all\" # Block access to channels by default unless logged in User Database Creation You have to manually create a user.db file in /var/lib/ntfy/user.db otherwise this won’t work\nsudo mkdir /var/lib/ntfy/ sudo touch /var/lib/ntfy/user.db Then save that file with nothing in it\nContainer Creation Install Docker for your distribution\nsudo apt install docker.io # (Ubuntu/Debian) sudo dnf install docker # (Fedora/Red Hat) Then run the command below which will\nCreate a container for ntfy (named ntfy) Run it in the background (-d) Start at boot unless it was stopped (–restart=unless-stopped) Expose port 80 to 127.0.0.1:8080 so your reverse proxy can access it but its not exposed at your machines public IP Map directories for a cache and config file sudo docker run \\ -d \\ -v /var/cache/ntfy:/var/cache/ntfy \\ -v /etc/ntfy:/etc/ntfy \\ -v /var/lib/ntfy:/var/lib/ntfy \\ -p 127.0.0.1:8080:80 \\ --name=ntfy \\ --restart=unless-stopped \\ binwiederhier/ntfy \\ serve \\ --cache-file /var/cache/ntfy/cache.db Reverse Proxy Configuration Since its the best plug-and-play solution I’ll be using Caddy for this guide, but there are several others, for example Nginx\nInstall Caddy and edit the Caddyfile\nsudo apt install caddy -y sudo nano /etc/caddy/Caddyfile Then paste this config into it, replacing example.com with your actual domain of course\nntfy.example.com { reverse_proxy http://127.0.0.1:8080 } Finally, restart your Caddy server\nsudo systemctl restart caddy Your ntfy instance should now be securely exposed!! Caddy will automatically fetch and install an SSL certificate for you\nSetting up Authentication Only being able to access your server with an account was already configured in the initial setup process, now you just need to create an account to access it\nAttach the ntfy containers shell\nsudo docker exec -it ntfy /bin/sh Then create a user account with the admin role\nntfy user add --role=admin example It will then prompt you for a password, obviously change “example” to any username you want\nAlso, when sending notifications to channels most services want an access token, which you can create with this command\nntfy token add example Hope this guide was helpful - for its creation I used several sections from the ntfy docs and a networkchuck video\n",
   "wordCount" : "491",
@@ -215,6 +211,9 @@ Heres how to set it up with docker and proper authentication for personal use - 
     <h1 class="post-title entry-hint-parent">
       Setting up and securing a personal NTFY server
     </h1>
+    <div class="post-description">
+      Guide on how to self host your own ntfy instance using docker and caddy reverse proxy, which can be used for instant mobile push notifications for stauts alerts, ssh logins, bash scripts and much more.
+    </div>
     <div class="post-meta"><span title='2025-09-06 00:00:00 +0000 UTC'>September 6, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Alecks
 
 </div>
@@ -318,7 +317,6 @@ sudo nano /etc/caddy/Caddyfile
     <ul class="post-tags">
       <li><a href="http://localhost:1313/tags/servers/">Servers</a></li>
       <li><a href="http://localhost:1313/tags/self-hosting/">Self-Hosting</a></li>
-      <li><a href="http://localhost:1313/tags/security/">Security</a></li>
       <li><a href="http://localhost:1313/tags/ntfy/">Ntfy</a></li>
       <li><a href="http://localhost:1313/tags/docker/">Docker</a></li>
     </ul>

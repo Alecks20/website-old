@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Alecks">
 <meta name="author" content="Theme PaperMod">
 <link rel="canonical" href="http://localhost:1313/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -175,60 +175,32 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Revised Homelab plans for 2026
+    <h2 class="entry-hint-parent">Homelab Tour (Early 2026)
     </h2>
   </header>
   <div class="entry-content">
-    <p>Thanks to AI datacenters making the cost of RAM and Storage skyrocket, then making Micron one of the biggest manufacturers leave the consumer market (moving to exclusively serving these datacenters), the huge server cluster plans I had for 2026 really just aren’t viable anymore.
-At the time each server would’ve cost around 2 and a half to 3 thousand aud, now just 128GB of DDR5 RAM costs 3 thousand aud so I’ll primarily use second hand hardware like mini pcs and legacy AM4 machines.
+    <p>Introduction Over these past few months of early 2026 my homelab has expanded to host many new game servers, proxy friends services and even run my own mini streaming service.
+So I’ll be taking you through everything behind the scenes that makes this possible, how I keep everything stable and my future expansion plans.
+Services Managed Game Hosting I’ve had my game hosting platform for a while but only just recently has it become pretty active and filled to capacity, I actually had to upgrade the ram on one of my physical machines to accomodate for this demand.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-12-20 00:00:00 +0000 UTC'>December 20, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Alecks</footer>
-  <a class="entry-link" aria-label="post link to Revised Homelab plans for 2026" href="http://localhost:1313/posts/revised-homelab-2026/"></a>
+  <footer class="entry-footer"><span title='2026-04-08 00:00:00 +0000 UTC'>April 8, 2026</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;Alecks</footer>
+  <a class="entry-link" aria-label="post link to Homelab Tour (Early 2026)" href="http://localhost:1313/posts/homelab-tour-early-2026/"></a>
 </article>
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Why VPNs are useless for most people
+    <h2 class="entry-hint-parent">Moving to Prometheus and deploying a k3s cluster
     </h2>
   </header>
   <div class="entry-content">
-    <p>VPN companies like to make it seem like their product will solve all of your privacy and security issues but most of the claims they make are just flat-out lies, over-exaggerated or only true in specific scenarios.
-This is primarily about mainstream VPNs like NordVPN, ExpressVPN and others with huge advertising budgets so they make false or incomplete claims about their product.
-What can your ISP see about your internet traffic All modern apps and websites nowadays use HTTPS, which is enabled if you have a green padlock in your browser, the content of your traffic like the specific page you’re on, message content if you’re sending a dm on discord or snapchat and more is hidden from them encrypted between your device and that website. Your ISP can only see the domain of the site you’re connecting to (e.g google.com, discord.com).
+    <p>I’ve been watching a lot of homelabbing content recently and decided to setup some new services specifically for improving reliability, observability and adding new functionality.
+My knowledge is quite limited currently as I’m just getting started, I intend to slowly improve these setups overtime.
+Prometheus and Grafana / On-prem monitoring To prevent me from having no insignt into my homelab during an internet outage, I needed a monitoring solution that runs locally and stores everything locally, not on someone elses server. So I landed on prometheus as the monitoring service hooked up to grafana to visualize the data all running in docker.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-11-12 00:00:00 +0000 UTC'>November 12, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Alecks</footer>
-  <a class="entry-link" aria-label="post link to Why VPNs are useless for most people" href="http://localhost:1313/posts/vpns/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Why I pay for Obsidian Sync
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>With the addition of a new laptop which I use for development work and various other things like schoolwork or journaling, I needed an easy way to sync my Obsidian vault between devices.
-I use Obsidian to store my school notes and saved configs or commands for my homelab and other linux stuff which includes credentials so whatever service I use needs to be end-to-end encrypted (e2ee).
-While I tried free solutions like Obsidian Git, it doesn’t include native e2e encryption and isn’t as seemless as the built in Sync solution requiring me to commit and sync changes everytime which could cause conflicts if I have changes to commit on both my PC and Laptop.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-11-10 00:00:00 +0000 UTC'>November 10, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Alecks</footer>
-  <a class="entry-link" aria-label="post link to Why I pay for Obsidian Sync" href="http://localhost:1313/posts/paying-for-obsidian/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">The MacBook Experience: Initial Impressions
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction I’ve been looking closely at the laptop market for a while now, and I haven’t been able to find anything thats a better all-rounder than the Macbook lineup. They offer amazing battery life, hardware and performance on battery for fairly competitive prices.
-I ended up going with the M3 Macbook Air with 24GB ram and 512GB storage. The ram upgrade was primarily because I planned to do development with Docker which is very memory hungry, and I felt that 512gb storage would give me the best longevity.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-11-09 00:00:00 +0000 UTC'>November 9, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Alecks</footer>
-  <a class="entry-link" aria-label="post link to The MacBook Experience: Initial Impressions" href="http://localhost:1313/posts/macbook-experience/"></a>
+  <footer class="entry-footer"><span title='2026-01-03 00:00:00 +0000 UTC'>January 3, 2026</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Alecks</footer>
+  <a class="entry-link" aria-label="post link to Moving to Prometheus and deploying a k3s cluster" href="http://localhost:1313/posts/prometheus-and-k3s/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -244,6 +216,34 @@ Moving to Rackmount Hardware Not only would moving to a proper server rack (most
   </div>
   <footer class="entry-footer"><span title='2025-09-19 00:00:00 +0000 UTC'>September 19, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Alecks</footer>
   <a class="entry-link" aria-label="post link to Homelab Plan for 2026" href="http://localhost:1313/posts/homelab-plans-2026/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Finally setting up onsite and offsite backups with PBS
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>I’ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.
+Hardware Changes I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-13 00:00:00 +0000 UTC'>September 13, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Alecks</footer>
+  <a class="entry-link" aria-label="post link to Finally setting up onsite and offsite backups with PBS" href="http://localhost:1313/posts/backup-system/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Setting up and securing a personal NTFY server
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Ntfy is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.
+Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on here.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-06 00:00:00 +0000 UTC'>September 6, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Alecks</footer>
+  <a class="entry-link" aria-label="post link to Setting up and securing a personal NTFY server" href="http://localhost:1313/posts/ntfy-server/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

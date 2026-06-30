@@ -10,7 +10,7 @@
 <meta name="description" content="Posts - Alecks">
 <meta name="author" content="Theme PaperMod">
 <link rel="canonical" href="http://localhost:1313/posts/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicons/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
@@ -175,34 +175,6 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Finally setting up onsite and offsite backups with PBS
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>I’ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.
-Hardware Changes I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-13 00:00:00 +0000 UTC'>September 13, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Alecks</footer>
-  <a class="entry-link" aria-label="post link to Finally setting up onsite and offsite backups with PBS" href="http://localhost:1313/posts/backup-system/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Setting up and securing a personal NTFY server
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Ntfy is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.
-Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on here.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-06 00:00:00 +0000 UTC'>September 6, 2025</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Alecks</footer>
-  <a class="entry-link" aria-label="post link to Setting up and securing a personal NTFY server" href="http://localhost:1313/posts/ntfy-server/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
     <h2 class="entry-hint-parent">The state of my Homelab in 2025
     </h2>
   </header>
@@ -242,6 +214,36 @@ Cloudflare Tunnels This is a completely free service which supports exposing onl
   </div>
   <footer class="entry-footer"><span title='2025-08-30 00:00:00 +0000 UTC'>August 30, 2025</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Alecks</footer>
   <a class="entry-link" aria-label="post link to Exposing self-hosted applications without a Public IP address" href="http://localhost:1313/posts/exposing-services/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Mini PCs are perfect Home Servers
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Recently I picked up a $100 Lenovo ThinkCentre M710Q off ebay with an i5 7400T, 8GB of ram and a 256GB NVMe SSD to add to my Proxmox cluster.
+The good &amp; Bad Mini PCs are built to be small, quiet and power efficient, perfect for a home server. They’re also tiny, hence the name meaning they can live pretty much anywhere.
+However, their form factor makes them hard to upgrade for future expandability and hard to add redundant storage to.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-08-30 00:00:00 +0000 UTC'>August 30, 2025</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Alecks</footer>
+  <a class="entry-link" aria-label="post link to Mini PCs are perfect Home Servers" href="http://localhost:1313/posts/mini-pcs/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Securing ssh on your Linux Server
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This post is made for debian based linux distros.
+Don’t expose ssh, use a VPN This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a VPN service like Tailscale or self-hosted Wireguard.
+Non-root account for logins / Disable root login Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-25 00:00:00 +0000 UTC'>April 25, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Alecks</footer>
+  <a class="entry-link" aria-label="post link to Securing ssh on your Linux Server" href="http://localhost:1313/posts/securing-server/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

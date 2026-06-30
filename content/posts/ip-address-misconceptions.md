@@ -9,7 +9,6 @@ tags = [
 ]
 +++
 
-> This is a blog post from one of my original websites that I recently ported onto here (19th September 2025) - hopefully someone gets some value out of it.
 
 It's a common misconception that if someone gets your IP address they can find your real home address, get your exact location, hack all your passwords, etc. None of this is true and the only real threat is something like a DDoS attack (Not the same as being doxxed). They can usually also see your general location like City or Neighborhood depending on where you are, you can see what your IP says about you on a site like [this](https://whatismyipaddress.com) if you're worried about it. 
 
