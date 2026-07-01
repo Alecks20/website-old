@@ -1,5 +1,6 @@
 ---
 title: "Skills"
+author: "Alecks"
 ---
 
 > This page is pretty outdated, I'll update it eventually

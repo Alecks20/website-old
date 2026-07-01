@@ -7,7 +7,11 @@
 <meta name="robots" content="index, follow">
 <title>Securing ssh on your Linux Server | Alecks</title>
 <meta name="keywords" content="linux, servers, ssh, security">
-<meta name="description" content="Basic things you can do on your vps to secure ssh connections.">
+<meta name="description" content="This post is made for debian based linux distros.
+Don&rsquo;t expose ssh, use a VPN
+This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a VPN service like Tailscale or self-hosted Wireguard.
+Non-root account for logins / Disable root login
+Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want">
 <meta name="author" content="Alecks">
 <link rel="canonical" href="http://localhost:1313/posts/securing-server/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.aeb04085357f24835232aa89766467110fb6da019fa0a790d4d097b3949d7276.css" integrity="sha256-rrBAhTV/JINSMqqJdmRnEQ&#43;22gGfoKeQ1NCXs5SdcnY=" rel="preload stylesheet" as="style">
@@ -58,7 +62,9 @@
 </noscript><meta property="og:url" content="http://localhost:1313/posts/securing-server/">
   <meta property="og:site_name" content="Alecks">
   <meta property="og:title" content="Securing ssh on your Linux Server">
-  <meta property="og:description" content="Basic things you can do on your vps to secure ssh connections.">
+  <meta property="og:description" content="This post is made for debian based linux distros.
+Don’t expose ssh, use a VPN This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a VPN service like Tailscale or self-hosted Wireguard.
+Non-root account for logins / Disable root login Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -72,7 +78,11 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://localhost:1313/images/papermod-cover.png">
 <meta name="twitter:title" content="Securing ssh on your Linux Server">
-<meta name="twitter:description" content="Basic things you can do on your vps to secure ssh connections.">
+<meta name="twitter:description" content="This post is made for debian based linux distros.
+Don&rsquo;t expose ssh, use a VPN
+This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a VPN service like Tailscale or self-hosted Wireguard.
+Non-root account for logins / Disable root login
+Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want">
 
 
 <script type="application/ld+json">
@@ -101,7 +111,7 @@
   "@type": "BlogPosting",
   "headline": "Securing ssh on your Linux Server",
   "name": "Securing ssh on your Linux Server",
-  "description": "Basic things you can do on your vps to secure ssh connections.",
+  "description": "This post is made for debian based linux distros.\nDon\u0026rsquo;t expose ssh, use a VPN This is obviously not viable for stuff running in the cloud but for a homelab server its advised to not expose ssh or management ports, if you need external access use a VPN service like Tailscale or self-hosted Wireguard.\nNon-root account for logins / Disable root login Disabling the ability to login as root helps with many automated bots that brute-force ssh into your server, start by making a new user with any username you want\n",
   "keywords": [
     "linux", "servers", "ssh", "security"
   ],
@@ -211,9 +221,6 @@
     <h1 class="post-title entry-hint-parent">
       Securing ssh on your Linux Server
     </h1>
-    <div class="post-description">
-      Basic things you can do on your vps to secure ssh connections.
-    </div>
     <div class="post-meta"><span title='2024-04-25 00:00:00 +0000 UTC'>April 25, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Alecks
 
 </div>

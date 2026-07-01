@@ -2,7 +2,7 @@
 author = "Alecks"
 title = "Finally setting up onsite and offsite backups with PBS"
 date = "2025-09-13"
-description = "My setup for data protection in my homelab, to protect from fires, misconfigurations, accidental deletions and hardware failure using an onsite backup server synced with cloud storage."
+description = ""
 tags = [
     "proxmox","homelab","backups","servers"
 ]

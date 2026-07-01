@@ -3,7 +3,7 @@
 author = "Alecks"
 title = "Homelab Tour (Early 2026)"
 date = "2026-04-08"
-description = "A tour of all my services, hardware, software and third party tools I'm using/running in my homelab in early 2026."
+description = ""
 tags = [
     "servers","homelab","self-hosting"
 ]

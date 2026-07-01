@@ -3,7 +3,7 @@
 author = "Alecks"
 title = "Homelab Plan for 2026"
 date = "2025-09-19"
-description = "Initial plan for my homelab upgrades in 2026, including huge expansions beefy new hardware and a proper server rack."
+description = ""
 tags = [
     "servers","homelab","self-hosting"
 ]

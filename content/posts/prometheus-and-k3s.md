@@ -2,7 +2,7 @@
 author = "Alecks"
 title = "Moving to Prometheus and deploying a k3s cluster"
 date = "2026-01-03"
-description = "Going over some major changes to my monitoring system and addition of a new kubernetes cluster, which isn't yet ready for production."
+description = ""
 tags = [
     "servers","self-hosting","k3s","prometheus","monitoring"
 ]

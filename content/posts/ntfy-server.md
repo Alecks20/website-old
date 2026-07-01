@@ -2,7 +2,7 @@
 author = "Alecks"
 title = "Setting up and securing a personal NTFY server"
 date = "2025-09-06"
-description = "Guide on how to self host your own ntfy instance using docker and caddy reverse proxy, which can be used for instant mobile push notifications for stauts alerts, ssh logins, bash scripts and much more."
+description = ""
 tags = [
     "servers","self-hosting","ntfy","docker"
 ]

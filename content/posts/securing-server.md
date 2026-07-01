@@ -3,7 +3,7 @@
 author = "Alecks"
 title = "Securing ssh on your Linux Server"
 date = "2024-04-25"
-description = "Basic things you can do on your vps to secure ssh connections."
+description = ""
 tags = [
     "linux","servers","ssh","security"
 ]

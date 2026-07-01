@@ -2,7 +2,7 @@
 author = "Alecks"
 title = "The state of my Homelab in 2025"
 date = "2025-09-03"
-description = "An in-depth look into the current state of my homelab in 2025, including services running, how I expose everything, what hardware I'm using, linux distros, backups, reliability, redundancy and much more."
+description = ""
 tags = [
     "servers","homelab","self-hosting"
 ]

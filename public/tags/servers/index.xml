@@ -40,7 +40,9 @@
       <link>http://localhost:1313/posts/backup-system/</link>
       <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/backup-system/</guid>
-      <description>My setup for data protection in my homelab, to protect from fires, misconfigurations, accidental deletions and hardware failure using an onsite backup server synced with cloud storage.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been meaning to setup backups for a very very long time, so I figured it was finally time to setup a proper system with a Mini PC and 1TB NVMe SSD I had lying around.&lt;/p&gt;
+&lt;h2 id=&#34;hardware-changes&#34;&gt;Hardware Changes&lt;/h2&gt;
+&lt;p&gt;I removed the bottom cover of my Mini PC then swapped out the original 256GB SSD and replaced it with a fresh 1TB one which is identical to the one in my live Proxmox node.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up and securing a personal NTFY server</title>
