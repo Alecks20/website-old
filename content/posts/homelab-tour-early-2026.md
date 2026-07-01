@@ -9,6 +9,7 @@ tags = [
 ]
 +++
 
+> The mid-2026 homelab tour is [now here](/posts/homelab-mid-2026/)!
 
 ## Introduction
 

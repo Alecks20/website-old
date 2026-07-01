@@ -12,49 +12,72 @@
     <generator>Hugo -- 0.159.1</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
-    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/self-hosting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab Tour (Mid 2026)</title>
+      <link>http://localhost:1313/posts/homelab-mid-2026/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/homelab-mid-2026/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Homelab Tour (Early 2026)</title>
       <link>http://localhost:1313/posts/homelab-tour-early-2026/</link>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/homelab-tour-early-2026/</guid>
-      <description>A tour of all my services, hardware, software and third party tools I&amp;#39;m using/running in my homelab in early 2026.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Over these past few months of early 2026 my homelab has expanded to host many new game servers, proxy friends services and even run my own mini streaming service.&lt;/p&gt;
+&lt;p&gt;So I&amp;rsquo;ll be taking you through everything behind the scenes that makes this possible, how I keep everything stable and my future expansion plans.&lt;/p&gt;
+&lt;h2 id=&#34;services&#34;&gt;Services&lt;/h2&gt;
+&lt;h3 id=&#34;managed-game-hosting&#34;&gt;Managed Game Hosting&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;ve had my game hosting platform for a while but only just recently has it become pretty active and filled to capacity, I actually had to upgrade the ram on one of my physical machines to accomodate for this demand.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moving to Prometheus and deploying a k3s cluster</title>
       <link>http://localhost:1313/posts/prometheus-and-k3s/</link>
       <pubDate>Sat, 03 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/prometheus-and-k3s/</guid>
-      <description>Going over some major changes to my monitoring system and addition of a new kubernetes cluster, which isn&amp;#39;t yet ready for production.</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve been watching a lot of homelabbing content recently and decided to setup some new services specifically for improving reliability, observability and adding new functionality.&lt;/p&gt;
+&lt;p&gt;My knowledge is quite limited currently as I&amp;rsquo;m just getting started, I intend to slowly improve these setups overtime.&lt;/p&gt;
+&lt;h2 id=&#34;prometheus-and-grafana--on-prem-monitoring&#34;&gt;Prometheus and Grafana / On-prem monitoring&lt;/h2&gt;
+&lt;p&gt;To prevent me from having no insignt into my homelab during an internet outage, I needed a monitoring solution that runs locally and stores everything locally, not on someone elses server. So I landed on prometheus as the monitoring service hooked up to grafana to visualize the data all running in docker.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Homelab Plan for 2026</title>
       <link>http://localhost:1313/posts/homelab-plans-2026/</link>
       <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/homelab-plans-2026/</guid>
-      <description>Initial plan for my homelab upgrades in 2026, including huge expansions beefy new hardware and a proper server rack.</description>
+      <description>&lt;p&gt;As great as my homelab is, there&amp;rsquo;s still a ton of improvements I wanna make it to it for reliability, scalability and to learn new technologies, so lets go through them.&lt;/p&gt;
+&lt;p&gt;2026 is gonna be the year of upgrades, as I&amp;rsquo;ll be employed making probably around 2k per month depending on how many hours I work.&lt;/p&gt;
+&lt;h2 id=&#34;moving-to-rackmount-hardware&#34;&gt;Moving to Rackmount Hardware&lt;/h2&gt;
+&lt;p&gt;Not only would moving to a proper server rack (most likely &lt;a href=&#34;https://www.amazon.com.au/VEVOR-Adjustable-Standing-Networking-Equipment/dp/B0C64YY7G7&#34;&gt;this one&lt;/a&gt;) make it easier to add new compute nodes compared to the shelf all my hardware is currently on, it also looks way cooler.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up and securing a personal NTFY server</title>
       <link>http://localhost:1313/posts/ntfy-server/</link>
       <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ntfy-server/</guid>
-      <description>Guide on how to self host your own ntfy instance using docker and caddy reverse proxy, which can be used for instant mobile push notifications for stauts alerts, ssh logins, bash scripts and much more.</description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ntfy.sh&#34;&gt;Ntfy&lt;/a&gt; is an absolutely amazing service for sending push notifications to your phone or other devices with a simple web request, I use it for alerts from my uptime monitor (HetrixTools) and ssh logins. Mine is hosted on a google cloud free tier e2 micro instance which gives me great reliability for free.&lt;/p&gt;
+&lt;p&gt;Heres how to set it up with docker and proper authentication for personal use - you can find a guide on how to secure whatever Linux server your hosting this on &lt;a href=&#34;http://localhost:1313/posts/securing-server/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The state of my Homelab in 2025</title>
       <link>http://localhost:1313/posts/homelab-2025/</link>
       <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/homelab-2025/</guid>
-      <description>An in-depth look into the current state of my homelab in 2025, including services running, how I expose everything, what hardware I&amp;#39;m using, linux distros, backups, reliability, redundancy and much more.</description>
+      <description>&lt;p&gt;Currently my Homelab is used to run services for personal use, my stuff exposed to the internet and services for friends or people in my local community.&lt;/p&gt;
+&lt;p&gt;The original goal of this setup was to build a service that lets me cancel most of my vps subscriptions, which so far has succeeded, the next goal is to make the service as reliable or close to as reliable as a proper hosting provider.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exposing self-hosted applications without a Public IP address</title>
       <link>http://localhost:1313/posts/exposing-services/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/exposing-services/</guid>
-      <description>Various methods for exposing self hosted applications to the internet securely when you have things like cgnat, your isp blocking ports or anything that prevents you from port forwarding.</description>
+      <description>&lt;p&gt;In a perfect world everyone could port forward and use an ISP with DDoS Protection and Static IPs, however we don&amp;rsquo;t live in a perfect world. Many people have to deal with things like CGNAT (no public ip) and annoying ISPs.&lt;/p&gt;
+&lt;p&gt;So here are a few &lt;strong&gt;free and paid&lt;/strong&gt; solutions for exposing both web applications and game servers to the internet without port forwarding.&lt;/p&gt;
+&lt;h2 id=&#34;cloudflare-tunnels&#34;&gt;&lt;a href=&#34;https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/&#34;&gt;Cloudflare Tunnels&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is a completely free service which supports exposing only web applications to the internet using an application (cloudflared) running on your server which tunnels traffic out and exposes it via the Cloudflare Network&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mini PCs are perfect Home Servers</title>

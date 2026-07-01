@@ -12,14 +12,31 @@
     <generator>Hugo -- 0.159.1</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
-    <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Homelab Tour (Mid 2026)</title>
+      <link>http://localhost:1313/posts/homelab-mid-2026/</link>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/homelab-mid-2026/</guid>
+      <description>&lt;p&gt;To start with the mid 2026 homelab tour, some very significant changes have happened that&amp;rsquo;ve completely elevated the setup onto another level.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The installation of my new 1600VA pure sinewave ups, this has already kept my homelab online during late night 30-40 minute power outages.&lt;/li&gt;
+&lt;li&gt;Moving to a server rack and rackmount hardware, this has made the setup look much more refined and helped a lot with organisation&lt;/li&gt;
+&lt;li&gt;New full size server, au-prox-03 which is built using parts ganked out of a hp prodesk and ssd from a laptop put with a new motherboard, casing and psu.&lt;/li&gt;
+&lt;li&gt;Moved au-prox-02 onto a new i5 10th gen nuc and am now using the i5 7th gen mini pc as a proxmox backup server.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This post will consist of changes since the &lt;a href=&#34;http://localhost:1313/posts/homelab-tour-early-2026/&#34;&gt;last post&lt;/a&gt;, anything not mentioned here has been kept the same.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Homelab Tour (Early 2026)</title>
       <link>http://localhost:1313/posts/homelab-tour-early-2026/</link>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/homelab-tour-early-2026/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The mid-2026 homelab tour is &lt;a href=&#34;http://localhost:1313/posts/homelab-mid-2026/&#34;&gt;now here&lt;/a&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Over these past few months of early 2026 my homelab has expanded to host many new game servers, proxy friends services and even run my own mini streaming service.&lt;/p&gt;
 &lt;p&gt;So I&amp;rsquo;ll be taking you through everything behind the scenes that makes this possible, how I keep everything stable and my future expansion plans.&lt;/p&gt;
 &lt;h2 id=&#34;services&#34;&gt;Services&lt;/h2&gt;
