@@ -93,9 +93,9 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "Hello Internet,"
+    Title: "Hi There 👋"
     Content: >
-      - I’m a self-taught developer and wannabe infrastructure engineer from Australia with a passion for computers and tech. I design, architect, configure, monitor and secure my own private on premises and cloud infrastructure, with experience across the entire software stack.
+      -  I'm an aspiring sysadmin and infrastructure engineer from Australia. I tinker with servers, linux, networking and hardware running a mini datacenter out of a spare room in my house while dabbling in programming. Learn more about me and my work in the blog posts below.
           
 
   socialIcons:

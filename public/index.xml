@@ -9,7 +9,7 @@
       <url>http://localhost:1313/images/papermod-cover.png</url>
       <link>http://localhost:1313/images/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.159.1</generator>
+    <generator>Hugo -- 0.164.0</generator>
     <language>en</language>
     <copyright>Alecks 2025</copyright>
     <lastBuildDate>Wed, 01 Jul 2026 00:00:00 +0000</lastBuildDate>
@@ -151,10 +151,9 @@
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hello Internet,&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m a self-taught developer from Australia interested in system administration, networking, computer hardware, programming and homelabbing skilled in various tech fields - &lt;a href=&#34;http://localhost:1313/skills/&#34;&gt;my skills&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This website is my own little corner of the internet to showcase my practical experience and serve as a time capsule for writings, it also helps solidify learnings as explaining things to others is one of the best ways to remember things.&lt;/p&gt;
-&lt;p&gt;Outside of tech I love documentaries (tech, hacking, politics, economics and true crime), anime, fixing up/reviving old thinkpads or devices and designing things.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I&amp;rsquo;m a self-taught developer from Australia interested in system administration, networking, computer hardware, programming and homelabbing skilled in various tech fields - &lt;a href=&#34;http://localhost:1313/skills/&#34;&gt;my skills&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This website is used to showcase my work and experience and serve as a time capsule for myself.&lt;/p&gt;
+&lt;p&gt;You can reach out to me via &lt;a href=&#34;mailto:me@alecks.dev&#34;&gt;me@alecks.dev&lt;/a&gt; (email) or discord (alecks20), I&amp;rsquo;ll do my best to respond within a few days.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Homelab</title>
@@ -162,45 +161,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/homelab/</guid>
       <description>&lt;p&gt;This setup hosts all of my core infrastructure which consists of several Linux VMs and a couple LXC Containers. VM nodes run Proxmox VE (Clustered).&lt;/p&gt;
-&lt;p&gt;The VMs themself run various different services including game servers for me and my friends, aquaintances or small communities, a small jellyfin instance, matrix, this website and also acts as a gateway for my friends homelabs using tailscale.&lt;/p&gt;
-&lt;h3 id=&#34;compute-nodes---live-status&#34;&gt;Compute Nodes - &lt;a href=&#34;https://status.alecks.dev&#34;&gt;Live Status&lt;/a&gt;&lt;/h3&gt;
-&lt;table&gt;
-  &lt;thead&gt;
-      &lt;tr&gt;
-          &lt;th&gt;Name&lt;/th&gt;
-          &lt;th&gt;CPU&lt;/th&gt;
-          &lt;th&gt;RAM&lt;/th&gt;
-          &lt;th&gt;Storage&lt;/th&gt;
-      &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-      &lt;tr&gt;
-          &lt;td&gt;au-prox-01&lt;/td&gt;
-          &lt;td&gt;Ryzen 5 5500&lt;/td&gt;
-          &lt;td&gt;64GB DDR4&lt;/td&gt;
-          &lt;td&gt;1TB NVMe, 6tb HDD&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;au-prox-02&lt;/td&gt;
-          &lt;td&gt;Core i5-10210U&lt;/td&gt;
-          &lt;td&gt;16GB DDR4&lt;/td&gt;
-          &lt;td&gt;512GB NVMe&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;au-prox-03&lt;/td&gt;
-          &lt;td&gt;Core i7 8700&lt;/td&gt;
-          &lt;td&gt;16GB DDR4&lt;/td&gt;
-          &lt;td&gt;256GB NVMe, 2x 2tb HDDs&lt;/td&gt;
-      &lt;/tr&gt;
-      &lt;tr&gt;
-          &lt;td&gt;au-bak-01&lt;/td&gt;
-          &lt;td&gt;Core i5-7400T&lt;/td&gt;
-          &lt;td&gt;8GB DDR4&lt;/td&gt;
-          &lt;td&gt;512GB NVMe&lt;/td&gt;
-      &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;(Anything on the status page not shown above is either a vm or vps)&lt;/p&gt;</description>
+&lt;p&gt;The VMs themself run various different services including game servers for me and my friends, aquaintances or small communities, a small jellyfin instance, matrix, this website, proxmox backup server vms for friends and also acts as a gateway for my friends homelabs using p2p vpn tunnels.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skills</title>
